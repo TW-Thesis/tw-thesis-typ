@@ -1,0 +1,9 @@
+main.pdf
+*.pdf.lock
+.DS_Store
+!assets/*.pdf
+
+# scripts
+node_modules/
+.venv/
+__pycache__/

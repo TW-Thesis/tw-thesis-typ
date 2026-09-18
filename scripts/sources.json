@@ -1,0 +1,207 @@
+{
+  "output": "docs",
+  "lock": "docs/sources.lock.json",
+  "pattern": "{name}-{roc}-碩博士論文規範.pdf",
+  "schools": [
+    {
+      "code": "ntu",
+      "name": "國立臺灣大學",
+      "short": "臺大",
+      "date": "text",
+      "files": [
+        {
+          "url": "https://www.lib.ntu.edu.tw/doc/cl/THESISSAMPLE.doc"
+        }
+      ]
+    },
+    {
+      "code": "nthu",
+      "name": "國立清華大學",
+      "short": "清大",
+      "date": "text",
+      "files": [
+        {
+          "page": "https://registra.site.nthu.edu.tw/p/404-1211-5155.php",
+          "match": "研究生畢業論文格式條例",
+          "href": "\\.pdf$"
+        }
+      ]
+    },
+    {
+      "code": "nycu",
+      "name": "國立陽明交通大學",
+      "short": "陽交大",
+      "date": "url",
+      "files": [
+        {
+          "page": "https://aa.nycu.edu.tw/aa/ch/app/data/view?module=nycu0038&id=4103&serno=fb3b6bc8-2784-420c-8472-9ee93fd71c2d",
+          "match": "博碩士學位論文格式規範",
+          "href": "\\.pdf$"
+        }
+      ]
+    },
+    {
+      "code": "ncku",
+      "name": "國立成功大學",
+      "short": "成大",
+      "date": "text",
+      "files": [
+        {
+          "page": "https://www.cc.ncku.edu.tw/rule/content.php?sn=684",
+          "match": "下載法規原始檔",
+          "href": "\\.pdf$"
+        }
+      ]
+    },
+    {
+      "code": "nccu",
+      "name": "國立政治大學",
+      "short": "政大",
+      "date": "meta",
+      "files": [
+        {
+          "url": "https://chinese.nccu.edu.tw/upload/35/download_file/5212/2025%E8%AB%96%E6%96%87%E8%A3%9D%E8%A8%82%E6%A0%BC%E5%BC%8F%E8%A6%8F%E7%AF%84%E8%AA%AA%E6%98%8E.pdf"
+        }
+      ]
+    },
+    {
+      "code": "ntpu",
+      "name": "國立臺北大學",
+      "short": "北大",
+      "date": "meta",
+      "files": [
+        {
+          "url": "https://cms-carrier.ntpu.edu.tw/uploads/Ch_En_Dissertaion_Abstract_and_Table_of_Contents_Format_Example_aa0cb53785.odt"
+        }
+      ]
+    },
+    {
+      "code": "ntnu",
+      "name": "國立臺灣師範大學",
+      "short": "師大",
+      "date": "meta",
+      "files": [
+        {
+          "url": "https://www.aa.ntnu.edu.tw/uploads/bulletin_file/file/636c8897843f75649a4f559a/%E8%AB%96%E6%96%87%E8%A3%9D%E8%A8%82%E5%8F%8A%E9%A0%81%E7%A2%BC%E6%A0%BC%E5%BC%8FOrder%20and%20Numbering%28PDF%29.pdf"
+        },
+        {
+          "url": "https://www.aa.ntnu.edu.tw/uploads/bulletin_file/file/636c8897843f75649a4f5599/%E8%AB%96%E6%96%87%E5%B0%81%E9%9D%A2Thesis_Cover_doc_.pdf"
+        }
+      ]
+    },
+    {
+      "code": "ncue",
+      "name": "國立彰化師範大學",
+      "short": "彰師大",
+      "date": "text",
+      "files": [
+        {
+          "url": "https://acadaff.ncue.edu.tw/var/file/2/1002/img/805/775413436.pdf"
+        }
+      ]
+    },
+    {
+      "code": "ncu",
+      "name": "國立中央大學",
+      "short": "中央",
+      "date": "text",
+      "files": [
+        {
+          "url": "https://in.ncu.edu.tw/~phi/docs/phdForm/dissertationWritingStyleReference.pdf"
+        }
+      ]
+    },
+    {
+      "code": "nknu",
+      "name": "國立高雄師範大學",
+      "short": "高師大",
+      "date": "meta",
+      "files": [
+        {
+          "page": "https://c.nknu.edu.tw/aca/FilesDownload.aspx?PN=113&PClass=A2004&GI=2",
+          "row": "研究生論文封面規格規範",
+          "href": "\\.doc$"
+        }
+      ]
+    },
+    {
+      "code": "nsysu",
+      "name": "國立中山大學",
+      "short": "中山",
+      "date": "text",
+      "files": [
+        {
+          "url": "https://cse.nsysu.edu.tw/static/file/205/1205/img/3656/Thesisformat.pdf"
+        }
+      ]
+    },
+    {
+      "code": "nchu",
+      "name": "國立中興大學",
+      "short": "中興",
+      "date": "text",
+      "files": [
+        {
+          "url": "https://ace.nchu.edu.tw/download/48"
+        }
+      ]
+    },
+    {
+      "code": "ccu",
+      "name": "國立中正大學",
+      "short": "中正",
+      "date": "text",
+      "files": [
+        {
+          "url": "https://colmgt.ccu.edu.tw/var/file/22/1022/img/1115/16.IMF-ThesisRegulation.pdf"
+        }
+      ]
+    },
+    {
+      "code": "ntou",
+      "name": "國立臺灣海洋大學",
+      "short": "海大",
+      "date": "text",
+      "files": [
+        {
+          "page": "https://academic.ntou.edu.tw/p/405-1005-5183,c1144.php?Lang=zh-tw",
+          "match": "學位論文格式規範",
+          "href": "downloadfile"
+        }
+      ]
+    },
+    {
+      "code": "nuk",
+      "name": "國立高雄大學",
+      "short": "高大",
+      "date": "meta",
+      "files": [
+        {
+          "page": "https://daa.nuk.edu.tw/p/405-1005-4855,c737.php?Lang=zh-tw",
+          "row": "碩\\(博\\)士論文封面",
+          "href": "\\.doc$"
+        },
+        {
+          "page": "https://daa.nuk.edu.tw/p/405-1005-4855,c737.php?Lang=zh-tw",
+          "row": "中文論文摘要格式",
+          "href": "\\.doc$"
+        },
+        {
+          "page": "https://daa.nuk.edu.tw/p/405-1005-4855,c737.php?Lang=zh-tw",
+          "row": "英文論文摘要格式",
+          "href": "\\.doc$"
+        },
+        {
+          "page": "https://daa.nuk.edu.tw/p/405-1005-4855,c737.php?Lang=zh-tw",
+          "row": "論文書背格式",
+          "href": "\\.doc$"
+        },
+        {
+          "page": "https://daa.nuk.edu.tw/p/405-1005-4855,c737.php?Lang=zh-tw",
+          "row": "研究生學位論文審定書",
+          "href": "\\.doc$"
+        }
+      ]
+    }
+  ]
+}

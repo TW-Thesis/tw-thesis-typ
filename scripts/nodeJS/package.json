@@ -1,0 +1,21 @@
+{
+  "name": "tw-thesis-docs",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Fetch Taiwanese university thesis format regulations into docs/",
+  "type": "module",
+  "scripts": {
+    "update": "node update-docs.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "cfb": "^1.2.2",
+    "cheerio": "^1.2.0",
+    "jszip": "^3.10.2",
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^6.3.289",
+    "undici": "^8.10.2"
+  }
+}
