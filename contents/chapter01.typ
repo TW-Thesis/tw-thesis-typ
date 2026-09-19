@@ -79,7 +79,6 @@ typst compile main.typ --font-path fonts/
     ([`figures/`], [論文圖片與範例圖片]),
     ([`assets/`], [學校浮水印等模板素材]),
     ([`docs/`], [各校論文格式規範的原始 PDF]),
-    ([`scripts/`], [自動抓取各校最新規範的小程式]),
   ),
   notes: [要改格式規則請改 `schools/`，要改文字內容請改 `contents/`。],
 ) <tbl:layout>
@@ -250,25 +249,25 @@ typst compile main.typ --font-path fonts/
 
 模板把內容切成一章一個檔案，全部放在 `contents/`，檔名依章次編號，例如 `chapter01.typ`、`chapter02.typ`。改某一章不會動到其他章，編譯出錯時也可以快速判斷是哪個檔案的問題。
 
-`main.typ` 那邊的 `#include` 不必自己維護：新增章節用下面的指令會自動補上，刪除章節則在下次編譯時自動移除。
+`main.typ` 裡的 `#include` 決定了各章的順序，新增或刪除章節時都需要自己維護這幾行。
 
-新增一章用 `just chapter`。它會找出目前最大的章號往下編，建立檔案，並在 `main.typ` 最後一個章節 `#include` 後面補一行：
+新增一章：建立 `contents/chapter05.typ`（檔名依章次編號），檔案開頭放 `#import`、一個章標題與一個節標題，接著到 `main.typ` 的 `#references()` 之前加入 `#include "contents/chapter05.typ"`。
 
 #code[
-  ```bash
-  just chapter             # 建立下一章，標題留空
-  just chapter 1 研究方法   # 建立下一章並填入章標題
-  just chapter 3           # 一次建立三章
+  ```typ
+  #import "/helper/mod.typ": *
+
+  = 章標題
+
+  == 節標題
+
+  內文。
   ```
 ]
 
-指令會印出建立了哪些檔案，已存在的檔案不會被覆蓋。新檔案裡有 `#import`、一個章標題與一個節標題，接著就能直接開始寫。若想自己動手，就建立 `contents/chapter05.typ`，再到 `main.typ` 的 `#references()` 之前加入 `#include "contents/chapter05.typ"`，結果相同。
+刪除一章：把檔案刪掉，同時移除 `main.typ` 裡對應的那行 `#include`，否則 #typst 找不到檔案會直接編譯失敗。後面各章的章號會自動遞補，正文裡的 `@cha:...` 引用也會跟著更新，都不用手改。
 
-刪除一章時，把檔案刪掉就好。`just compile`、`just release` 與 `just watch` 都會先跑一次 `just sync`，把指向已刪除檔案的 `#include` 從 `main.typ` 移掉，並印出移除了哪一行；若想先確認會動到什麼，可以單獨執行 `just sync`。後面各章的章號會自動遞補，正文裡的 `@cha:...` 引用也會跟著更新，都不用手改。
-
-要注意的是，`just watch` 只在啟動時清理一次。監看過程中刪掉章節檔案，畫面會出現找不到檔案的錯誤，此時按 `Ctrl+C` 停掉再重新執行即可。
-
-前置部分（`contents/front/`）與附錄（`contents/back/`）沒有對應的指令，需要自己建立檔案並在 `main.typ` 加一行 `#include`；刪除時同樣由 `just sync` 收尾。
+前置部分（`contents/front/`）與附錄（`contents/back/`）的做法相同：建立檔案，並在 `main.typ` 對應位置加一行 `#include`；刪除時也要一併移除那行。
 
 == 撰寫章節內容
 

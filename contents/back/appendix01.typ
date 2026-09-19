@@ -11,7 +11,13 @@
 
 == 指令執行失敗
 
-若終端機顯示找不到 `typst`，請先確認已完成安裝，再重新開啟終端機，執行 `typst --version`。能顯示版本資訊後，再嘗試編譯。若找不到的是 `make`，則可以先使用以下指令，直接產生 PDF：
+若終端機顯示找不到 `typst`，請先確認已完成安裝，再重新開啟終端機，執行
+
+```bash
+typst --version
+```
+
+確認能夠顯示版本資訊後，再嘗試編譯。若找不到的是 `just`，則可以先使用以下指令，直接產生 PDF：
 
 ```bash
 typst compile main.typ --font-path fonts/

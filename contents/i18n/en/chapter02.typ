@@ -240,7 +240,7 @@ Once the image is set, run `just release` and check the watermark on the body pa
 
 To use your own watermark, first place the image file in `assets/watermarks/`, then update the `image` path. You can adjust `width` to change how much of the page width the image covers, or lower `opacity` to make the watermark lighter. Whether you need to add a watermark at all depends on your school's submission requirements.
 
-If you don't have `make` installed, you can instead run the following command from the project root, which produces the same `main.pdf`:
+If you don't have `just` installed, you can instead run the following command from the project root, which produces the same `main.pdf`:
 
 ```bash
 typst compile main.typ --font-path fonts/ --input watermark=true

@@ -1,7 +1,7 @@
 # Your thesis. Everything here is merged over schools/<school>.yml, so you can
 # also override any format rule from the preset without editing it.
 
-school: "ncku" # pick one of schools/*.yml; without it the format defaults apply
+# school: nccu # pick one of schools/*.yml; without it the format defaults apply
 
 title: "○○○○○○"
 title-en: "○○○○○○"

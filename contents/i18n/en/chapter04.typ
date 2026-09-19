@@ -219,55 +219,34 @@ To add a second appendix, create another `.typ` file, likewise setting `#set hea
 
 Here, `A.1` is a numbering format, where `A` means "count using uppercase letters" -- it doesn't mean this particular appendix must be called A. So a second or third appendix still uses the same setting; don't change it to `B.1` or `C.1`.
 
-== Keeping School Formatting Requirements Up to Date
+== Regulation Update Notices
 
-Each school's thesis format requirements are occasionally revised. `scripts/` provides a downloader that re-fetches the official documents and saves them into `docs/`, so you can check whether your formatting needs to follow suit. You don't need to run this on every compile while writing -- checking occasionally during the writing process is enough.
+Each school's thesis format requirements are occasionally revised, and both `schools/*.yml` and the regulation PDFs in `docs/` are only snapshots from a particular point in time. So that you don't end up formatting against outdated rules without knowing it, the `tw-thesis` management tool that accompanies this template keeps an eye on it for you.
 
-=== Quick Start: `just update`
+=== How the Notice Works
 
-The `justfile` at the project root defines an `update` command, which requires #link("https://github.com/casey/just")[`just`] to be installed (a single executable; `brew install just` or follow the instructions on its site -- no need to install uv or node separately). Once it's installed, just run:
-
-#code[
-  ```bash
-  just update             # 檢查所有學校
-  just update ntu nccu    # 只檢查指定學校
-  just update --dry-run   # 只回報有無變化，不寫檔
-  ```
-]
-
-Under the hood, `just update` runs `scripts/python/update_docs.py`, but you don't need to install Python or any packages yourself first: the first time it runs, the command checks whether `uv` (a Python version and package manager) is present on your system, and if not, downloads and installs it automatically into `~/.local/bin` -- no sudo required, and it won't touch any Python already on your system. Every run after that uses this self-contained `uv` installation to build a clean environment, without installing anything system-wide or polluting other projects. If the automatic `uv` install fails (for example, if you're offline), the command falls back to the Node.js version instead, which still requires `node` to already be installed; if neither is available, the command errors out directly with an explanation, rather than failing silently.
-
-=== Running It Manually
-
-If you'd rather not install `just`, you can call the Python or Node.js version directly, with the same effect as `just update`:
+A separate project, #link("https://github.com/TW-Thesis/tw-thesis-updater")[tw-thesis-updater], automatically fetches every school's official regulation each week and publishes a list recording, for each school, the date and hash of its current version. When you run `tw-thesis` inside your project folder, its home page takes the school you chose in `config.yml` and compares it with the version recorded in the project's `docs/sources.lock.json`; if they differ, a yellow notice appears saying that school's regulation has been revised, with a download link to the new document.
 
 #code[
   ```bash
-  # Python 版，需要先自行安裝 uv
-  cd scripts/python
-  uv run update_docs.py --dry-run
-  uv run update_docs.py ntu nccu
-  uv run update_docs.py
-
-  # 或 Node.js 版，需要先自行安裝 node
-  cd scripts/nodeJS
-  npm install
-  node update-docs.mjs --dry-run
+  tw-thesis    # run inside your project folder; the home page shows the notice
   ```
 ]
 
-Either way, after downloading new documents you still need to read the requirements yourself and adjust `schools/` accordingly -- the script's job is only to fetch the files; it never modifies your formatting settings automatically.
+The check covers only the school you chose and goes online at most once a day; offline, or before the list has been published, it shows no error and doesn't affect compiling.
 
-=== How It Works
+=== What to Do When You See a Notice
 
-Both versions read from the same `scripts/sources.json`, which lists the URL for each school's format document; after downloading, `docs/sources.lock.json` records a hash of each file, so future runs only compare hashes and skip rewriting a file whose content hasn't changed, with the run's output showing "未變更 unchanged" or "已更新 updated" bilingually for each one. If a source is in `.doc` or `.odt` format, you'll also need LibreOffice installed (providing the `soffice` command) so the script can convert the file to PDF before saving it into `docs/`.
+The tool only notifies -- it never changes any formatting setting automatically, and it doesn't work out for you what differs between the new and old regulation. That is deliberate: schools and departments interpret their rules differently, and some provisions (the cover format or binding order, for instance) also depend on department-specific requirements, so whether to change something, and by how much, is ultimately your call. When you see a notice, work through these steps in order:
 
-=== Scheduling Periodic Checks
++ Download the new regulation from the link in the notice and read it through, rather than judging by the announcement's title alone. If the school's site also offers a comparison table or revision notes, look at that first -- it is the quickest way to find which provisions changed.
++ Compare it with `schools/<school-code>.yml` (for example `schools/nccu.yml` for NCCU), checking item by item whether margins, font sizes, line spacing, heading formats, the cover and verification page, page numbers, and the bibliography format need adjusting. See #ref(<cha:layout>) for how each setting works; if the regulation asks for something you can't find a field for in the school's file, check whether `schools/default.yml` has a setting of that name.
++ To try something out without editing the school's file, write the items you want to change into your own `config.yml`. It takes precedence over the school preset, so you can confirm the result before deciding whether to change `schools/` for real.
++ If needed, put the new PDF in `docs/` to replace the old one (the filename contains the revision date), so you won't be comparing against a stale copy later.
++ After adjusting, recompile and check the cover, verification page, table of contents, first page of the body, and references page one by one -- ideally have your advisor or the department office confirm as well.
 
-Once you've confirmed the manual run works, if you'd like it to check automatically on a schedule, you can add the following to your `crontab`. The example runs every Monday at 6 a.m.; replace the project path with your actual location:
+=== Disclaimer
 
-#code[
-  ```bash
-  0 6 * * 1 cd ~/tw-thesis-typ && just update
-  ```
-]
+This template's format presets are provided for reference only; always follow your school's officially published thesis regulations and your department's requirements. Requirements are often not a single document: the school publishes the general rules, while departments, colleges, or advisors frequently add their own (for the cover, binding, fonts, or figure and table formats, say), and none of those appear in the template's settings.
+
+In addition, the update notice depends on periodically fetching the school's website, so it can appear later than the school's actual announcement, or be temporarily unable to fetch after a site redesign -- meaning that not seeing a notice doesn't prove the regulation hasn't changed. Before submitting your thesis, confirm the latest requirements with your department or library.

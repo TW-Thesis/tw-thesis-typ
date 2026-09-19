@@ -240,7 +240,7 @@
 
 若要換成自己的浮水印，請先將圖片放進 `assets/watermarks/`，再修改 `image` 的路徑。可以用 `width` 調整圖片占頁寬的比例，或降低 `opacity`，讓浮水印淡一些。是否需要自行加上浮水印，請依提交時的學校要求處理。
 
-沒有安裝 `make` 時，也可以在專案根目錄執行以下指令，輸出的檔案同樣是 `main.pdf`：
+沒有安裝 `just` 時，也可以在專案根目錄執行以下指令，輸出的檔案同樣是 `main.pdf`：
 
 ```bash
 typst compile main.typ --font-path fonts/ --input watermark=true

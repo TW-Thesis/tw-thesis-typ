@@ -77,7 +77,6 @@ After downloading or cloning the project, it's worth taking a moment to learn wh
     ([`figures/`], [Thesis figures and the sample images used in this tutorial]),
     ([`assets/`], [Template assets such as school watermarks]),
     ([`docs/`], [Original PDFs of each school's thesis format regulations]),
-    ([`scripts/`], [Small programs that fetch each school's latest regulations automatically]),
   ),
   notes: [Edit `schools/` to change format rules, and `contents/` to change the text content.],
 ) <tbl:layout>
@@ -248,25 +247,25 @@ A few things worth noting:
 
 The template splits content into one file per chapter, all kept in `contents/`, with filenames numbered by chapter order, e.g. `chapter01.typ`, `chapter02.typ`. Editing one chapter doesn't touch the others, and when a compile error occurs it's easy to tell which file is at fault.
 
-You don't need to maintain the `#include` lines in `main.typ` by hand: adding a chapter with the command below inserts it automatically, and removing a chapter removes it automatically on the next compile.
+The `#include` lines in `main.typ` decide the order of the chapters, and you maintain them yourself when adding or removing chapters.
 
-To add a chapter, use `just chapter`. It finds the current highest chapter number, creates the next one, builds the file, and appends a line after the last chapter's `#include` in `main.typ`:
+To add a chapter, create `contents/chapter05.typ` (files are named by chapter number) with an `#import`, a chapter heading, and a section heading, then add `#include "contents/chapter05.typ"` in `main.typ` before `#references()`.
 
 #code[
-  ```bash
-  just chapter             # 建立下一章，標題留空
-  just chapter 1 研究方法   # 建立下一章並填入章標題
-  just chapter 3           # 一次建立三章
+  ```typ
+  #import "/helper/mod.typ": *
+
+  = Chapter Title
+
+  == Section Title
+
+  Body text.
   ```
 ]
 
-The command prints which files it created; existing files are never overwritten. The new file already contains an `#import`, a chapter heading, and a section heading, so you can start writing right away. If you'd rather do it by hand, create `contents/chapter05.typ` yourself, then add `#include "contents/chapter05.typ"` before `#references()` in `main.typ` -- the result is the same.
+To remove a chapter, delete the file and also remove its `#include` line from `main.typ`; otherwise #typst can't find the file and compilation fails outright. The numbers of later chapters shift up automatically, and `@cha:...` references in the text update with them -- nothing to fix by hand.
 
-To remove a chapter, just delete the file. `just compile`, `just release`, and `just watch` all run `just sync` first, which strips any `#include` pointing to a deleted file out of `main.typ` and prints which line it removed; to preview what would change without running it, you can run `just sync` on its own. Chapter numbers in the following chapters renumber automatically, and `@cha:...` references in the body text update along with them -- none of it needs manual editing.
-
-One thing to watch for: `just watch` only cleans up once, at startup. If you delete a chapter file while it's running, you'll see a file-not-found error on screen; press `Ctrl+C` to stop it and restart.
-
-The front matter (`contents/front/`) and appendices (`contents/back/`) have no dedicated command -- you need to create the file yourself and add an `#include` line in `main.typ`; deletion is likewise cleaned up by `just sync`.
+The front matter (`contents/front/`) and appendices (`contents/back/`) work the same way: create the file and add an `#include` line at the matching spot in `main.typ`; when deleting one, remove that line too.
 
 == Writing Chapter Content
 
