@@ -97,27 +97,27 @@ date: "2027-01-15"        # 封面上的日期，格式 YYYY-MM-DD
 
 ### 撰寫論文
 
-論文內容在 `contents/`：`front/` 是摘要與致謝，`chapter01.typ` 起是各章，`back/` 是附錄與參考文獻檔。目前這些檔案是教學範例，每個範例都能直接複製使用。
+內容都在 `contents/`：`front/` 放摘要跟致謝，`chapter01.typ` 開始是各章，`back/` 放附錄和參考文獻的 `.bib`。現在裡面的檔案是教學，也是範例，可以直接複製貼上，換成自己的內容就好。
 
-`main.typ` 決定裝訂順序，新增或刪除一章，就在裡面增減對應的 `#include` 那一行。
+章節的順序由 `main.typ` 決定。多一章或少一章，就在裡面加或刪對應的那行 `#include`。
 
-而參考文獻放在 `contents/back/references.bib`，在內文用 `#cp("識別名稱")` 引用。
+參考文獻寫在 `contents/back/references.bib`，內文用 `#cp("識別名稱")` 引用。
 
-每一章的用法都寫在教學章節裡，依序是：第一章開始使用、第二章版面設定、第三章圖片與表格、第四章文獻／程式碼／附錄。
+想知道某個功能怎麼用，直接翻教學：第一章是基本操作，第二章是版面設定，第三章是圖片和表格，第四章是文獻、程式碼和附錄。
 
-### 建議流程
+### 編輯與預覽
 
-- **存檔就重新編譯**：`typst watch main.typ --font-path fonts/`，保持終端機開著，存檔後 PDF 會自動更新。
-- **VS Code**：安裝 [Tinymist](https://marketplace.visualstudio.com/items?itemName=myriad-dreamin.tinymist) 擴充套件，專案已附 `.vscode/settings.json`（指定主檔案與字型路徑），開啟資料夾即可預覽。
-- **交稿用的浮水印版本**：`typst compile main.typ --font-path fonts/ --input watermark=true`（需要先在設定檔指定浮水印圖片，見第二章）。
-- 已安裝 [`just`](https://github.com/casey/just) 的話，`just compile`、`just watch`、`just release`、`just clean` 是上面幾個指令的縮寫。
+- 邊寫邊看：`typst watch main.typ --font-path fonts/`，存檔就會自動重新編譯。
+- 用 VS Code 的話，安裝 [Tinymist](https://marketplace.visualstudio.com/items?itemName=myriad-dreamin.tinymist)。專案裡已經附了 `.vscode/settings.json`（指定主檔案和字型路徑），打開資料夾就能預覽。
+- 交稿要浮水印：`typst compile main.typ --font-path fonts/ --input watermark=true`。要先在設定檔指定浮水印圖片，第二章有寫。
+- 有裝 [`just`](https://github.com/casey/just) 的話，可以用 `just compile`（一般編譯）、`just watch`（存檔重編）、`just release`（加浮水印）、`just clean`（刪掉 `main.pdf`）。
 
 ### 遇到問題
 
-- 找不到 `typst`：重新開啟終端機，並用 `typst --version` 確認安裝成功。
-- 找不到 `main.typ`：目前所在的資料夾不對，請回到專案根目錄。
-- `unknown key ...`：`config.yml` 的欄位名稱拼錯或縮排層級不對，對照 `schools/default.yml` 檢查。
-- 其他編譯問題請看教學最後的附錄「編譯問題排查」。
+- 說找不到 `typst`：關掉終端機重開再試。`typst --version` 有印出版本才算裝好。
+- 說找不到 `main.typ`：你不在專案根目錄，`cd` 回去。
+- 出現 `unknown key`：`config.yml` 有欄位打錯字，或縮排的層級不對，對照 `schools/default.yml` 找。
+- 其他問題看教學最後的附錄「編譯問題排查」。
 
 ## 內建學校
 
