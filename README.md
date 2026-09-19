@@ -97,11 +97,33 @@ date: "2027-01-15"        # 封面上的日期，格式 YYYY-MM-DD
 
 ### 撰寫論文
 
-內容都在 `contents/`：`front/` 放摘要跟致謝，`chapter01.typ` 開始是各章，`back/` 放附錄和參考文獻的 `.bib`。現在裡面的檔案是教學，也是範例，可以直接複製貼上，換成自己的內容就好。
+論文的內容都在 `contents/`，結構長這樣：
 
-章節的順序由 `main.typ` 決定。多一章或少一章，就在裡面加或刪對應的那行 `#include`。
+```text
+contents/
+├── front/           摘要、致謝、符號列表
+├── chapter01.typ    從這裡開始是各章
+├── chapter02.typ
+├── chapter03.typ
+├── chapter04.typ
+├── back/            附錄，還有參考文獻的 references.bib
+└── i18n/en/         英文版教學，只是給人看的，不會編進論文
+```
 
-參考文獻寫在 `contents/back/references.bib`，內文用 `#cp("識別名稱")` 引用。
+現在裡面的檔案是教學，也是範例，可以直接複製貼上，換成自己的內容就好。
+
+各章的順序由 `main.typ` 決定。多一章或少一章，就在裡面加或刪對應的那一行 `#include`：
+
+```typ
+#include "contents/chapter01.typ"
+#include "contents/chapter02.typ"
+```
+
+參考文獻寫在 `contents/back/references.bib`，內文用識別名稱引用，例如 `references.bib` 裡有一筆 `kocher99`：
+
+```typ
+#cp("kocher99")
+```
 
 想知道某個功能怎麼用，直接翻教學：第一章是基本操作，第二章是版面設定，第三章是圖片和表格，第四章是文獻、程式碼和附錄。
 
@@ -121,7 +143,7 @@ typst watch main.typ --font-path fonts/
 typst compile main.typ --font-path fonts/ --input watermark=true
 ```
 
-有裝 [`just`](https://github.com/casey/just) 的話，上面這些可以縮短成：
+若有安裝 [`just`](https://github.com/casey/just) 的話，上面流程可以縮短為：
 
 ```bash
 just compile   # 一般編譯
