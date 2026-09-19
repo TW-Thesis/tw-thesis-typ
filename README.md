@@ -32,26 +32,27 @@ typst --version
 
 ### 取得專案
 
-建議以「淺層複製」取得模板，並移除模板本身的版本紀錄，讓你的論文從乾淨的版本庫開始：
+這個 repo 是 GitHub 的**範本儲存庫（template repository）**，建議直接用「Use this template」建立你自己的論文專案：
+
+1. 開啟本頁右上角綠色的 **Use this template** 按鈕，選擇 **Create a new repository**。
+2. 填入專案名稱（例如 `my-thesis`），可見度建議選 **Private**，因為論文內容與個人資料通常不適合公開。
+3. 建立完成後，把你的新專案 clone 到本機：
 
 ```bash
-# 只下載最新一版，不含完整歷史
-git clone --depth 1 https://github.com/TW-Thesis/tw-thesis-typ.git my-thesis
+git clone https://github.com/<你的帳號>/my-thesis.git
 cd my-thesis
-
-# 移除模板的版本紀錄（macOS / Linux）
-rm -rf .git
-# Windows PowerShell 請改用：Remove-Item -Recurse -Force .git
-
-# 為你的論文建立新的版本庫並提交初始狀態
-git init
-git add .
-git commit -m "Initial commit from tw-thesis-typ"
 ```
 
-不使用 Git 的話，也可以在 GitHub 頁面選擇 **Code → Download ZIP**，解壓縮後進入資料夾即可。
+已安裝 [GitHub CLI](https://cli.github.com) 的話，一行指令即可完成建立與 clone：
 
-論文的版本控制與模板的更新是兩件事：模板日後若有更新，不會自動套用到你的專案。需要時可以自行比對新版模板，再挑選要採用的部分。
+```bash
+gh repo create my-thesis --template TW-Thesis/tw-thesis-typ --private --clone
+cd my-thesis
+```
+
+用範本建立的專案是**全新的版本庫**：只有一個初始提交，不含模板的歷史紀錄，也不會與本 repo 有任何關聯。模板日後的更新不會自動套用到你的專案，需要時可以自行比對新版，再挑選要採用的部分。
+
+不使用 GitHub 的話，也可以在本頁選擇 **Code → Download ZIP**，解壓縮後進入資料夾即可。
 
 後續所有指令都請在**專案根目錄**執行，也就是同時含有 `main.typ` 與 `config.yml` 的那一層資料夾。
 
