@@ -77,21 +77,21 @@ Open `config.yml` in any text editor. Replace the title, name, department and da
 ```yaml
 school: nccu              # uses schools/nccu.yml; see "Supported schools" below
 
-title: "分散式系統的一致性研究"
+title: "Thesis title in Chinese"
 title-en: "A Study on Consistency in Distributed Systems"
 
-author: "王小明"
+author: "Author name in Chinese"
 author-en: "Wang, Xiao-Ming"
-advisor: "陳大文"
+advisor: "Advisor name in Chinese"
 advisor-en: "Chen, Da-Wen"
 
-institute: "資訊科學系"
+institute: "Department name in Chinese"
 institute-en: "Department of Computer Science"
 
 date: "2027-01-15"        # date on the cover, in YYYY-MM-DD format
 ```
 
-Fill in both the Chinese and the English fields, or the cover page will be missing one of the languages. Compile again and check the cover page and the verification page. When you choose a school, the format (margins, font sizes, cover style and so on) follows that school's preset. If you do not choose one, the default format is used.
+The fields without `-en` hold the Chinese text, so replace the placeholders above with your Chinese title, name, advisor and department. The fields ending in `-en` hold the English text. Fill in both, or the cover page will be missing one of the languages. Compile again and check the cover page and the verification page. When you choose a school, the format (margins, font sizes, cover style and so on) follows that school's preset. If you do not choose one, the default format is used.
 
 If you want to change a setting that the school preset does not cover, for example setting only the top margin to 3.5 cm, just write it in `config.yml`. It has the highest priority, so you do not have to edit anything in `schools/`. Every available setting and its unit is documented in `schools/default.yml`.
 
