@@ -12,7 +12,7 @@ TW-Thesis 提供臺灣主要大學碩博士論文的 [$\color{#239dad}{\textbf{T
 
 將本專案 clone 下來後，建議按照以下步驟從零開始到編譯出第一份 PDF，耗時約十分鐘。
 
-### 安裝 $\color{#239dad}{\textbf{Typst}}$
+### 安裝 Typst
 
 依系統選一種方式（`brew`、`winget`、`cargo` 需要先有對應的套件管理工具）：
 
@@ -30,7 +30,7 @@ typst --version
 
 這份模板以 $\color{#239dad}{\textbf{Typst}}$ 0.15 開發與測試，建議使用同一版或更新的版本。
 
-### 2. 取得專案
+### 取得專案
 
 任選一種：
 
@@ -44,7 +44,7 @@ rm -rf .git      # 這是你自己的論文，不需要模板的歷史紀錄；�
 
 之後所有指令都在**專案根目錄**執行，也就是有 `main.typ` 和 `config.yml` 的那一層。
 
-### 3. 編譯第一份 PDF
+### 編譯第一份 PDF
 
 ```bash
 typst compile main.typ --font-path fonts/
@@ -56,7 +56,7 @@ typst compile main.typ --font-path fonts/
 - **第一次編譯需要連網**：模板會下載幾個 $\color{#239dad}{\textbf{Typst}}$ 套件（假文用的 `kouhu`、`ipsum`），之後會快取在本機，離線也能編譯。
 - 終端機出現 `unknown font family: dfkai-sb` 的警告可以忽略，那是備用字型，沒裝也不影響結果。
 
-### 4. 填入自己的資料並選學校
+### 填入自己的資料並選學校
 
 用任何文字編輯器打開根目錄的 `config.yml`，把題目、姓名、系所、日期換成自己的，並取消註解、填上學校代碼：
 
@@ -81,7 +81,7 @@ date: "2027-01-15"        # 封面上的日期，格式 YYYY-MM-DD
 
 想改的設定不在學校預設裡（例如只把上邊界改成 3.5 公分），直接寫進 `config.yml` 即可，它的優先順序最高，不必動 `schools/`。每個可用設定與單位都寫在 `schools/default.yml`。
 
-### 5. 開始寫論文
+### 開始寫論文
 
 - 論文內容在 `contents/`：`front/` 是摘要與致謝，`chapter01.typ` 起是各章，`back/` 是附錄與參考文獻檔。目前這些檔案是教學範例，每個範例都能直接複製使用。
 - `main.typ` 決定裝訂順序，新增或刪除一章，就在裡面增減對應的 `#include` 那一行。
@@ -89,7 +89,7 @@ date: "2027-01-15"        # 封面上的日期，格式 YYYY-MM-DD
 
 每一章的用法都寫在教學章節裡，依序是：第一章開始使用、第二章版面設定、第三章圖片與表格、第四章文獻／程式碼／附錄。
 
-### 6. 好用的做法
+### 好用的做法
 
 - **存檔就重新編譯**：`typst watch main.typ --font-path fonts/`，保持終端機開著，存檔後 PDF 會自動更新。
 - **VS Code**：安裝 [Tinymist](https://marketplace.visualstudio.com/items?itemName=myriad-dreamin.tinymist) 擴充套件，專案已附 `.vscode/settings.json`（指定主檔案與字型路徑），開啟資料夾即可預覽。
