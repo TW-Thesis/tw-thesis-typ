@@ -2,11 +2,11 @@
 
 ![Typst](https://img.shields.io/badge/made%20with-Typst-4b69c6?style=flat-square&logo=typst&logoColor=white) ![schools](https://img.shields.io/badge/schools-15-4b69c6?style=flat-square) ![i18n](https://img.shields.io/badge/tutorial-zh--Hant%20%7C%20en-4b69c6?style=flat-square) [![license](https://img.shields.io/badge/license-MIT-4b69c6?style=flat-square)](LICENSE)
 
-TW-Thesis 提供臺灣主要大學碩博士論文的 [$\color{#239dad}{\textbf{Typst}}$](https://typst.app) 模板。內建 15 所學校的格式設定，教學文件本身就是可以編譯的範例，可以直接按照範例修改，以符合學校格式的論文。
+TW-Thesis 提供臺灣主要大學碩博士論文的 [Typst](https://typst.app) 模板。內建 15 所學校的格式設定，教學文件本身就是可以編譯的範例，可以直接按照範例修改，以符合學校格式的論文。
 
 > **免責聲明**：模板的格式設定僅供參考，實際仍請以學校公布的論文規範及系所要求為準。
 
-*English: a $\color{#239dad}{\textbf{Typst}}$ thesis template for Taiwanese universities, with format presets for 15 schools. The tutorial chapters are also the sample thesis. English versions of the tutorial live in [`contents/i18n/en/`](contents/i18n/en/) for reference.*
+*English: a Typst thesis template for Taiwanese universities, with format presets for 15 schools. The tutorial chapters are also the sample thesis. English versions of the tutorial live in [`contents/i18n/en/`](contents/i18n/en/) for reference.*
 
 ## 快速開始
 
@@ -28,14 +28,14 @@ cargo install --locked typst-cli  # 任何平台
 typst --version
 ```
 
-這份模板以 $\color{#239dad}{\textbf{Typst}}$ 0.15 開發與測試，建議使用同一版或更新的版本。
+這份模板以 Typst 0.15 開發與測試，建議使用同一版或更新的版本。
 
 ### 取得專案
 
-這個 repo 是 GitHub 的**範本儲存庫（template repository）**，建議直接用「Use this template」建立你自己的論文專案：
+這個 repo 是 GitHub 的**範本儲存庫（template repository）**，請用 **Use this template** 建立你自己的論文專案：
 
-1. 開啟本頁右上角綠色的 **Use this template** 按鈕，選擇 **Create a new repository**。
-2. 填入專案名稱（例如 `my-thesis`），可見度建議選 **Private**，因為論文內容與個人資料通常不適合公開。
+1. 點擊右上角綠色的 **Use this template** 按鈕，選擇 **Create a new repository**。
+2. 填入專案名稱（例如 `my-thesis`），可見度建議選 **Private**。
 3. 建立完成後，把你的新專案 clone 到本機：
 
 ```bash
@@ -52,20 +52,22 @@ cd my-thesis
 
 用範本建立的專案是**全新的版本庫**：只有一個初始提交，不含模板的歷史紀錄，也不會與本 repo 有任何關聯。模板日後的更新不會自動套用到你的專案，需要時可以自行比對新版，再挑選要採用的部分。
 
-不使用 GitHub 的話，也可以在本頁選擇 **Code → Download ZIP**，解壓縮後進入資料夾即可。
+若不使用 GitHub 的話，也可以在本頁選擇 **Code → Download ZIP**，解壓縮後進入資料夾即可。
 
-後續所有指令都請在**專案根目錄**執行，也就是同時含有 `main.typ` 與 `config.yml` 的那一層資料夾。
+後續所有指令都請在**專案根目錄**執行，也就是同時含有 `main.typ` 與 `config.yml` 的資料夾。
 
-### 編譯第一份 PDF
+### 編譯
+
+建立專案並 clone 後，可以嘗試編譯：
 
 ```bash
 typst compile main.typ --font-path fonts/
 ```
 
-完成後根目錄會出現 `main.pdf`。打開它，確認封面、目次與內文的中英文字型都顯示正常。
+完成後根目錄會出現 `main.pdf`。打開它，確認封面、目次與內文的中英文字型等內容均可正常顯示。
 
-- `--font-path fonts/` 會讓 $\color{#239dad}{\textbf{Typst}}$ 讀取專案附帶的字型（EB Garamond、Tinos、教育部標準楷書），不必另外安裝到系統。
-- **第一次編譯需要連網**：模板會下載幾個 $\color{#239dad}{\textbf{Typst}}$ 套件（假文用的 `kouhu`、`ipsum`），之後會快取在本機，離線也能編譯。
+- `--font-path fonts/` 會讓 Typst 讀取專案附帶的字型（EB Garamond、Tinos、教育部標準楷書），不必另外安裝到系統。
+- **第一次編譯需要連網**：模板會下載幾個 Typst 套件（假文用的 `kouhu`、`ipsum`），之後會快取在本機，離線也能編譯。
 - 終端機出現 `unknown font family: dfkai-sb` 的警告可以忽略，那是備用字型，沒裝也不影響結果。
 
 ### 填入自己的資料並選學校
