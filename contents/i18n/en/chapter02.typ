@@ -14,13 +14,13 @@ Open `config.yml` and set the body font and font size under `layout:`. The defau
   ```yaml
   layout:
     language: "chinese" # chinese | english 決定標題語言
-    font-latin: "Tinos"
+    font-latin: ["EB Garamond", "Tinos"] # one family or several, tried in order
     font-cjk: ["TW-MOE-Std-Kai", "DFKai-SB"]
     font-size: 12 # pt
   ```
 ]
 
-The template looks for available glyphs in the order the font list gives them, using `font-latin` first and falling back to `font-cjk` for whatever characters are missing. With the settings above, Latin text prefers Tinos (an open-source font metrically compatible with Times New Roman, licensed under the SIL OFL 1.1 and free to redistribute), and CJK text prefers the #link("https://language.moe.gov.tw/material/info?m=9fe3fe82-8bbf-44c0-961d-873ea079e284")[Ministry of Education standard Kai typeface] (licensed under CC BY-ND, requiring attribution to "the Republic of China Ministry of Education" when used). These font files are already bundled in the project's `fonts/` directory, so keep this flag when compiling. If your department explicitly requires Times New Roman, note that it has redistribution restrictions and the template can't bundle it: install it on your own computer first, then set `font-latin` to `"Times New Roman"`. Because Tinos has the same character widths, switching typefaces usually doesn't move your page breaks:
+The template looks for available glyphs in the order the font list gives them, using `font-latin` first and falling back to `font-cjk` for whatever characters are missing. With the settings above, Latin text prefers EB Garamond, with Tinos (an open-source font whose character widths are identical to Times New Roman's) filling in any characters it lacks, and CJK text prefers the #link("https://language.moe.gov.tw/material/info?m=9fe3fe82-8bbf-44c0-961d-873ea079e284")[Ministry of Education standard Kai typeface] (licensed under CC BY-ND, requiring attribution to "the Republic of China Ministry of Education" when used). These font files are already bundled in the project's `fonts/` directory, so keep this flag when compiling. Both Latin fonts are licensed under the SIL OFL 1.1 and free to redistribute. If your department explicitly requires Times New Roman, set `font-latin` to `"Tinos"`: its character widths match Times New Roman's one for one and its letterforms are similar, so your page breaks won't move. If you must use the original, note that it has redistribution restrictions and the template can't bundle it -- install it on your own computer first, then enter `"Times New Roman"`. EB Garamond's widths differ from Times New Roman's (by about 7% on average), so switching to it changes where every page breaks:
 
 #code[
   ```bash

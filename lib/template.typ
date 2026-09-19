@@ -17,7 +17,8 @@
   // pin the line box to 1em, so line advance is exactly line-height x font size,
   // which is what 行高 means; typst's own edges move with the font
   set text(
-    font: (l.font-latin,) + l.font-cjk,
+    // font-latin may be one family or a list, tried in order
+    font: (if type(l.font-latin) == array { l.font-latin } else { (l.font-latin,) }) + l.font-cjk,
     size: l.font-size,
     lang: if l.language == "chinese" { "zh" } else { "en" },
     region: if l.language == "chinese" { "TW" } else { "US" }, // 圖/表, not 图/表

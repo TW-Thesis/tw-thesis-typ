@@ -14,13 +14,13 @@
   ```yaml
   layout:
     language: "chinese" # chinese | english 決定標題語言
-    font-latin: "Tinos"
+    font-latin: ["EB Garamond", "Tinos"] # 可填一個或多個，依序尋找
     font-cjk: ["TW-MOE-Std-Kai", "DFKai-SB"]
     font-size: 12 # pt
   ```
 ]
 
-模板會依字型清單的順序尋找可用的字元，先使用 `font-latin`，再由 `font-cjk` 補上缺少的字。以上面的設定為例，英文優先使用 Tinos（與 Times New Roman 字寬相容的開源字型，授權為 SIL OFL 1.1，可自由散布），中文則優先使用#link("https://language.moe.gov.tw/material/info?m=9fe3fe82-8bbf-44c0-961d-873ea079e284")[教育部標準楷書]（授權條款為創用 CC 姓名標示─禁止改作，引用時須標示「中華民國教育部」）。這些字型檔都已經附在專案的 `fonts/` 裡，編譯時保留下面這個參數即可。若系所明確要求使用 Times New Roman，請注意該字型有散布限制，模板無法附上，需要使用的話，請先在自己的電腦安裝，再把 `font-latin` 改成 `"Times New Roman"`；因為 Tinos 的字寬與它相同，換字型通常不會讓分頁位置跑掉：
+模板會依字型清單的順序尋找可用的字元，先使用 `font-latin`，再由 `font-cjk` 補上缺少的字。以上面的設定為例，英文優先使用 EB Garamond，它缺少的字元再由 Tinos 補上（Tinos 是字寬與 Times New Roman 完全相同的開源字型），中文則優先使用#link("https://language.moe.gov.tw/material/info?m=9fe3fe82-8bbf-44c0-961d-873ea079e284")[教育部標準楷書]（授權條款為創用 CC 姓名標示─禁止改作，引用時須標示「中華民國教育部」）。這些字型檔都已經附在專案的 `fonts/` 裡，編譯時保留下面這個參數即可。兩套英文字型的授權都是 SIL OFL 1.1，可以自由散布。若系所明確要求 Times New Roman，可以把 `font-latin` 改成 `"Tinos"`：它的字寬與 Times New Roman 逐字相同，字形也相近，分頁位置不會跑掉；若一定要用原字型，因它有散布限制、模板無法附上，需先在自己的電腦安裝，再填入 `"Times New Roman"`。EB Garamond 的字寬與 Times New Roman 不同（平均約差 7%），換過去後整份論文的分頁位置會改變：
 
 #code[
   ```bash

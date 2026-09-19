@@ -17,7 +17,7 @@ university-en: "○○○○ University"
 layout:
   language: "chinese" # chinese | english
   paper: "a4"
-  font-latin: "Tinos"
+  font-latin: ["EB Garamond", "Tinos"] # a family or a list; Tinos backs up EB Garamond
   font-cjk: ["TW-MOE-Std-Kai", "DFKai-SB"] # DFKai-SB misplaces punctuation
   font-size: 12 # pt
   line-height: 1.5 # x font size, i.e. 行高 1.5
@@ -93,7 +93,7 @@ cover:
     org-en: 14
     university-en: 16
     title: 20 # 論文中文題名
-    title-en: 16 # 論文英文題名, Tinos
+    title-en: 16 # 論文英文題名, uses layout.font-latin
     author: 18
     advisor: 18
     date: 18
