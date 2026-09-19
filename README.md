@@ -107,10 +107,28 @@ date: "2027-01-15"        # 封面上的日期，格式 YYYY-MM-DD
 
 ### 編輯與預覽
 
-- 邊寫邊看：`typst watch main.typ --font-path fonts/`，存檔就會自動重新編譯。
-- 用 VS Code 的話，安裝 [Tinymist](https://marketplace.visualstudio.com/items?itemName=myriad-dreamin.tinymist)。專案裡已經附了 `.vscode/settings.json`（指定主檔案和字型路徑），打開資料夾就能預覽。
-- 交稿要浮水印：`typst compile main.typ --font-path fonts/ --input watermark=true`。要先在設定檔指定浮水印圖片，第二章有寫。
-- 有裝 [`just`](https://github.com/casey/just) 的話，可以用 `just compile`（一般編譯）、`just watch`（存檔重編）、`just release`（加浮水印）、`just clean`（刪掉 `main.pdf`）。
+想邊寫邊看結果，可以開監看模式，存檔就會自動重新編譯，PDF 也會跟著更新：
+
+```bash
+typst watch main.typ --font-path fonts/
+```
+
+用 VS Code 的話，安裝 [Tinymist](https://marketplace.visualstudio.com/items?itemName=myriad-dreamin.tinymist) 擴充套件就能直接預覽。專案裡已經附了 `.vscode/settings.json`，裡面指定好主檔案和字型路徑，打開資料夾即可。
+
+交稿如果需要浮水印，要先在設定檔指定浮水印圖片（第二章有寫），再用下面的指令編譯：
+
+```bash
+typst compile main.typ --font-path fonts/ --input watermark=true
+```
+
+有裝 [`just`](https://github.com/casey/just) 的話，上面這些可以縮短成：
+
+```bash
+just compile   # 一般編譯
+just watch     # 存檔就重新編譯
+just release   # 加上浮水印
+just clean     # 刪掉 main.pdf
+```
 
 ### 遇到問題
 
