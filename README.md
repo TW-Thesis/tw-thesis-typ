@@ -1,12 +1,12 @@
 # tw-thesis-typ
 
+[English](README.en.md) | 繁體中文
+
 ![Typst](https://img.shields.io/badge/made%20with-Typst-4b69c6?style=flat-square&logo=typst&logoColor=white) ![schools](https://img.shields.io/badge/schools-15-4b69c6?style=flat-square) ![i18n](https://img.shields.io/badge/tutorial-zh--Hant%20%7C%20en-4b69c6?style=flat-square) [![license](https://img.shields.io/badge/license-MIT-4b69c6?style=flat-square)](LICENSE)
 
 TW-Thesis 提供臺灣主要大學碩博士論文的 [Typst](https://typst.app) 模板。內建 15 所學校的格式設定，教學文件本身就是可以編譯的範例，可以直接按照範例修改，以符合學校格式的論文。
 
 > **免責聲明**：模板的格式設定僅供參考，實際仍請以學校公布的論文規範及系所要求為準。
-
-*English: a Typst thesis template for Taiwanese universities, with format presets for 15 schools. The tutorial chapters are also the sample thesis. English versions of the tutorial live in [`contents/i18n/en/`](contents/i18n/en/) for reference.*
 
 ## 快速開始
 
@@ -97,22 +97,22 @@ date: "2027-01-15"        # 封面上的日期，格式 YYYY-MM-DD
 
 ### 撰寫論文
 
-論文的內容都在 `contents/`，結構長這樣：
+論文的內容都在 `contents/`，結構如下：
 
 ```text
 contents/
-├── front/           摘要、致謝、符號列表
-├── chapter01.typ    從這裡開始是各章
+├── front/           摘要、致謝、符號列表等
+├── chapter01.typ    以下為各章內容
 ├── chapter02.typ
 ├── chapter03.typ
 ├── chapter04.typ
-├── back/            附錄，還有參考文獻的 references.bib
-└── i18n/en/         英文版教學，只是給人看的，不會編進論文
+├── back/            附錄與參考文獻
+└── i18n/en/         英文版教學
 ```
 
-現在裡面的檔案是教學，也是範例，可以直接複製貼上，換成自己的內容就好。
+初次複製下來的檔案內是教學內容，也是可以參考的範例。
 
-各章的順序由 `main.typ` 決定。多一章或少一章，就在裡面加或刪對應的那一行 `#include`：
+各章的順序由 `main.typ` 決定。多一章或少一章，就在裡面加或刪對應的那一行 `#include` 即可：
 
 ```typ
 #include "contents/chapter01.typ"
@@ -124,8 +124,6 @@ contents/
 ```typ
 #cp("kocher99")
 ```
-
-想知道某個功能怎麼用，直接翻教學：第一章是基本操作，第二章是版面設定，第三章是圖片和表格，第四章是文獻、程式碼和附錄。
 
 ### 編輯與預覽
 
@@ -151,13 +149,6 @@ just watch     # 存檔就重新編譯
 just release   # 加上浮水印
 just clean     # 刪掉 main.pdf
 ```
-
-### 遇到問題
-
-- 說找不到 `typst`：關掉終端機重開再試。`typst --version` 有印出版本才算裝好。
-- 說找不到 `main.typ`：你不在專案根目錄，`cd` 回去。
-- 出現 `unknown key`：`config.yml` 有欄位打錯字，或縮排的層級不對，對照 `schools/default.yml` 找。
-- 其他問題看教學最後的附錄「編譯問題排查」。
 
 ## 內建學校
 
@@ -185,11 +176,11 @@ just clean     # 刪掉 main.pdf
 
 | 路徑 | 用途 |
 |---|---|
-| `config.yml` | 你的論文資料與想覆蓋的設定 |
+| `config.yml` | 論文資料與設定 |
 | `main.typ` | 裝訂順序：前置、各章、參考文獻、附錄 |
 | `contents/` | 論文內容（教學章節即範例） |
 | `schools/` | 各校格式；`default.yml` 是唯一的預設值來源 |
-| `i18n/` | 語言相關的用詞（中／英） |
+| `i18n/` | 其他語言範例檔 |
 | `lib/`、`helper/` | 模板核心與這本論文專用的工具函式 |
 | `fonts/`、`assets/`、`docs/` | 字型、浮水印、各校規範 PDF |
 
