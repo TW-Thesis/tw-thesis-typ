@@ -2,17 +2,17 @@
 
 ![Typst](https://img.shields.io/badge/made%20with-Typst-4b69c6?style=flat-square&logo=typst&logoColor=white) ![schools](https://img.shields.io/badge/schools-15-4b69c6?style=flat-square) ![i18n](https://img.shields.io/badge/tutorial-zh--Hant%20%7C%20en-4b69c6?style=flat-square) [![license](https://img.shields.io/badge/license-MIT-4b69c6?style=flat-square)](LICENSE)
 
-TW-Thesis 提供臺灣主要大學碩博士論文的 [<img src="assets/typst-logo.svg" alt="Typst" height="18" align="absmiddle">](https://typst.app) 模板。內建 15 所學校的格式設定，教學文件本身就是可以編譯的範例，可以直接按照範例修改，以符合學校格式的論文。
+TW-Thesis 提供臺灣主要大學碩博士論文的 [$\color{#239dad}{\textbf{Typst}}$](https://typst.app) 模板。內建 15 所學校的格式設定，教學文件本身就是可以編譯的範例，可以直接按照範例修改，以符合學校格式的論文。
 
 > **免責聲明**：模板的格式設定僅供參考，實際仍請以學校公布的論文規範及系所要求為準。
 
-*English: a <img src="assets/typst-logo.svg" alt="Typst" height="18" align="absmiddle"> thesis template for Taiwanese universities, with format presets for 15 schools. The tutorial chapters are also the sample thesis. English versions of the tutorial live in [`contents/i18n/en/`](contents/i18n/en/) for reference.*
+*English: a $\color{#239dad}{\textbf{Typst}}$ thesis template for Taiwanese universities, with format presets for 15 schools. The tutorial chapters are also the sample thesis. English versions of the tutorial live in [`contents/i18n/en/`](contents/i18n/en/) for reference.*
 
 ## 快速開始
 
 將本專案 clone 下來後，建議按照以下步驟從零開始到編譯出第一份 PDF，耗時約十分鐘。
 
-### 安裝 <img src="assets/typst-logo.svg" alt="Typst" height="18" align="absmiddle">
+### 安裝 $\color{#239dad}{\textbf{Typst}}$
 
 依系統選一種方式（`brew`、`winget`、`cargo` 需要先有對應的套件管理工具）：
 
@@ -28,7 +28,7 @@ cargo install --locked typst-cli  # 任何平台
 typst --version
 ```
 
-這份模板以 <img src="assets/typst-logo.svg" alt="Typst" height="18" align="absmiddle"> 0.15 開發與測試，建議使用同一版或更新的版本。
+這份模板以 $\color{#239dad}{\textbf{Typst}}$ 0.15 開發與測試，建議使用同一版或更新的版本。
 
 ### 2. 取得專案
 
@@ -52,8 +52,8 @@ typst compile main.typ --font-path fonts/
 
 完成後根目錄會出現 `main.pdf`。打開它，確認封面、目次與內文的中英文字型都顯示正常。
 
-- `--font-path fonts/` 會讓 <img src="assets/typst-logo.svg" alt="Typst" height="18" align="absmiddle"> 讀取專案附帶的字型（EB Garamond、Tinos、教育部標準楷書），不必另外安裝到系統。
-- **第一次編譯需要連網**：模板會下載幾個 <img src="assets/typst-logo.svg" alt="Typst" height="18" align="absmiddle"> 套件（假文用的 `kouhu`、`ipsum`），之後會快取在本機，離線也能編譯。
+- `--font-path fonts/` 會讓 $\color{#239dad}{\textbf{Typst}}$ 讀取專案附帶的字型（EB Garamond、Tinos、教育部標準楷書），不必另外安裝到系統。
+- **第一次編譯需要連網**：模板會下載幾個 $\color{#239dad}{\textbf{Typst}}$ 套件（假文用的 `kouhu`、`ipsum`），之後會快取在本機，離線也能編譯。
 - 終端機出現 `unknown font family: dfkai-sb` 的警告可以忽略，那是備用字型，沒裝也不影響結果。
 
 ### 4. 填入自己的資料並選學校
