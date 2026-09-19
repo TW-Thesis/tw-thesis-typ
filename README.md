@@ -32,17 +32,28 @@ typst --version
 
 ### 取得專案
 
-任選一種：
+建議以「淺層複製」取得模板，並移除模板本身的版本紀錄，讓你的論文從乾淨的版本庫開始：
 
 ```bash
-git clone https://github.com/TW-Thesis/tw-thesis-typ.git my-thesis
+# 只下載最新一版，不含完整歷史
+git clone --depth 1 https://github.com/TW-Thesis/tw-thesis-typ.git my-thesis
 cd my-thesis
-rm -rf .git      # 這是你自己的論文，不需要模板的歷史紀錄；之後可以 git init 重新開始
+
+# 移除模板的版本紀錄（macOS / Linux）
+rm -rf .git
+# Windows PowerShell 請改用：Remove-Item -Recurse -Force .git
+
+# 為你的論文建立新的版本庫並提交初始狀態
+git init
+git add .
+git commit -m "Initial commit from tw-thesis-typ"
 ```
 
-或在 GitHub 頁面按 **Code → Download ZIP**，解壓縮後進入資料夾。
+不使用 Git 的話，也可以在 GitHub 頁面選擇 **Code → Download ZIP**，解壓縮後進入資料夾即可。
 
-之後所有指令都在**專案根目錄**執行，也就是有 `main.typ` 和 `config.yml` 的那一層。
+論文的版本控制與模板的更新是兩件事：模板日後若有更新，不會自動套用到你的專案。需要時可以自行比對新版模板，再挑選要採用的部分。
+
+後續所有指令都請在**專案根目錄**執行，也就是同時含有 `main.typ` 與 `config.yml` 的那一層資料夾。
 
 ### 編譯第一份 PDF
 
