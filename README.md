@@ -1,5 +1,7 @@
 # tw-thesis-typ
 
+![Typst](https://img.shields.io/badge/made%20with-Typst-4b69c6?style=flat-square&logo=typst&logoColor=white) ![schools](https://img.shields.io/badge/schools-15-4b69c6?style=flat-square) ![i18n](https://img.shields.io/badge/tutorial-zh--Hant%20%7C%20en-4b69c6?style=flat-square) [![license](https://img.shields.io/badge/license-MIT-4b69c6?style=flat-square)](LICENSE)
+
 台灣各大學碩博士論文的 [Typst](https://typst.app) 模板。內建 15 所學校的格式設定，教學文件本身就是可以編譯的範例：照著範例改，就能寫出符合學校格式的論文。
 
 > **免責聲明**：模板的格式設定僅供參考，實際仍請以學校公布的論文規範及系所要求為準。
