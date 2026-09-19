@@ -14,13 +14,13 @@ Open `config.yml` and set the body font and font size under `layout:`. The defau
   ```yaml
   layout:
     language: "chinese" # chinese | english 決定標題語言
-    font-latin: "Times New Roman"
+    font-latin: "Tinos"
     font-cjk: ["TW-MOE-Std-Kai", "DFKai-SB"]
     font-size: 12 # pt
   ```
 ]
 
-The template looks for available glyphs in the order the font list gives them, using `font-latin` first and falling back to `font-cjk` for whatever characters are missing. With the settings above, Latin text prefers Times New Roman, and CJK text prefers the #link("https://language.moe.gov.tw/material/info?m=9fe3fe82-8bbf-44c0-961d-873ea079e284")[Ministry of Education standard Kai typeface] (licensed under CC BY-ND, requiring attribution to "the Republic of China Ministry of Education" when used). These font files are already bundled in the project's `fonts/` directory, so keep this flag when compiling:
+The template looks for available glyphs in the order the font list gives them, using `font-latin` first and falling back to `font-cjk` for whatever characters are missing. With the settings above, Latin text prefers Tinos (an open-source font metrically compatible with Times New Roman, licensed under the SIL OFL 1.1 and free to redistribute), and CJK text prefers the #link("https://language.moe.gov.tw/material/info?m=9fe3fe82-8bbf-44c0-961d-873ea079e284")[Ministry of Education standard Kai typeface] (licensed under CC BY-ND, requiring attribution to "the Republic of China Ministry of Education" when used). These font files are already bundled in the project's `fonts/` directory, so keep this flag when compiling. If your department explicitly requires Times New Roman, note that it has redistribution restrictions and the template can't bundle it: install it on your own computer first, then set `font-latin` to `"Times New Roman"`. Because Tinos has the same character widths, switching typefaces usually doesn't move your page breaks:
 
 #code[
   ```bash

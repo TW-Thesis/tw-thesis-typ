@@ -14,13 +14,13 @@
   ```yaml
   layout:
     language: "chinese" # chinese | english 決定標題語言
-    font-latin: "Times New Roman"
+    font-latin: "Tinos"
     font-cjk: ["TW-MOE-Std-Kai", "DFKai-SB"]
     font-size: 12 # pt
   ```
 ]
 
-模板會依字型清單的順序尋找可用的字元，先使用 `font-latin`，再由 `font-cjk` 補上缺少的字。以上面的設定為例，英文優先使用 Times New Roman，中文則優先使用#link("https://language.moe.gov.tw/material/info?m=9fe3fe82-8bbf-44c0-961d-873ea079e284")[教育部標準楷書]（授權條款為創用 CC 姓名標示─禁止改作，引用時須標示「中華民國教育部」）。這些字型檔都已經附在專案的 `fonts/` 裡，編譯時保留下面這個參數即可：
+模板會依字型清單的順序尋找可用的字元，先使用 `font-latin`，再由 `font-cjk` 補上缺少的字。以上面的設定為例，英文優先使用 Tinos（與 Times New Roman 字寬相容的開源字型，授權為 SIL OFL 1.1，可自由散布），中文則優先使用#link("https://language.moe.gov.tw/material/info?m=9fe3fe82-8bbf-44c0-961d-873ea079e284")[教育部標準楷書]（授權條款為創用 CC 姓名標示─禁止改作，引用時須標示「中華民國教育部」）。這些字型檔都已經附在專案的 `fonts/` 裡，編譯時保留下面這個參數即可。若系所明確要求使用 Times New Roman，請注意該字型有散布限制，模板無法附上，需要使用的話，請先在自己的電腦安裝，再把 `font-latin` 改成 `"Times New Roman"`；因為 Tinos 的字寬與它相同，換字型通常不會讓分頁位置跑掉：
 
 #code[
   ```bash
