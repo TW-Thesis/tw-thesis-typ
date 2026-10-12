@@ -100,7 +100,12 @@
       else if l.language == "chinese" { 2 }
       else { 1.5 }
     ) * 1em,
-    par-spacing: l.par-spacing * 1em,
+    // ~ keeps paragraph baselines on the body line grid; a number remains an
+    // independent override for school or thesis-specific requirements.
+    par-spacing: (
+      if l.par-spacing == none { l.line-height - 1 }
+      else { l.par-spacing }
+    ) * 1em,
     title-spread: l.title-spread * 1em,
     line-box: (top: l.line-box.top * 1em, bottom: l.line-box.bottom * 1em),
     margin: (

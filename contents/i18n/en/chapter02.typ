@@ -65,11 +65,11 @@ Line spacing, paragraph spacing, first-line indentation, and left/right justific
 #code[
   ```yaml
   layout:
-    line-height: 1.5      # 行高 1.5 倍
-    par-spacing: 1.2      # em，段落之間的間距
-    first-line-indent: 2  # em，中文習慣首行縮排兩個字
-    justify: true         # 左右對齊
-    line-box:             # em，見下方說明
+    line-height: 1.5      # 1.5 times the font size
+    par-spacing: ~        # ~ follows line height; a number overrides it in em
+    first-line-indent: 2  # em; Chinese paragraphs conventionally indent two characters
+    justify: true         # justify both edges
+    line-box:             # em; explained below
       top: 0.88
       bottom: -0.12
   ```
@@ -77,9 +77,9 @@ Line spacing, paragraph spacing, first-line indentation, and left/right justific
 
 When adjusting paragraphs, it's best to start with `line-height` and `first-line-indent`. With a 12pt body font and `line-height` set to `1.5`, the baseline-to-baseline spacing for a regular text line is 18pt; with `first-line-indent` set to `2`, two character-widths of space are reserved. If your department requires paragraphs without indentation, set `first-line-indent` to `0`.
 
-`par-spacing` controls the gap between two paragraphs, defaulting to `1.2`, in `em` units; in `YAML` you only enter the number, without a unit. A larger value adds more whitespace between paragraphs. Text separated by a blank line in the chapter source forms separate paragraphs, so you can compare adjacent paragraphs to see the effect of your change.
+`par-spacing` controls the gap between two paragraphs. Its default value, `~`, follows `line-height`, keeping the baseline distance across a paragraph break equal to the normal line spacing. For example, `line-height: 1.5` produces a paragraph gap of `0.5em`; together with the 1em line box, adjacent paragraphs remain on the same 1.5-line-height grid without an extra blank line.
 
-If you'd like paragraphs to keep only their normal line spacing with no extra gap, set `par-spacing` to `0`. #typst takes the larger of the paragraph spacing and the line-leading value `par(leading)`, so paragraphs won't collide just because `par-spacing` is `0`. The template converts `line-height` minus `1` into em units to use as `leading`; for example, `line-height: 1.5` corresponds to `0.5em`, so setting `par-spacing` to `0.5` or smaller won't add any extra paragraph gap in that case.
+If your school or department specifies a different paragraph gap, replace `~` with a number to override it independently. The number is measured in `em`, but you don't include the unit in `YAML`; for example, `par-spacing: 1.2` adds more whitespace between paragraphs. An explicit value no longer changes when you adjust `line-height`. Text separated by a blank line in the chapter source forms separate paragraphs, so you can compare adjacent paragraphs to see the effect.
 
 `line-box` sets the top and bottom edges of a text line, with the two differing by 1em by default, which the template uses to compute line spacing. When first adjusting it, keep the `top` and `bottom` values as they are and observe line spacing in a plain paragraph. If a paragraph also contains a tall formula or image, check separately whether that line needs extra room.
 
