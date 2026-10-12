@@ -3,6 +3,7 @@ main.en.pdf
 *.pdf.lock
 .DS_Store
 !assets/*.pdf
+.tw-thesis
 
 # scripts
 node_modules/
