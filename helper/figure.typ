@@ -2,7 +2,7 @@
 // Each takes a path or ready-made content, so `image` options still work.
 //
 //   #fig("/figures/samples/architecture.png", caption: [研究架構], width: 60%) <fig:one>
-//   #fig-row(caption: [取樣策略], ("/figures/samples/sampling-uniform.png", [均勻]), ("/figures/samples/sampling-importance.png", [重要性])) <fig:row>
+//   #fig-row(caption: [函數圖形], ("/figures/samples/sin-x.pdf", [$sin x$]), ("/figures/samples/x-sin-x.pdf", [$x sin x$])) <fig:row>
 //   #fig-grid(rows: 2, columns: 2, caption: [2x2], ..items) <fig:grid>
 
 #let sub-numbering = "(a)"
@@ -11,10 +11,11 @@
   image(src, width: width)
 } else { src }
 
-#let fig(src, caption: none, width: 80%, supplement: auto) = figure(
+#let fig(src, caption: none, width: 80%, supplement: auto, placement: none) = figure(
   as-image(src, width: width),
   caption: caption,
   supplement: supplement,
+  placement: placement,
 )
 
 // items are (source, sub-caption) pairs; the sub-caption may be omitted
@@ -39,6 +40,7 @@
   row-gutter: 0.8em,
   width: 100%,
   supplement: auto,
+  placement: none,
   ..items,
 ) = {
   assert(type(columns) == int and columns > 0, message: "columns must be a positive integer")
@@ -62,15 +64,17 @@
     caption: caption,
     kind: image,
     supplement: supplement,
+    placement: placement,
   )
 }
 
 // side by side is a grid with one row
-#let fig-row(caption: none, gutter: 1em, width: 100%, supplement: auto, ..items) = fig-grid(
+#let fig-row(caption: none, gutter: 1em, width: 100%, supplement: auto, placement: none, ..items) = fig-grid(
   columns: items.pos().len(),
   caption: caption,
   gutter: gutter,
   width: width,
   supplement: supplement,
+  placement: placement,
   ..items,
 )

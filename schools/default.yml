@@ -21,7 +21,7 @@ layout:
   font-cjk: ["TW-MOE-Std-Kai", "DFKai-SB"] # DFKai-SB misplaces punctuation
   font-size: 12 # pt
   line-height: 1.5 # x font size, i.e. 行高 1.5
-  par-spacing: 1.2 # em, the gap between two paragraphs
+  par-spacing: ~ # em; ~ follows line-height, keeping paragraphs on the same line grid
   first-line-indent: ~ # em; ~ auto-picks 2 for chinese, 1.5 for english; 0 disables it
   first-line-indent-all: false # true also indents the first paragraph after a heading
   footnote-numbering: "1" # 1 | a | A | i | I | *, passed straight to typst

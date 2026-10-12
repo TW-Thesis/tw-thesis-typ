@@ -50,17 +50,17 @@
 #code[
   ```typ
   #fig-row(
-    caption: [取樣策略比較],
-    ("/figures/samples/sampling-uniform.png", [均勻取樣]),
-    ("/figures/samples/sampling-importance.png", [重要性取樣]),
+    caption: [函數圖形比較],
+    ("/figures/samples/sin-x.pdf", [$sin x$]),
+    ("/figures/samples/x-sin-x.pdf", [$x sin x$]),
   ) <fig:row>
   ```
 ]
 
 #fig-row(
-  caption: [取樣策略比較],
-  ("/figures/samples/sampling-uniform.png", [均勻取樣]),
-  ("/figures/samples/sampling-importance.png", [重要性取樣]),
+  caption: [函數圖形比較],
+  ("/figures/samples/sin-x.pdf", [$sin x$]),
+  ("/figures/samples/x-sin-x.pdf", [$x sin x$]),
 ) <fig:row>
 
 若不需要小標題，每張圖只填路徑即可，不必寫成 `(路徑, [小標題])`。編譯後若覺得圖片靠得太近，可以加入 `gutter: 2em`，增加兩欄之間的距離，再觀察圖片是否仍有足夠的顯示空間。
@@ -68,10 +68,10 @@
 #code[
   ```typ
   #fig-row(
-    caption: [取樣策略比較],
+    caption: [函數圖形比較],
     gutter: 2em,
-    "/figures/samples/sampling-uniform.png",
-    "/figures/samples/sampling-importance.png",
+    "/figures/samples/sin-x.pdf",
+    "/figures/samples/x-sin-x.pdf",
   )
   ```
 ]
@@ -87,11 +87,12 @@
   #fig-grid(
     rows: 2,
     columns: 2,
+    placement: auto,
     caption: [模型預測結果],
-    ("/figures/samples/a.png", [線性模型]),
-    ("/figures/samples/b.png", [決策樹]),
-    ("/figures/samples/c.png", [隨機森林]),
-    ("/figures/samples/d.png", [神經網路]),
+    ("/figures/samples/a.pdf", [線性模型]),
+    ("/figures/samples/b.pdf", [決策樹]),
+    ("/figures/samples/c.pdf", [隨機森林]),
+    ("/figures/samples/d.pdf", [神經網路]),
   ) <fig:grid>
   ```
 ]
@@ -99,16 +100,17 @@
 #fig-grid(
   rows: 2,
   columns: 2,
+  placement: auto,
   caption: [模型預測結果],
-  ("/figures/samples/a.png", [線性模型]),
-  ("/figures/samples/b.png", [決策樹]),
-  ("/figures/samples/c.png", [隨機森林]),
-  ("/figures/samples/d.png", [神經網路]),
+  ("/figures/samples/a.pdf", [線性模型]),
+  ("/figures/samples/b.pdf", [決策樹]),
+  ("/figures/samples/c.pdf", [隨機森林]),
+  ("/figures/samples/d.pdf", [神經網路]),
 ) <fig:grid>
 
-四張圖使用相同的合成訓練資料：橘色點是觀測值，藍色線是各模型的預測結果。這些數據只用於示範排版，並非真實論文的實驗結果。
+四張圖使用相同的合成訓練資料：空心圓點是觀測值，黑色實線是各模型的預測結果。這些數據只用於示範排版，並非真實論文的實驗結果。`placement: auto` 讓 #typst 依剩餘版面決定圖組留在原位或移到合適的位置。
 
-若要排成兩列、每列三張，可設定 `rows: 2, columns: 3`。圖片會依照填入的順序重新排列；此例只有四張圖，因此第二列的後兩格留白。`rows` 可以省略，讓列數隨圖片數量自動增加；若指定列數，圖片數量不可超過 `rows * columns`。調整後請確認圖片中的文字仍能清楚閱讀；若縮得太小，可以減少每列的欄數。
+若要排成兩列、每列三張，可設定 `rows: 2, columns: 3`。圖片會依照填入的順序重新排列；下例在前四張模型圖後加入 k 近鄰與支援向量迴歸，剛好填滿六格。`rows` 可以省略，讓列數隨圖片數量自動增加；若指定列數，圖片數量不可超過 `rows * columns`。調整後請確認圖片中的文字仍能清楚閱讀；若縮得太小，可以減少每列的欄數。
 
 #code[
   ```typ
@@ -116,10 +118,12 @@
     rows: 2,
     columns: 3,
     caption: [兩列三欄排版示例],
-    ("/figures/samples/a.png", [線性模型]),
-    ("/figures/samples/b.png", [決策樹]),
-    ("/figures/samples/c.png", [隨機森林]),
-    ("/figures/samples/d.png", [神經網路]),
+    ("/figures/samples/a.pdf", [線性模型]),
+    ("/figures/samples/b.pdf", [決策樹]),
+    ("/figures/samples/c.pdf", [隨機森林]),
+    ("/figures/samples/d.pdf", [神經網路]),
+    ("/figures/samples/e.pdf", [k 近鄰]),
+    ("/figures/samples/f.pdf", [支援向量迴歸]),
   ) <fig:grid-2x3>
   ```
 ]
@@ -130,10 +134,12 @@
   rows: 2,
   columns: 3,
   caption: [兩列三欄排版示例],
-  ("/figures/samples/a.png", [線性模型]),
-  ("/figures/samples/b.png", [決策樹]),
-  ("/figures/samples/c.png", [隨機森林]),
-  ("/figures/samples/d.png", [神經網路]),
+  ("/figures/samples/a.pdf", [線性模型]),
+  ("/figures/samples/b.pdf", [決策樹]),
+  ("/figures/samples/c.pdf", [隨機森林]),
+  ("/figures/samples/d.pdf", [神經網路]),
+  ("/figures/samples/e.pdf", [k 近鄰]),
+  ("/figures/samples/f.pdf", [支援向量迴歸]),
 ) <fig:grid-2x3>
 
 == 表格

@@ -50,17 +50,17 @@ To place two figures in the same row, use the `fig-row()` function and pass in e
 #code[
   ```typ
   #fig-row(
-    caption: [取樣策略比較],
-    ("/figures/samples/sampling-uniform.png", [均勻取樣]),
-    ("/figures/samples/sampling-importance.png", [重要性取樣]),
+    caption: [Function Graph Comparison],
+    ("/figures/samples/sin-x.pdf", [$sin x$]),
+    ("/figures/samples/x-sin-x.pdf", [$x sin x$]),
   ) <fig:row>
   ```
 ]
 
 #fig-row(
-  caption: [取樣策略比較],
-  ("/figures/samples/sampling-uniform.png", [均勻取樣]),
-  ("/figures/samples/sampling-importance.png", [重要性取樣]),
+  caption: [Function Graph Comparison],
+  ("/figures/samples/sin-x.pdf", [$sin x$]),
+  ("/figures/samples/x-sin-x.pdf", [$x sin x$]),
 ) <fig:row>
 
 If you don't need sub-captions, pass just the path for each figure rather than the `(path, [sub-caption])` pair. If the figures end up compiled too close together, add `gutter: 2em` to increase the space between the columns, then check whether the images still have enough room to display.
@@ -68,10 +68,10 @@ If you don't need sub-captions, pass just the path for each figure rather than t
 #code[
   ```typ
   #fig-row(
-    caption: [取樣策略比較],
+    caption: [Function Graph Comparison],
     gutter: 2em,
-    "/figures/samples/sampling-uniform.png",
-    "/figures/samples/sampling-importance.png",
+    "/figures/samples/sin-x.pdf",
+    "/figures/samples/x-sin-x.pdf",
   )
   ```
 ]
@@ -87,11 +87,12 @@ If you have many figures and want them arranged in several rows, use `fig-grid()
   #fig-grid(
     rows: 2,
     columns: 2,
-    caption: [模型預測結果],
-    ("/figures/samples/a.png", [線性模型]),
-    ("/figures/samples/b.png", [決策樹]),
-    ("/figures/samples/c.png", [隨機森林]),
-    ("/figures/samples/d.png", [神經網路]),
+    placement: auto,
+    caption: [Model Predictions],
+    ("/figures/samples/a.pdf", [Linear Model]),
+    ("/figures/samples/b.pdf", [Decision Tree]),
+    ("/figures/samples/c.pdf", [Random Forest]),
+    ("/figures/samples/d.pdf", [Neural Network]),
   ) <fig:grid>
   ```
 ]
@@ -99,27 +100,30 @@ If you have many figures and want them arranged in several rows, use `fig-grid()
 #fig-grid(
   rows: 2,
   columns: 2,
-  caption: [模型預測結果],
-  ("/figures/samples/a.png", [線性模型]),
-  ("/figures/samples/b.png", [決策樹]),
-  ("/figures/samples/c.png", [隨機森林]),
-  ("/figures/samples/d.png", [神經網路]),
+  placement: auto,
+  caption: [Model Predictions],
+  ("/figures/samples/a.pdf", [Linear Model]),
+  ("/figures/samples/b.pdf", [Decision Tree]),
+  ("/figures/samples/c.pdf", [Random Forest]),
+  ("/figures/samples/d.pdf", [Neural Network]),
 ) <fig:grid>
 
-All four figures use the same synthetic training data: orange dots are observed values, and blue lines are each model's predictions. This data is purely for layout demonstration and is not the result of a real experiment.
+All four figures use the same synthetic training data: open circles are observed values, and solid black lines are each model's predictions. This data is purely for layout demonstration and is not the result of a real experiment. With `placement: auto`, #typst decides whether to keep the group in place or move it to a suitable position based on the remaining page space.
 
-To arrange them as two rows of three, set `rows: 2, columns: 3`. Figures are laid out in the order they're passed; since this example only has four figures, the last two cells of the second row are left blank. `rows` can be omitted, letting the number of rows grow automatically with the figure count; if you do specify a row count, the number of figures can't exceed `rows * columns`. After adjusting, make sure text inside the images is still legible -- if it's too small, reduce the number of columns per row.
+To arrange them as two rows of three, set `rows: 2, columns: 3`. Figures are laid out in the order they're passed; the example below adds k-nearest neighbors and support vector regression after the first four models, filling all six cells. `rows` can be omitted, letting the number of rows grow automatically with the figure count; if you do specify a row count, the number of figures can't exceed `rows * columns`. After adjusting, make sure text inside the images is still legible -- if it's too small, reduce the number of columns per row.
 
 #code[
   ```typ
   #fig-grid(
     rows: 2,
     columns: 3,
-    caption: [兩列三欄排版示例],
-    ("/figures/samples/a.png", [線性模型]),
-    ("/figures/samples/b.png", [決策樹]),
-    ("/figures/samples/c.png", [隨機森林]),
-    ("/figures/samples/d.png", [神經網路]),
+    caption: [Two-by-Three Grid Example],
+    ("/figures/samples/a.pdf", [Linear Model]),
+    ("/figures/samples/b.pdf", [Decision Tree]),
+    ("/figures/samples/c.pdf", [Random Forest]),
+    ("/figures/samples/d.pdf", [Neural Network]),
+    ("/figures/samples/e.pdf", [K-Nearest Neighbors]),
+    ("/figures/samples/f.pdf", [Support Vector Regression]),
   ) <fig:grid-2x3>
   ```
 ]
@@ -129,11 +133,13 @@ The compiled result is shown in #ref(<fig:grid-2x3>):
 #fig-grid(
   rows: 2,
   columns: 3,
-  caption: [兩列三欄排版示例],
-  ("/figures/samples/a.png", [線性模型]),
-  ("/figures/samples/b.png", [決策樹]),
-  ("/figures/samples/c.png", [隨機森林]),
-  ("/figures/samples/d.png", [神經網路]),
+  caption: [Two-by-Three Grid Example],
+  ("/figures/samples/a.pdf", [Linear Model]),
+  ("/figures/samples/b.pdf", [Decision Tree]),
+  ("/figures/samples/c.pdf", [Random Forest]),
+  ("/figures/samples/d.pdf", [Neural Network]),
+  ("/figures/samples/e.pdf", [K-Nearest Neighbors]),
+  ("/figures/samples/f.pdf", [Support Vector Regression]),
 ) <fig:grid-2x3>
 
 == Tables
