@@ -12,13 +12,13 @@ To insert a figure, put the image file in the `figures/` folder and pass its pat
 
 #code[
   ```typ
-  #fig("/figures/samples/architecture.png", caption: [研究架構], width: 60%) <fig:one>
+  #fig("/figures/samples/architecture.png", caption: [Research Framework], width: 60%) <fig:one>
   ```
 ]
 
 The compiled result is shown in #ref(<fig:one>): with the default settings, an automatically generated number and the text from `caption` appear below the image. When you swap in your own figure, update both the path and the caption together; if you're copying this example to add another figure, also change the `<fig:one>` label at the end so each figure has a distinct name for in-text references.
 
-#fig("/figures/samples/architecture.png", caption: [研究架構], width: 60%) <fig:one>
+#fig("/figures/samples/architecture.png", caption: [Research Framework], width: 60%) <fig:one>
 
 If you need alt text or want to set other options on the image, build the figure with `image()` first and pass that to `fig()`. When using this form, set the image width inside `image()` itself, as in the example below:
 
@@ -30,9 +30,9 @@ If you need alt text or want to set other options on the image, build the figure
       width: 60%,
       height: 5cm,
       fit: "contain",
-      alt: "研究流程圖：資料蒐集、資料處理、模型訓練、模型評估、結果分析",
+      alt: "Research flowchart: data collection, data processing, model training, model evaluation, result analysis",
     ),
-    caption: [說明],
+    caption: [Caption],
   )
   ```
 ]
@@ -156,12 +156,12 @@ When every cell needs a border, use #typst's `table()` directly. `columns: 3` se
     table(
       columns: 3,
       align: center + horizon,
-      table.header([批次大小], [準確率（%）], [訓練時間（秒）]),
+      table.header([Batch Size], [Accuracy (%)], [Training Time (s)]),
       [32], [91.2], [48],
       [64], [92.8], [31],
       [128], [92.1], [22],
     ),
-    caption: [實驗結果（傳統表格）],
+    caption: [Experimental Results (Traditional Table)],
   ) <tbl:traditional>
   ```
 ]
@@ -170,15 +170,15 @@ When every cell needs a border, use #typst's `table()` directly. `columns: 3` se
   table(
     columns: 3,
     align: center + horizon,
-    table.header([批次大小], [準確率（%）], [訓練時間（秒）]),
+    table.header([Batch Size], [Accuracy (%)], [Training Time (s)]),
     [32], [91.2], [48],
     [64], [92.8], [31],
     [128], [92.1], [22],
   ),
-  caption: [實驗結果（傳統表格）],
+  caption: [Experimental Results (Traditional Table)],
 ) <tbl:traditional>
 
-Adjacent cells can be merged. `table.cell(colspan: 2)[文字]` makes a cell span two columns; in the three-column table below, the "Total" row only fills two cells, since "100 samples" already occupies the last two columns and doesn't need a third cell. To make a cell span two rows instead, use `rowspan: 2`; the cell that would be occupied in the row below should then be left out entirely.
+Adjacent cells can be merged. `table.cell(colspan: 2)[text]` makes a cell span two columns; in the three-column table below, the "Total" row only fills two cells, since "100 samples" already occupies the last two columns and doesn't need a third cell. To make a cell span two rows instead, use `rowspan: 2`; the cell that would be occupied in the row below should then be left out entirely.
 
 #code[
   ```typ
@@ -186,11 +186,11 @@ Adjacent cells can be merged. `table.cell(colspan: 2)[文字]` makes a cell span
     table(
       columns: 3,
       align: center + horizon,
-      table.header([項目], [訓練集], [測試集]),
-      [樣本數], [80], [20],
-      [總計], table.cell(colspan: 2)[100 筆],
+      table.header([Item], [Training Set], [Test Set]),
+      [Samples], [80], [20],
+      [Total], table.cell(colspan: 2)[100 samples],
     ),
-    caption: [合併儲存格示例],
+    caption: [Merged Cell Example],
   ) <tbl:merged>
   ```
 ]
@@ -199,11 +199,11 @@ Adjacent cells can be merged. `table.cell(colspan: 2)[文字]` makes a cell span
   table(
     columns: 3,
     align: center + horizon,
-    table.header([項目], [訓練集], [測試集]),
-    [樣本數], [80], [20],
-    [總計], table.cell(colspan: 2)[100 筆],
+    table.header([Item], [Training Set], [Test Set]),
+    [Samples], [80], [20],
+    [Total], table.cell(colspan: 2)[100 samples],
   ),
-  caption: [合併儲存格示例],
+  caption: [Merged Cell Example],
 ) <tbl:merged>
 
 === Three-Line Tables
@@ -215,29 +215,29 @@ The defining feature of a three-line table is that it keeps only three horizonta
 #code[
   ```typ
   #tlt(
-    caption: [實驗結果彙整],
+    caption: [Summary of Results],
     columns: (auto, auto, auto),
-    header: ([批次大小], [準確率（%）], [訓練時間（秒）]),
+    header: ([Batch Size], [Accuracy (%)], [Training Time (s)]),
     rows: (
       ([32], [91.2], [48]),
       ([64], [92.8], [31]),
       ([128], [92.1], [22]),
     ),
-    notes: [數值為排版示例。],
+    notes: [Values are for layout demonstration only.],
   ) <tbl:batch>
   ```
 ]
 
 #tlt(
-  caption: [實驗結果彙整],
+  caption: [Summary of Results],
   columns: (auto, auto, auto),
-  header: ([批次大小], [準確率（%）], [訓練時間（秒）]),
+  header: ([Batch Size], [Accuracy (%)], [Training Time (s)]),
   rows: (
     ([32], [91.2], [48]),
     ([64], [92.8], [31]),
     ([128], [92.1], [22]),
   ),
-  notes: [數值為排版示例。],
+  notes: [Values are for layout demonstration only.],
 ) <tbl:batch>
 
 Once the data is filled in, you can adjust the column widths, alignment, and any notes below the table. Common parameters are listed below:
@@ -260,29 +260,29 @@ Once the data is filled in, you can adjust the column widths, alignment, and any
 
 If the data doesn't fit on one page, the table automatically continues its remaining rows onto the next page -- no extra page-break configuration is needed. When it does, the header supplied via `header` and the rules above and below it are repeated on the new page. Afterward, check the break point to make sure readers can still tell which data belongs to which column.
 
-A three-line table can also merge cells: put `table.cell(colspan: 2)[100 筆]` into the corresponding row of `rows`. In the example below, the "Total" row only fills two cells but still spans all three columns in practice -- the only difference from the plain table above is the border style.
+A three-line table can also merge cells: put `table.cell(colspan: 2)[100 samples]` into the corresponding row of `rows`. In the example below, the "Total" row only fills two cells but still spans all three columns in practice -- the only difference from the plain table above is the border style.
 
 #code[
   ```typ
   #tlt(
-    caption: [三線表合併儲存格],
+    caption: [Merged Cells in a Three-Line Table],
     columns: (auto, auto, auto),
-    header: ([項目], [訓練集], [測試集]),
+    header: ([Item], [Training Set], [Test Set]),
     rows: (
-      ([樣本數], [80], [20]),
-      ([總計], table.cell(colspan: 2)[100 筆]),
+      ([Samples], [80], [20]),
+      ([Total], table.cell(colspan: 2)[100 samples]),
     ),
   ) <tbl:tlt-merged>
   ```
 ]
 
 #tlt(
-  caption: [三線表合併儲存格],
+  caption: [Merged Cells in a Three-Line Table],
   columns: (auto, auto, auto),
-  header: ([項目], [訓練集], [測試集]),
+  header: ([Item], [Training Set], [Test Set]),
   rows: (
-    ([樣本數], [80], [20]),
-    ([總計], table.cell(colspan: 2)[100 筆]),
+    ([Samples], [80], [20]),
+    ([Total], table.cell(colspan: 2)[100 samples]),
   ),
 ) <tbl:tlt-merged>
 
@@ -291,42 +291,42 @@ The header itself can also be grouped and split into two rows. When several colu
 #code[
   ```typ
   #tlt(
-    caption: [分組表頭示例],
+    caption: [Grouped Header Example],
     columns: (auto, auto, auto, auto, auto),
     header: (
-      table.cell(rowspan: 2)[模型],
-      table.cell(colspan: 2)[訓練集], table.cell(colspan: 2)[測試集],
+      table.cell(rowspan: 2)[Model],
+      table.cell(colspan: 2)[Training Set], table.cell(colspan: 2)[Test Set],
       cmidrule(2, 3), cmidrule(4, 5),
-      [準確率（%）], [損失], [準確率（%）], [損失],
+      [Accuracy (%)], [Loss], [Accuracy (%)], [Loss],
     ),
     rows: (
-      ([線性模型], [88.1], [0.42], [85.3], [0.51]),
-      ([隨機森林], [96.4#super[a]], [0.11], [90.2], [0.28]),
+      ([Linear Model], [88.1], [0.42], [85.3], [0.51]),
+      ([Random Forest], [96.4#super[a]], [0.11], [90.2], [0.28]),
     ),
-    notes: [#super[a] 該次訓練提早停止（early stopping），未跑滿完整輪數。],
+    notes: [#super[a] Training stopped early (early stopping) before running all epochs.],
   ) <tbl:tlt-grouped>
   ```
 ]
 
 #tlt(
-  caption: [分組表頭示例],
+  caption: [Grouped Header Example],
   columns: (auto, auto, auto, auto, auto),
   header: (
-    table.cell(rowspan: 2)[模型],
-    table.cell(colspan: 2)[訓練集],
-    table.cell(colspan: 2)[測試集],
+    table.cell(rowspan: 2)[Model],
+    table.cell(colspan: 2)[Training Set],
+    table.cell(colspan: 2)[Test Set],
     cmidrule(2, 3),
     cmidrule(4, 5),
-    [準確率（%）],
-    [損失],
-    [準確率（%）],
-    [損失],
+    [Accuracy (%)],
+    [Loss],
+    [Accuracy (%)],
+    [Loss],
   ),
   rows: (
-    ([線性模型], [88.1], [0.42], [85.3], [0.51]),
-    ([隨機森林], [96.4#super[a]], [0.11], [90.2], [0.28]),
+    ([Linear Model], [88.1], [0.42], [85.3], [0.51]),
+    ([Random Forest], [96.4#super[a]], [0.11], [90.2], [0.28]),
   ),
-  notes: [#super[a] 該次訓練提早停止（early stopping），未跑滿完整輪數。],
+  notes: [#super[a] Training stopped early (early stopping) before running all epochs.],
 ) <tbl:tlt-grouped>
 
 The number of cells in `header` must match the number of columns actually occupied by each row in sequence: the first row is `1 + 2 + 2 = 5` (counting the `rowspan` cell), and the second row is `4` (the `rowspan` cell was already counted, so the second row doesn't repeat it); the two rows together must add up to a whole multiple of `columns`, or the table will misalign.
@@ -356,15 +356,15 @@ When using `tlt()`, you generally won't need these functions directly, since all
       stroke: none,
       align: center + horizon,
       toprule,
-      table.header([項目], [第一組], [第二組]),
+      table.header([Item], [Group 1], [Group 2]),
       midrule,
-      [平均值], [91.2], [88.5],
-      [標準差], [3.1], [4.2],
+      [Mean], [91.2], [88.5],
+      [Std. Dev.], [3.1], [4.2],
       midrule,
-      [樣本數], table.cell(colspan: 2)[60],
+      [Samples], table.cell(colspan: 2)[60],
       bottomrule,
     ),
-    caption: [手刻表格搭配 booktabs 線條],
+    caption: [Hand-built Table with booktabs Rules],
   )
   ```
 ]
@@ -376,21 +376,21 @@ The thickness of `tlt()`'s three rules can also be adjusted. To change just one 
 #code[
   ```typ
   #tlt(
-    caption: [調粗上下線的表格],
+    caption: [Table with Heavier Top and Bottom Rules],
     columns: (auto, auto),
     thick: 0.14em,
-    header: ([項目], [數值]),
-    rows: (([範例], [1]),),
+    header: ([Item], [Value]),
+    rows: (([Example], [1]),),
   ) <tbl:thick>
   ```
 ]
 
 #tlt(
-  caption: [調粗上下線的表格],
+  caption: [Table with Heavier Top and Bottom Rules],
   columns: (auto, auto),
   thick: 0.14em,
-  header: ([項目], [數值]),
-  rows: (([範例], [1]),),
+  header: ([Item], [Value]),
+  rows: (([Example], [1]),),
 ) <tbl:thick>
 
 Comparing this against the rules in @tbl:batch shows the difference the thicker `thick` value makes. To change all tables at once -- including ones hand-built with `toprule`/`midrule`/`bottomrule`/`cmidrule` directly -- to the same thickness, edit the `rules` dictionary at the top of `helper/table.typ`:
@@ -399,7 +399,7 @@ Comparing this against the rules in @tbl:batch shows the difference the thicker 
   ```typ
   #let rules = (
     thick: 0.08em, // toprule、bottomrule
-    thin: 0.05em, // midrule、cmidrule，以及 tlt() 表頭下方那條線
+    thin: 0.05em, // midrule, cmidrule, and the rule under the tlt() header
   )
   ```
 ]
@@ -410,20 +410,20 @@ To mention a figure or table in the body text, first add `<name>` after it, then
 
 #code[
   ```typ
-  四張範例圖的排列方式如#ref(<fig:grid>)所示。
-  詳細數據見#ref(<tbl:batch>)。
-  本章的設定沿用#ref(<cha:layout>)的規則。
+  The four sample figures are arranged as shown in #ref(<fig:grid>).
+  See #ref(<tbl:batch>) for the detailed data.
+  The settings in this chapter follow the rules in #ref(<cha:layout>).
   ```
 ]
 
-After compiling, the labels are replaced with their corresponding numbers, for example: 四張範例圖的排列方式如#ref(<fig:grid>)所示，詳細數據見#ref(<tbl:batch>)，本章的設定沿用#ref(<cha:layout>)的規則。 A chapter reference shows the full level, so #ref(<sec:caption>) displays both the chapter number and the section number. All of these references are clickable, jumping to the corresponding figure, table, or chapter.
+After compiling, the labels are replaced with their corresponding numbers, for example: The four sample figures are arranged as shown in #ref(<fig:grid>), see #ref(<tbl:batch>) for the detailed data, and the settings in this chapter follow the rules in #ref(<cha:layout>). A chapter reference shows the full level, so #ref(<sec:caption>) displays both the chapter number and the section number. All of these references are clickable, jumping to the corresponding figure, table, or chapter.
 
 After adding or moving a figure or table, the template renumbers it and updates every in-text reference along with it, so you never need to manually fix "Figure N" or "Table N." Chapter headings can be referenced the same way -- just add a label after the heading:
 
 #code[
   ```typ
-  = 版面設定 <cha:layout>
-  == 邊界與紙張 <sec:margin>
+  = Layout Settings <cha:layout>
+  == Margins and Paper Size <sec:margin>
   ```
 ]
 
@@ -461,7 +461,7 @@ To insert a formula inline within a sentence, wrap the content in `$...$`, e.g. 
 
 #code[
   ```typ
-  行內公式 $E = m c^2$，獨立公式：
+  Inline formula $E = m c^2$, and a display formula:
 
   $
     integral_0^1 x^2 dif x = 1/3
@@ -481,7 +481,7 @@ To reference a formula later in the text, first enable equation numbering, then 
 
   $ a^2 + b^2 = c^2 $ <eq:pythagoras>
 
-  如#ref(<eq:pythagoras>)所示。
+  As shown in #ref(<eq:pythagoras>).
   ```
 ]
 
@@ -491,7 +491,7 @@ Here, `eq-numbering` is a numbering rule the template computes from `config.yml`
   ```yaml
   layout:
     equation-numbering: "1"      # 1 | a | A | i | I | *
-    equation-per-chapter: true   # true 讓公式編號改成「章.流水號」，並每章重新編號
+    equation-per-chapter: true   # true numbers equations "chapter.number" and restarts the count in every chapter
   ```
 ]
 
@@ -501,8 +501,8 @@ If your thesis repeatedly uses abbreviations or mathematical notation, you can c
 
 #code[
   ```typ
-  / CNN: 卷積神經網路 (Convolutional Neural Network)
-  / $eta$: 學習率 (learning rate)
+  / CNN: Convolutional Neural Network
+  / $eta$: Learning rate
   ```
 ]
 
@@ -513,10 +513,10 @@ The words "圖" (Figure) and "表" (Table) -- wherever they appear, in figure/ta
 #code[
   ```yaml
   strings:
-    figure: "插圖" # 中文論文的圖說前綴，預設「圖」
-    figure-en: "Fig." # language: english 時使用，預設 "Figure"
-    table: "附表" # 中文論文的表說前綴，預設「表」
-    table-en: "Tab." # language: english 時使用，預設 "Table"
+    figure: "插圖" # caption prefix of a Chinese thesis; default "圖"
+    figure-en: "Fig." # used when language: english; default "Figure"
+    table: "附表" # table prefix of a Chinese thesis; default "表"
+    table-en: "Tab." # used when language: english; default "Table"
   ```
 ]
 
@@ -526,8 +526,8 @@ After recompiling, every figure and table produced by `fig()`, `fig-row()`, `fig
   ```typ
   #fig(
     "/figures/samples/architecture.png",
-    caption: [說明],
-    supplement: [附圖]
+    caption: [Caption],
+    supplement: [Suppl. Fig.]
   ) <fig:special>
   ```
 ]
@@ -540,19 +540,19 @@ When a figure or table needs extra clarification, the earlier grouped-header exa
 
 #code[
   ```typ
-  這一點有些爭議#footnote[不同研究對此看法不一。]，後續章節會再討論。
+  This point is somewhat controversial#footnote[Studies disagree on this.], and later chapters return to it.
   ```
 ]
 
 Compiled, it looks like this:
 
-這一點有些爭議#footnote[不同研究對此看法不一。]，後續章節會再討論。
+This point is somewhat controversial#footnote[Studies disagree on this.], and later chapters return to it.
 
 At the bottom of the page, numbering starts at 1 and accumulates continuously through the whole document, never resetting at a page break. If the same note needs to be cited in more than one place, first label the `#footnote[...]` where it's used the first time, and afterward you can reuse the same number with `#footnote(<label>)`, without creating a new note:
 
 #code[
   ```typ
-  第一次提到#footnote[說明文字。] <fn:first>，第二次提到時#footnote(<fn:first>)。
+  The first mention#footnote[Explanatory text.] <fn:first>, and the second mention#footnote(<fn:first>) reuses it.
   ```
 ]
 
@@ -562,7 +562,7 @@ The numbering format and whether it restarts each chapter are both set under `la
   ```yaml
   layout:
     footnote-numbering: "1"      # 1 | a | A | i | I | *
-    footnote-per-chapter: false  # true 讓每章從 1 重新編號
+    footnote-per-chapter: false  # true restarts the numbering at 1 in every chapter
   ```
 ]
 

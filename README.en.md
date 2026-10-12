@@ -125,7 +125,7 @@ References go in `contents/back/references.bib`. In the text, cite an entry by i
 #cp("kocher99")
 ```
 
-The English version of the tutorial is in `contents/i18n/en/`. It is provided for reading only and is not compiled into your thesis.
+The English version of the tutorial is in `contents/i18n/en/`. It is not part of your thesis. To see it as a document of its own, with English prefixes (Figure, Table, Chapter, Section), run `just compile-en`.
 
 ### Edit and preview
 

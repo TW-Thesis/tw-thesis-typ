@@ -38,7 +38,7 @@
 
 教學就是範例，所以文中的每個程式碼區塊都會真的被編譯。改完務必重新編譯。
 
-- 中文是正本（`contents/chapter*.typ`）；英文版在 `contents/i18n/en/`，只供參考、沒有接進 `main.typ`。改了中文，請盡量同步英文。
+- 中文是正本（`contents/chapter*.typ`）；英文版在 `contents/i18n/en/`，沒有接進 `main.typ`，要看成品請執行 `just compile-en`（入口是 `main.en.typ`，設定是 `contents/i18n/en/config.yml`）。改了中文，請盡量同步英文。
 - 程式碼、設定範例與函式名稱不要翻譯；只翻譯說明文字。
 
 ## 送出 Pull Request

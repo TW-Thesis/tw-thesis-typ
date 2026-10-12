@@ -125,6 +125,8 @@ contents/
 #cp("kocher99")
 ```
 
+英文版教學放在 `contents/i18n/en/`，不屬於你的論文。想單獨看它的成品（圖表與章節前綴為 Figure、Table、Chapter、Section），執行 `just compile-en`。
+
 ### 編輯與預覽
 
 想邊寫邊看結果，可以開監看模式，存檔就會自動重新編譯，PDF 也會跟著更新：

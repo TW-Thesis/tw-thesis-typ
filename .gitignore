@@ -1,4 +1,5 @@
 main.pdf
+main.en.pdf
 *.pdf.lock
 .DS_Store
 !assets/*.pdf

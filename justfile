@@ -1,5 +1,8 @@
 typst := "typst"
 main := "main.typ"
+main_en := "main.en.typ"
+output_en := "main.en.pdf"
+config_en := "config=/contents/i18n/en/config.yml"
 output := "main.pdf"
 fonts := "fonts/"
 
@@ -23,5 +26,12 @@ watch:
 watch-release:
     {{ typst }} watch {{ main }} --font-path {{ fonts }} {{ release_flag }}
 
+# the English tutorial, with English prefixes (Figure, Table, Chapter, Section)
+compile-en:
+    {{ typst }} compile {{ main_en }} --font-path {{ fonts }} --input {{ config_en }}
+
+watch-en:
+    {{ typst }} watch {{ main_en }} --font-path {{ fonts }} --input {{ config_en }}
+
 clean:
-    rm -f {{ output }}
+    rm -f {{ output }} {{ output_en }}

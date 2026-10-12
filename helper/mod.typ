@@ -13,7 +13,9 @@
 #import "table.typ" as table-mod
 #import "table.typ": bottomrule, cmidrule, midrule, toprule
 
-#let cfg = mod.load("/config.yml")
+// `--input config=/path/to/config.yml` swaps in another configuration, which is
+// how the English tutorial is built (see main.en.typ and `just compile-en`)
+#let cfg = mod.load(sys.inputs.at("config", default: "/config.yml"))
 
 // numbering: value for `#set math.equation(...)`, driven by `layout.equation-numbering`
 // and `layout.equation-per-chapter`
