@@ -17,8 +17,11 @@
   // pin the line box to 1em, so line advance is exactly line-height x font size,
   // which is what 行高 means; typst's own edges move with the font
   set text(
-    // font-latin may be one family or a list, tried in order
-    font: (if type(l.font-latin) == array { l.font-latin } else { (l.font-latin,) }) + l.font-cjk,
+    // font-latin may be one family or a list, tried in order; a Latin font that
+    // also has Chinese glyphs must not take the Chinese text, so it covers
+    // everything but ideographs, CJK punctuation and fullwidth forms
+    font: (if type(l.font-latin) == array { l.font-latin } else { (l.font-latin,) })
+      .map(f => if type(f) == str { (name: f, covers: regex("[^一-鿿㐀-䶿豈-﫿　-〿＀-￯]")) } else { f }) + l.font-cjk,
     size: l.font-size,
     lang: if l.language == "chinese" { "zh" } else { "en" },
     region: if l.language == "chinese" { "TW" } else { "US" }, // 圖/表, not 图/表
