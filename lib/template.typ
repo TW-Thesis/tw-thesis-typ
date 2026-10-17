@@ -1,5 +1,7 @@
 #import "util.typ": fill, month-name, pad2, roc-year, spread, strip-footnotes
 
+#let latin-font-covers = regex("[^\u{3400}-\u{4dbf}\u{4e00}-\u{9fff}\u{f900}-\u{faff}\u{3000}-\u{303f}\u{ff00}-\u{ffef}]")
+
 #let thesis(cfg, body) = {
   let l = cfg.layout
   let hd = l.heading
@@ -17,8 +19,11 @@
   // pin the line box to 1em, so line advance is exactly line-height x font size,
   // which is what 行高 means; typst's own edges move with the font
   set text(
-    // font-latin may be one family or a list, tried in order
-    font: (if type(l.font-latin) == array { l.font-latin } else { (l.font-latin,) }) + l.font-cjk,
+    // font-latin may be one family or a list, tried in order; a Latin font that
+    // also has Chinese glyphs must not take the Chinese text, so it covers
+    // everything but ideographs, CJK punctuation and fullwidth forms
+    font: (if type(l.font-latin) == array { l.font-latin } else { (l.font-latin,) })
+      .map(f => if type(f) == str { (name: f, covers: latin-font-covers) } else { f }) + l.font-cjk,
     size: l.font-size,
     lang: if l.language == "chinese" { "zh" } else { "en" },
     region: if l.language == "chinese" { "TW" } else { "US" }, // 圖/表, not 图/表
