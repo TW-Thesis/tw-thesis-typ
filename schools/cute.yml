@@ -1,0 +1,13 @@
+# 中國科技大學 China University of Technology
+#
+# Source: docs/中國科技大學-1050200-碩博士論文規範.pdf
+#   https://drive.google.com/uc?export=download&id=1vUhVSIVPwaVc4-xyLTkkLl8peyBKRX4K
+# Only verified differences from schools/default.yml are set.
+# Evidence: Academic-affairs university thesis format105/02, PDF p.2: uppercase Roman front matter and2.5cm margin on chapter-opening pages.
+#
+# Limitations: Source does not establish one fixed body typography for all departments; do not reuse the abstract-only12pt Ming rule for body. Chapter-opening margin, title page, recommendation, combined figure/table index, author biography and spine are manual.
+
+university: 中國科技大學
+university-en: China University of Technology
+outline:
+  page-numbering: I

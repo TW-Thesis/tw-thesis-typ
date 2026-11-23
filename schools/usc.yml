@@ -1,0 +1,11 @@
+# 實踐大學 Shih Chien University
+#
+# Source: docs/實踐大學-1150525-碩博士論文規範.pdf
+#   https://lib.usc.edu.tw/var/file/75/1075/img/525/744822416.pdf
+# Only verified differences from schools/default.yml are set below.
+#
+# University library student handbook, May 2026: official submission and authorisation guidance. Manuscript formatting is not prescribed university-wide by this document. Do not apply the business department sample rules to all students.
+# Not expressible yet: Department-specific cover/body typography, signed committee pages, school/national-library authorisation; archive is submission guidance, not a full typesetting specification.
+
+university: "實踐大學"
+university-en: "Shih Chien University"

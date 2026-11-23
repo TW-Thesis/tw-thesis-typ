@@ -1,0 +1,19 @@
+# 中華科技大學 China University of Science and Technology
+#
+# Source: docs/中華科技大學-1070510-碩博士論文規範.pdf
+#   https://dbt.cust.edu.tw/download.html
+#   https://dbt.cust.edu.tw/Data/107.05.10.pdf
+# Only verified differences from schools/default.yml are set below.
+# The university graduate-thesis format prescribes 12pt Kai/Times text, 1.5 spacing, 20/18pt chapter and section headings, equal margins, and centered bottom pagination.
+
+university: "中華科技大學"
+university-en: "China University of Science and Technology"
+
+layout:
+  font-cjk: ["TW-MOE-Std-Kai", "DFKai-SB"]
+  font-latin: ["Times New Roman", "Tinos"]
+  font-size: 12
+  line-height: 1.5
+  margin: {top: 2.54, bottom: 2.54, left: 3.17, right: 3.17}
+  heading:
+    size: [20, 18, 14, 12]

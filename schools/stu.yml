@@ -1,0 +1,10 @@
+# 樹德科技大學 Shu-Te University
+#
+# Source: docs/樹德科技大學-0000000-碩博士論文規範.pdf
+#   https://www.aca.stu.edu.tw/%E7%A2%A9%E5%8D%9A%E5%A3%AB%E5%AD%B8%E4%BD%8D%E8%80%83%E8%A9%A6/
+#   https://cloud.ncl.edu.tw/stu/upload.php
+# Only verified differences from schools/default.yml are set below.
+# Official university thesis submission instructions and NCL system guide. They do not prescribe campus-wide typography; this is a name-only preset. The PDF is a labelled HTML text snapshot.
+
+university: "樹德科技大學"
+university-en: "Shu-Te University"

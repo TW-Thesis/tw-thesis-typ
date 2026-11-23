@@ -1,0 +1,9 @@
+# 馬偕醫學大學 MacKay Medical University
+#
+# Source: docs/馬偕醫學大學-1150522-碩博士論文規範.pdf
+#   https://cloud.ncl.edu.tw/school_file_download.php?Pact=FileDownLoad&Pval=aWNrcGlvYmJkaGNoY2hhZWJrZm1riXl/dw==
+# Only verified differences from schools/default.yml are set below.
+# This official thesis submission briefing has no university-wide body layout values, so this is a name-only preset.
+
+university: "馬偕醫學大學"
+university-en: "MacKay Medical University"

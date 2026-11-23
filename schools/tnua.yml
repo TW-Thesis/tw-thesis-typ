@@ -1,0 +1,33 @@
+# 國立臺北藝術大學 Taipei National University of the Arts
+#
+# Source: docs/國立臺北藝術大學-1000518-碩博士論文規範.pdf
+#   https://design.tnua.edu.tw/storage/media/表單下載/畢業相關流程/1432093561.pdf
+# Only what differs from schools/default.yml.
+#
+# University-wide reference; the cover itself allows department variations.
+# Body fonts, sizes and line spacing are not fixed in this regulation.
+# Not expressible yet: separate degree-line font size, title on the first
+# body page; table list before figure list; title page and spine.
+
+university: "國立臺北藝術大學"
+university-en: "Taipei National University of the Arts"
+
+layout:
+  margin:
+    top: 2.5
+    bottom: 2.5
+    right: 2.5
+
+cover:
+  margin:
+    top: 2.5
+    bottom: 2.5
+    left: 2.5
+    right: 2.5
+  size:
+    org-en: 12
+    university-en: 12
+    title-en: 12
+    author: 14
+    advisor: 14
+    date: 12

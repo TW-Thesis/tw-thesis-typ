@@ -1,0 +1,15 @@
+# 崑山科技大學 Kun Shan University
+#
+# Source: docs/崑山科技大學-1071203-碩博士論文規範.pdf
+#   https://my.ksu.edu.tw/file/web/CHS/DTCEMNR/85eef1d8-d5d5-4f82-9af6-120042e58b40.pdf
+# Only verified differences from schools/default.yml are set below.
+#
+# University-wide thesis-format rules, PDF pp. 2-4: A4, top/left/right 3cm bottom 2cm; Chinese PMingLiU and Latin Times New Roman. No global change to margins is needed.
+# Not expressible yet: Chinese Ming font must be installed (PMingLiU or Noto Serif CJK TC); exact inside title page, approval and authorisation, spine. Do not confuse attached journal-abstract rules with whole-thesis body rules.
+
+university: "崑山科技大學"
+university-en: "Kun Shan University"
+
+layout:
+  font-latin: ["Times New Roman", "Tinos"]
+  font-cjk: ["PMingLiU", "Noto Serif CJK TC"]

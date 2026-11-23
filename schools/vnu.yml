@@ -1,0 +1,26 @@
+# 萬能科技大學 Vanung University
+#
+# Source: docs/萬能科技大學-1060216-碩博士論文規範.pdf
+#   https://www.mie.vnu.edu.tw/DOC/mie/989/44a37230-8492-4cfb-9e0f-de8336b19f62.pdf
+# Only verified differences from schools/default.yml are set.
+# Evidence: University graduate thesis standard distributed by the mechanical/industrial-engineering office, PDF pp.7-9: left3.5cm/other3cm,12pt body,20/18/16pt headings,1.5lines,no paragraph gaps.
+#
+# Limitations: Exact front-matter headings, footer offset2cm, cover/title page, recommendation/approval pages, table-before-figure order and spine need manual assembly.
+
+university: 萬能科技大學
+university-en: Vanung University
+layout:
+  font-latin:
+  - Tinos
+  - Times New Roman
+  par-spacing: 0
+  margin:
+    bottom: 3
+    left: 3.5
+  heading:
+    size:
+    - 20
+    - 18
+    - 16
+    - 12
+    weight: bold

@@ -1,0 +1,27 @@
+# 南臺科技大學 Southern Taiwan University of Science and Technology
+#
+# Source: docs/南臺科技大學-1070529-碩博士論文規範.pdf
+#   https://academic.stust.edu.tw/Sysid/academic/files/DegreeExamination/THESIS_format.doc
+# Only verified differences from schools/default.yml are set below.
+#
+# University-wide thesis-format rules, pp. 8-11: margins left 3.5cm right/top 2.5cm bottom 2.75cm; Kai or Ming/Times New Roman, 12pt/1.5 spacing; title 24pt, headings 20/18/16pt bold.
+# Not expressible yet: Unnumbered preliminary pages counted before displayed Roman numbering, separate title/fly pages, front-matter signatures, exact cover positions and spine.
+
+university: "南臺科技大學"
+university-en: "Southern Taiwan University of Science and Technology"
+
+layout:
+  font-latin: ["Times New Roman", "Tinos"]
+  margin:
+    top: 2.5
+    bottom: 2.75
+    left: 3.5
+    right: 2.5
+  heading:
+    size: [20, 18, 16, 12]
+    weight: "bold"
+cover:
+  size:
+    title: 24
+outline:
+  title-size: 20

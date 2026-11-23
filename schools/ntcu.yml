@@ -1,0 +1,23 @@
+# 國立臺中教育大學 National Taichung University of Education
+#
+# Source: docs/國立臺中教育大學-1130115-碩博士論文規範.pdf
+#   https://lib.ntcu.edu.tw/storage/media/yaMqpcQcYRoHWv3AbJFUe3eUo2yOEwxiY5NHc7Yj.pdf
+# Only what differs from schools/default.yml.
+#
+# Scope: university library reference cover, used only when the department
+# has no separate cover rules (library submission page). Body typography and
+# margins remain template defaults, not asserted university requirements.
+# Not expressible yet: advisor precedes title; Chinese-only reference cover,
+# spine, binding colour and exact watermark coverage.
+
+university: "國立臺中教育大學"
+university-en: "National Taichung University of Education"
+
+cover:
+  margin:
+    top: 3
+    bottom: 3
+    left: 3
+    right: 3
+  size:
+    title: 26

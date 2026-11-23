@@ -1,0 +1,16 @@
+# 東南科技大學 Tungnan University
+#
+# Source: docs/東南科技大學-1071227-碩博士論文規範.pdf
+#   https://ie.tnu.edu.tw/uploads/archive_file_multiple/file/64d0b3011ccec25a00000826/碩士班論文格式規範更新版.pdf
+# Only verified differences from schools/default.yml are set below.
+# pp. 1-3 prescribe 14pt Kai/Times text, 1.5 spacing, margins, and centered bottom page numbers.
+
+university: "東南科技大學"
+university-en: "Tungnan University"
+
+layout:
+  font-cjk: ["TW-MOE-Std-Kai", "DFKai-SB"]
+  font-latin: ["Times New Roman", "Tinos"]
+  font-size: 14
+  line-height: 1.5
+  margin: {top: 2.5, bottom: 2.5, left: 3, right: 2}

@@ -1,0 +1,11 @@
+# 佛光大學 Fo Guang University
+#
+# Source: docs/佛光大學-1100106-碩博士論文規範.pdf
+#   https://academic.fgu.edu.tw/uploads/asset/data/6364c40c0e588f3069a3eb6b/1.論文格式說明.pdf
+# Only verified differences from schools/default.yml are set.
+# Evidence: University graduate thesis format revised1100106, PDF p.1:12pt Kai/Ming,1.5line spacing and bottom-centred page numbers match defaults.
+#
+# Limitations: No fixed body margins in this source. Blank flyleaf, repeated title page, recommendation, acknowledgement-before-abstract order, official cover variants and spine require manual assembly. Department additions prevail.
+
+university: 佛光大學
+university-en: Fo Guang University

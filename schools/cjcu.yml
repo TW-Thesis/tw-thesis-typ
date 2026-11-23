@@ -1,0 +1,11 @@
+# 長榮大學 Chang Jung Christian University
+#
+# Source: docs/長榮大學-1070313-碩博士論文規範.pdf
+#   https://dweb.cjcu.edu.tw/ShepherdFiles/C0180/File/20231205115437921.pdf
+# Only verified differences from schools/default.yml are set.
+# Evidence: University library electronic-file/conversion/upload instructions distributed by the library.
+#
+# Limitations: Name-only preset. This document is about submission, not uniform campus-wide typography. Cover, fonts, margins, headings and citation style follow the department. All required pages must carry the library watermark.
+
+university: 長榮大學
+university-en: Chang Jung Christian University

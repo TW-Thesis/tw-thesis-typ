@@ -1,0 +1,27 @@
+# 龍華科技大學 Lunghwa University of Science and Technology
+#
+# Source: docs/龍華科技大學-1140605-碩博士論文規範.pdf
+#   https://mg.lhu.edu.tw/var/file/3/1003/img/109/573733859.pdf
+# Only verified differences from schools/default.yml are set.
+# Evidence: University graduate thesis manual, section3.4-3.9 (PDF pp.7-9): Kai/Times,12pt body,20pt chapter/18pt section,1.5lines,no paragraph gap; margins2.5/2.75/3.5/2.5cm.
+#
+# Limitations: Exact title-page layout, recommendation and authorization pages, spine, duplex mirrored margins and table-before-figure order need manual assembly. Departments may supplement this baseline.
+
+university: 龍華科技大學
+university-en: Lunghwa University of Science and Technology
+layout:
+  font-latin:
+  - Tinos
+  - Times New Roman
+  par-spacing: 0
+  margin:
+    top: 2.5
+    bottom: 2.75
+    left: 3.5
+    right: 2.5
+  heading:
+    size:
+    - 20
+    - 18
+    - 14
+    - 12

@@ -1,0 +1,11 @@
+# 逢甲大學 Feng Chia University
+#
+# Source: docs/逢甲大學-1110318-碩博士論文規範.pdf
+#   https://web.lib.fcu.edu.tw/library/sites/default/files/2023-06/fcuformat202203.docx
+# Only verified differences from schools/default.yml are set below.
+#
+# University library official Word thesis template (March 2022); cover and content example. Numeric formatting in a sample is not treated as a universal mandatory body rule. Official library format page requires header/footer and university watermark.
+# Not expressible yet: University title header and e-Theses footer, Chinese-number cover date, exact cover positions, school emblem watermark; LaTeX watermark exemption is stated in library FAQ.
+
+university: "逢甲大學"
+university-en: "Feng Chia University"

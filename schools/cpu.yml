@@ -1,0 +1,14 @@
+# 中央警察大學 Central Police University
+#
+# Source: docs/中央警察大學-1090428-碩博士論文規範.pdf
+#   https://pa.cpu.edu.tw/var/file/14/1014/img/141/112284555.pdf
+# Only what differs from schools/default.yml.
+#
+# Scope: university library submission/binding rules. Fonts, margins and
+# body sizes are not fixed here; department-specific rules are not promoted
+# to university defaults. The correct school name has no 國立 prefix.
+# Not expressible yet: separate paper/electronic front-matter order,
+# department-specific cover text, spine and binding colours.
+
+university: "中央警察大學"
+university-en: "Central Police University"

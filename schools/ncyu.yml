@@ -1,0 +1,27 @@
+# 國立嘉義大學 National Chiayi University
+#
+# Source: docs/國立嘉義大學-1141125-碩博士論文規範.pdf
+#   https://www.ncyu.edu.tw/chinese/ServerFile/Get/81a15ba4-5059-44f9-9f4b-3835ccd664c7?nodeId=9625&sId=232444
+# Only verified differences from schools/default.yml are set below.
+#
+# pp. 1-2: cover uses 20pt organisation, 22pt Chinese title, 16pt English title;
+# cover margins 2.3/3/2/2cm. Body font size and margins are not prescribed.
+# Not expressible yet: separate cover lines and exact line gaps, signed university
+# approval form and chairperson row, author/advisor English names, spine and binding.
+
+university: "國立嘉義大學"
+university-en: "National Chiayi University"
+
+layout:
+  font-latin: ["Times New Roman", "Tinos"]
+cover:
+  margin:
+    top: 2.3
+    bottom: 3
+    left: 2
+    right: 2
+  size:
+    org: 20
+    org-en: 16
+    title: 22
+    date: 16

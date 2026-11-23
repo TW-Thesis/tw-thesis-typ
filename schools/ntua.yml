@@ -1,0 +1,14 @@
+# 國立臺灣藝術大學 National Taiwan University of Arts
+#
+# Source: docs/國立臺灣藝術大學-1150601-碩博士論文規範.pdf
+#   https://cloud.ncl.edu.tw/school_file_download.php?Pact=FileDownLoad&Pval=aWRlaGRvYmJkaGNoY2hhZWJlZ3BriXl/dw==
+# Only what differs from schools/default.yml.
+#
+# Scope: university-wide library submission/format guide, updated 2026-06-01.
+# The guide leaves unspecified formatting to departments; body fonts,
+# sizes and margins therefore remain template defaults, not school rules.
+# Not expressible yet: watermark on title/front-matter pages except the
+# signed approval page; exact binding sequence and spine.
+
+university: "國立臺灣藝術大學"
+university-en: "National Taiwan University of Arts"

@@ -1,0 +1,20 @@
+# 華梵大學 Huafan University
+#
+# Source: docs/華梵大學-1090603-碩博士論文規範.pdf
+#   https://tsl.hfu.edu.tw/Download.aspx?dir=Archive&file=F3-41-26-56-F5-0F-90-F7-AD-E3-2D-06-19-0A-C9-FB.odt&filename=華梵大學博碩士學位論文格式說明&sn=11
+# Only verified differences from schools/default.yml are set below.
+#
+# University-wide thesis-format rules, p. 1: margins top 3.5cm, other sides 3cm; front matter uppercase Roman, body Arabic numbers enclosed by hyphens. Body font is Kai or Ming and can be varied by departments.
+# Not expressible yet: Distinct cover sizes for different programs, required Ashoka emblem supplied by department, exact title page, signatures, spine and authorisation.
+
+university: "華梵大學"
+university-en: "Huafan University"
+
+layout:
+  margin:
+    top: 3.5
+    bottom: 3
+page-number:
+  format: "-{page}-"
+outline:
+  page-numbering: "I"

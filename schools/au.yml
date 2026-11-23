@@ -1,0 +1,20 @@
+# 真理大學 Aletheia University
+#
+# Source: docs/真理大學-1130527-碩博士論文規範.pdf
+#   https://registration.au.edu.tw/app/index.php?Action=downloadfile&file=WVhSMFlXTm9MelF6TDNCMFlWODNNamsxT1Y4Mk1EazJOelE1WHpJME56Y3hMbkJrWmc9PQ==&fname=WSGGKLQKYW4441ZXEDLKWT24B030WTLOWSJCCCGCCCUXPO40ZW30EGLL00OOROROPOCCEHKKA404ROXTMKSWTSWW34B0NKGCLPYTXWA034MKB001USSSCDFCMK44MP15HCA0UWIGTWMO352550B0YWXS0035QPROXWECNKSW34OK45US4444ZXXXDGFGRKYWMKOKGDIGQOROTWNPGGFDPOFCNKB4ECFGQOPOVWWXYWCCOOZX04LKUS34RKMOFHYSYSFGNO24UT51UTVW34YWFDB4OOKKMKTSWW54HDHH00ZSPO24QOB4IC00B0B0MONKNPYTA4PK34TS01KLECSW24QKPKLKDH2504NONOLOTWTWSSICDGVWSWKKVXUXDDA0US30FGUWOOOK45QKICWWTX05EDB0PKYS
+# Only verified differences from schools/default.yml are set below.
+#
+# University-wide rules revised 2024-05-27: appendix cover margins all 2cm, 1.5 line spacing and Kai/Times New Roman. No universal body margin/font-size is specified in the regulation.
+# Not expressible yet: Exact cover line sizes and layout, approval form with its own 2cm margins, metadata-rich abstract forms and spine.
+
+university: "真理大學"
+university-en: "Aletheia University"
+
+layout:
+  font-latin: ["Times New Roman", "Tinos"]
+cover:
+  margin:
+    top: 2
+    bottom: 2
+    left: 2
+    right: 2

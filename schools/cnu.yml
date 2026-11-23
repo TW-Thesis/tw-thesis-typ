@@ -1,0 +1,18 @@
+# 嘉南藥理大學 Chia Nan University of Pharmacy & Science
+#
+# Source: docs/嘉南藥理大學-1091013-碩博士論文規範.pdf
+#   https://tourism.cnu.edu.tw/USER/Userfile/FILE/ff241203124944390168.pdf
+# Only verified differences from schools/default.yml are set below.
+#
+# University-wide master thesis rules mirrored by Tourism department, p. 1: body 14pt PMingLiU/Times New Roman, uppercase Roman front matter and centred bottom page numbers. Layout must follow separate university sample files.
+# Not expressible yet: Chinese Ming font must be installed (PMingLiU or Noto Serif CJK TC); margins/cover layout require university sample files, signed official approval and spine.
+
+university: "嘉南藥理大學"
+university-en: "Chia Nan University of Pharmacy & Science"
+
+layout:
+  font-latin: ["Times New Roman", "Tinos"]
+  font-cjk: ["PMingLiU", "Noto Serif CJK TC"]
+  font-size: 14
+outline:
+  page-numbering: "I"

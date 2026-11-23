@@ -1,0 +1,27 @@
+# 國立高雄科技大學 National Kaohsiung University of Science and Technology
+#
+# Source: docs/國立高雄科技大學-1110300-碩博士論文規範.pdf
+#   https://tm.nkust.edu.tw/wp-content/uploads/2022/12/國立高雄科技大學-研究所學位論文撰寫體例參考.pdf
+# Only verified differences from schools/default.yml are set.
+# Evidence: University academic-affairs reference, revised111/03: PDF pp.3-4 margins4/3/3/3cm, Ming/Times body and lowercase Roman front matter; p.8 section titles left.
+#
+# Limitations: Chinese single spacing and English1.5/2 spacing, minimum lines/characters, campus/department-specific cover/approval form, copyright agreement, biography and spine require manual handling. Install a Ming font; Noto Serif CJK TC is a fallback.
+
+university: 國立高雄科技大學
+university-en: National Kaohsiung University of Science and Technology
+layout:
+  font-latin:
+  - Tinos
+  - Times New Roman
+  font-cjk:
+  - Noto Serif CJK TC
+  - PMingLiU
+  margin:
+    top: 4
+    bottom: 3
+  heading:
+    align:
+    - center
+    - left
+    - left
+    - left

@@ -1,0 +1,22 @@
+# 中國文化大學 Chinese Culture University
+#
+# Source: docs/中國文化大學-1150330-碩博士論文規範.pdf
+#   https://lib.pccu.edu.tw/var/file/12/1012/img/535657805.pdf
+# Only verified differences from schools/default.yml are set below.
+#
+# University library thesis-upload guide, PDF p. 19: cover top/bottom margins 3cm, Chinese Kai 18pt and English Times New Roman 14pt. Body format remains department-specific.
+# Not expressible yet: Separate Chinese/English author/advisor sizes, cover order/line gaps, signed approval and spine. The archive is a library submission guide, not a complete body-format regulation.
+
+university: "中國文化大學"
+university-en: "Chinese Culture University"
+
+layout:
+  font-latin: ["Times New Roman", "Tinos"]
+cover:
+  margin:
+    top: 3
+    bottom: 3
+  size:
+    university-en: 14
+    title: 18
+    title-en: 14

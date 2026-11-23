@@ -1,0 +1,14 @@
+# 美和科技大學 Meiho University
+#
+# Source: docs/美和科技大學-1140512-碩博士論文規範.pdf
+#   https://san.meiho.edu.tw/var/file/30/1030/img/1220/919985912.pdf
+# Only verified differences from schools/default.yml are set below.
+# pp. 1-3 prescribe 14pt text, double spacing, margins, and centered bottom page numbers.
+
+university: "美和科技大學"
+university-en: "Meiho University"
+
+layout:
+  font-size: 14
+  line-height: 2
+  margin: {top: 2.5, bottom: 2.5, left: 3, right: 2}

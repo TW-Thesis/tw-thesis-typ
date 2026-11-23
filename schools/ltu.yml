@@ -1,0 +1,19 @@
+# 嶺東科技大學 Ling Tung University
+#
+# Source: docs/嶺東科技大學-1140102-碩博士論文規範.pdf
+#   https://ltu1620.video.ltu.edu.tw/filedownload/565
+# Only verified differences from schools/default.yml are set.
+# Evidence: Registrar graduate thesis format reference, PDF p.7: top/bottom/right2.54cm,left3cm,Ming body; p.14:1.5line spacing.
+#
+# Limitations: Minimum30lines, title/approval/authorization pages, department cover colours, exact page-number offset and spine need manual handling. Install a Ming font; Noto Serif CJK TC is a fallback.
+
+university: 嶺東科技大學
+university-en: Ling Tung University
+layout:
+  font-cjk:
+  - Noto Serif CJK TC
+  - PMingLiU
+  margin:
+    top: 2.54
+    bottom: 2.54
+    right: 2.54

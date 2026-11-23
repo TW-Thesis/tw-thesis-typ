@@ -1,0 +1,10 @@
+# 南開科技大學 Nan Kai University of Technology
+#
+# Source: docs/南開科技大學-1011219-碩博士論文規範.pdf
+#   https://cloud.ncl.edu.tw/nkut/download.php
+#   https://cloud.ncl.edu.tw/school_file_download.php?Pact=FileDownLoad&Pval=ZWtpbWtnYGRoY2NpZGZjZGNiZXGFfn13
+# Only verified differences from schools/default.yml are set below.
+# Official university library notice on thesis deposit and access. It delegates thesis format to departments and contains no campus-wide layout values; this is a name-only preset.
+
+university: "南開科技大學"
+university-en: "Nan Kai University of Technology"

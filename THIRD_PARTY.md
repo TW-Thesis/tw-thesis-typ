@@ -17,7 +17,10 @@ not the author's and keep their own terms.
 ## School material
 
 - `docs/*.pdf` are the universities' own thesis-format regulations, fetched
-  from their public websites. The copyright belongs to each school.
+  from their public websites. The copyright belongs to each school. When an
+  official source is an Office document or HTML page, the stored PDF is a
+  labelled conversion or text snapshot for review; its source URL is recorded
+  in the matching school preset and `docs/sources.lock.json`.
 - `assets/watermarks/*` are university emblems. They are the property of the
   respective universities and are included only so that a thesis can carry its
   own school's watermark; the MIT license does not grant any right to them.

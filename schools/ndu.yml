@@ -1,0 +1,15 @@
+# 國防大學 National Defense University
+#
+# Source: docs/國防大學-0000000-碩博士論文規範.pdf
+#   https://cloud.ncl.edu.tw/ndu/upload.php
+# Only what differs from schools/default.yml.
+#
+# Scope: university-wide library submission rules; official source is
+# HTML, archived as a labelled text snapshot, not an original school PDF.
+# Binding layout is explicitly determined by each college. No college
+# or department formatting is asserted as university-wide requirements.
+# Not expressible yet: college-specific layout, complete-content watermark
+# coverage and required printed copies. Body settings remain defaults.
+
+university: "國防大學"
+university-en: "National Defense University"

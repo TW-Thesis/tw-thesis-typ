@@ -1,0 +1,11 @@
+# 大葉大學 Da-Yeh University
+#
+# Source: docs/大葉大學-1141215-碩博士論文規範.pdf
+#   https://reg.dyu.edu.tw/open_file.php?filename=1273
+# Only verified differences from schools/default.yml are set below.
+#
+# University degree-exam operational rules, p. 2: university controls cover/title/spine/signatures/abstracts while all other format rules are set and reviewed by colleges/departments. This document establishes no numeric body typography.
+# Not expressible yet: University cover/abstract sample files are still needed; body typography follows departments. The collected file is an exam/submission rule, not a full typesetting specification.
+
+university: "大葉大學"
+university-en: "Da-Yeh University"

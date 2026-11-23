@@ -1,0 +1,31 @@
+# 國立臺南藝術大學 Tainan National University of the Arts
+#
+# Source: docs/國立臺南藝術大學-1150528-碩博士論文規範.pdf
+#   https://acad.tnnua.edu.tw/app/index.php?Action=downloadfile&file=VWdtTWl1bUNldU9VNXZwVkkrZmxGT1pFekY3QVlzZThoMjNlVWp2TXlmd2lPT2o3eFVTd3hnMkEzclk4Qy9VNVQrTFJKVTZqZU1LZWREd0JqQ0thR0RMcHdWVnQxbTNyamZBbkNUZHhsMVk9&fname=T1hkdkQ2T2dZaXJ3b3gwZW1PMGhMdUY1RXNPQUEzSWpNSVNSd3BuWDZPa0I1TFlkVHlVK1dFay9ORDV1RGJCUy95R1FvMGEzZnF6eDEvY0VWNUZjZVBFbGJyWG9Dc250T0ROQTlsaEl0ZDViQlhWa2dHRmlpOTFXOTQrYmVpcW9CcTd1SUExTXZLeUIwMjlLZnY5TGsrVG1UdVlSZ1oxMkErWWZNT29GMG04cFZCL2lFMkZ3T21UeWNRQng5V1Fa
+# Only what differs from schools/default.yml.
+#
+# University-wide regulation revised 2026-05-28. Body text must use
+# FangSong or Ming-style 12pt. Songti/Noto Serif are portable Ming-style
+# substitutes when the named system font is absent.
+# Not expressible yet: 26pt university name separately from 20pt department
+# and degree; fixed cover line coordinates/letter spacing; separate Kai
+# cover font; blank/title pages and spine. Margins/line spacing unspecified.
+
+university: "國立臺南藝術大學"
+university-en: "Tainan National University of the Arts"
+
+layout:
+  font-cjk: ["MingLiU", "Songti TC", "Noto Serif CJK TC", "Noto Serif TC"]
+  font-latin: ["Times New Roman", "Tinos"]
+
+outline:
+  page-numbering: "I"
+
+cover:
+  size:
+    org: 20
+    author: 20
+    advisor: 20
+    date: 20
+  weight:
+    title-en: "regular"

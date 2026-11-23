@@ -1,0 +1,17 @@
+# 靜宜大學 Providence University
+#
+# Source: docs/靜宜大學-1090528-碩博士論文規範.pdf
+#   https://dorac.pu.edu.tw/var/file/59/1059/img/442/PU-101B0-W-A002-cover1.pdf
+# Only verified differences from schools/default.yml are set below.
+#
+# University general-affairs A002 master cover/spine template, p. 1: cover top blank 4cm, bottom 3cm, centred lines. No body format rule is specified by this cover-only document.
+# Not expressible yet: Cover language/organisation grouping, explicit English author line, spine, signed approval and department-specific body format.
+
+university: "靜宜大學"
+university-en: "Providence University"
+
+cover:
+  margin:
+    top: 4
+    bottom: 3
+  date-en: "{month-name} {year}"

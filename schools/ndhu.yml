@@ -1,0 +1,26 @@
+# 國立東華大學 National Dong Hwa University
+#
+# Source: docs/國立東華大學-1121208-碩博士論文規範.pdf
+#   https://lib.ndhu.edu.tw/var/file/175/1175/attach/39/pta_131269_4020793_10424.pdf
+# Only verified differences from schools/default.yml are set below.
+#
+# pp. 1-2: body typography is advisory / set by departments. Only the cover
+# specifies margins (3cm), organisation and title 24pt, advisor/author/date 22pt.
+# Not expressible yet: 6cm cover emblem (not a body watermark), advisor above
+# title, italic English title, odd-page starts, originality declaration, spine.
+
+university: "國立東華大學"
+university-en: "National Dong Hwa University"
+
+layout:
+  font-latin: ["Times New Roman", "Tinos"]
+cover:
+  margin:
+    bottom: 3
+  size:
+    org: 24
+    title: 24
+    title-en: 14
+    author: 22
+    advisor: 22
+    date: 22

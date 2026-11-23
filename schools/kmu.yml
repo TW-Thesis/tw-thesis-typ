@@ -1,0 +1,14 @@
+# 高雄醫學大學 Kaohsiung Medical University
+#
+# Source: docs/高雄醫學大學-1140618-碩博士論文規範.pdf
+#   https://gim.kmu.edu.tw/attachments/article/31/10.%E7%95%A2%E6%A5%AD%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A0%851140618.pdf?download=1
+# Only verified differences from schools/default.yml are set below.
+#
+# University-wide graduation notice hosted by Institute of Medicine, PDF p. 2: A4, body 14pt Kai or Ming; no fixed margin or line-height values. Cover layout is on p. 3.
+# Not expressible yet: Advisor-before-title cover order, official completion/approval signatures, ethics declaration and spine; body margins and spacing remain department choices.
+
+university: "高雄醫學大學"
+university-en: "Kaohsiung Medical University"
+
+layout:
+  font-size: 14

@@ -1,0 +1,15 @@
+# 醒吾科技大學 Hsing Wu University of Science and Technology
+#
+# Source: docs/醒吾科技大學-1060906-碩博士論文規範.pdf
+#   https://b001.hwu.edu.tw/Upload/Sync/153440636.pdf
+# Only verified differences from schools/default.yml are set below.
+# pp. 5 and 9 prescribe body fonts, 12pt text, and page margins; several detailed editorial rules are not expressible by the schema.
+
+university: "醒吾科技大學"
+university-en: "Hsing Wu University of Science and Technology"
+
+layout:
+  font-cjk: ["TW-MOE-Std-Kai", "DFKai-SB"]
+  font-latin: ["Times New Roman", "Tinos"]
+  font-size: 12
+  margin: {top: 4, bottom: 3, left: 3, right: 2.5}

@@ -1,0 +1,16 @@
+# 國立臺灣體育運動大學 National Taiwan University of Sport
+#
+# Source: docs/國立臺灣體育運動大學-1150121-碩博士論文規範.pdf
+#   https://ndltdcc.ncl.edu.tw/userfiles/NTCP0/files/博碩士論文建檔.pdf
+# Only what differs from schools/default.yml.
+#
+# Scope: university library thesis-submission/format checklist. Body
+# fonts, sizes and margins are not fixed by this guide and remain defaults.
+# Not expressible yet: watermark on the cover, bilingual cover ordering,
+# binding details and department-specific typography.
+
+university: "國立臺灣體育運動大學"
+university-en: "National Taiwan University of Sport"
+
+outline:
+  page-numbering: "I"

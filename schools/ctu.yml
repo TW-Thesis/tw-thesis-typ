@@ -1,0 +1,18 @@
+# 建國科技大學 Chienkuo Technology University
+#
+# Source: docs/建國科技大學-1110728-碩博士論文規範.pdf
+#   https://ecc.ctu.edu.tw/var/file/11/1011/img/1493/207000453.pdf
+# Only verified differences from schools/default.yml are set.
+# Evidence: University library submission guidelines revised1110728, PDF p.1:16pt school/degree/author/advisor/date and18pt Chinese title.
+#
+# Limitations: Only cover elements are sourced. No university-wide body typography is inferred. Title page, authorization/approval pages, spine, school-year Chinese numeral formatting and electronic PDF need manual handling.
+
+university: 建國科技大學
+university-en: Chienkuo Technology University
+cover:
+  size:
+    org: 16
+    title: 18
+    author: 16
+    advisor: 16
+    date: 16

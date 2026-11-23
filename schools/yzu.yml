@@ -1,0 +1,17 @@
+# 元智大學 Yuan Ze University
+#
+# Source: docs/元智大學-1121123-碩博士論文規範.pdf
+#   https://www.yzu.edu.tw/admin/aa/files/Registration/Graduation/R-G-A00-new.doc
+# Only verified differences from schools/default.yml are set below.
+#
+# University-wide thesis rules, pp. 1-3: margins top 3.5cm left 4cm right/bottom 2cm, A4; Chinese fixed-grid 32+ lines and 28+ characters, English 1.5 or double spacing. Defaults select English 1.5 only.
+# Not expressible yet: Chinese fixed line grid, separate title page, exact institutional cover and signature forms, acknowledgements ordering, spine.
+
+university: "元智大學"
+university-en: "Yuan Ze University"
+
+layout:
+  margin:
+    top: 3.5
+    left: 4
+    right: 2

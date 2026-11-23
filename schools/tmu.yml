@@ -1,0 +1,11 @@
+# 臺北醫學大學 Taipei Medical University
+#
+# Source: docs/臺北醫學大學-1151118-碩博士論文規範.pdf
+#   https://library.tmu.edu.tw/libfiles/training/thesis_cht.pdf
+# Only verified differences from schools/default.yml are set.
+# Evidence: University library thesis upload guide, p.47 FAQ: library sets no uniform thesis typography/cover colour; consult the department.
+#
+# Limitations: Name-only preset. Department typography/cover requirements are not inferred from the upload manual. Watermark and security must follow current library instructions.
+
+university: 臺北醫學大學
+university-en: Taipei Medical University

@@ -1,0 +1,21 @@
+# 亞東科技大學 Asia Eastern University of Science and Technology
+#
+# Source: docs/亞東科技大學-1100728-碩博士論文規範.pdf
+#   https://ce.aeust.edu.tw/p/412-1046-3124.php
+#   https://ce.aeust.edu.tw/var/file/46/1046/img/994/686053123.doc
+# Only verified differences from schools/default.yml are set below.
+# The official communication-engineering master's format prescribes 14pt Kai/Times text, fixed 26pt leading, margins, 16pt headings, and uppercase Roman front matter. Other programs should confirm department-specific rules.
+
+university: "亞東科技大學"
+university-en: "Asia Eastern University of Science and Technology"
+
+layout:
+  font-cjk: ["TW-MOE-Std-Kai", "DFKai-SB"]
+  font-latin: ["Times New Roman", "Tinos"]
+  font-size: 14
+  line-height: 1.857142857
+  margin: {top: 2.5, bottom: 2.5, left: 3, right: 2.5}
+  heading:
+    size: [16, 16, 14, 12]
+outline:
+  page-numbering: "I"

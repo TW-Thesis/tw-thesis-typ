@@ -1,0 +1,30 @@
+# 中臺科技大學 Central Taiwan University of Science and Technology
+#
+# Source: docs/中臺科技大學-1060718-碩博士論文規範.pdf
+#   https://aca.ctust.edu.tw/var/file/21/1021/img/1820/422943135.odt
+# Only verified differences from schools/default.yml are set.
+# Evidence: Central academic-affairs F-1 thesis format, PDF pp.1-2: left3cm/other2cm,14pt Kai/Times,18pt main/16pt secondary headings,1.5lines; uppercase Roman front matter.
+#
+# Limitations: Figures/tables must be on separate pages and captions in both languages. Unnumbered acknowledgement, recommendation, title/approval pages, exact abstract heading sizes and spine require manual assembly.
+
+university: 中臺科技大學
+university-en: Central Taiwan University of Science and Technology
+layout:
+  font-latin:
+  - Tinos
+  - Times New Roman
+  font-size: 14
+  margin:
+    top: 2
+    right: 2
+  heading:
+    weight: bold
+    align:
+    - center
+    - left
+    - left
+    - left
+  caption-position:
+    table: top
+outline:
+  page-numbering: I

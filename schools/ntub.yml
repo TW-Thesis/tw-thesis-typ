@@ -1,0 +1,11 @@
+# 國立臺北商業大學 National Taipei University of  Business
+#
+# Source: docs/國立臺北商業大學-0000000-碩博士論文規範.pdf
+#   https://thesis-lib.ntub.edu.tw/help/aboutedit/
+# Only verified differences from schools/default.yml are set.
+# Evidence: University library thesis system upload instructions; department formats are not treated as university-wide requirements.
+#
+# Limitations: Name-only preset: no verified university-wide typography. Fonts, margins, cover, front-matter sequence and spacing must follow the department. The library system adds its watermark after approval; do not add a second one. Source PDF is explicitly an HTML text snapshot.
+
+university: 國立臺北商業大學
+university-en: National Taipei University of  Business

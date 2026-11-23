@@ -1,0 +1,15 @@
+# 台北海洋科技大學 Taipei University of Marine Technology
+#
+# Source: docs/台北海洋科技大學-1110330-碩博士論文規範.pdf
+#   https://dnlm.tumt.edu.tw/var/file/39/1039/img/726253837.pdf
+# Only verified differences from schools/default.yml are set below.
+# pp. 1-2 prescribe front-matter order, bottom-centered numbering, and cover typography; body layout is left to departments.
+
+university: "台北海洋科技大學"
+university-en: "Taipei University of Marine Technology"
+
+layout:
+  font-cjk: ["TW-MOE-Std-Kai", "DFKai-SB"]
+  font-latin: ["Times New Roman", "Tinos"]
+cover:
+  size: {org: 20, org-en: 16, university-en: 16, title: 16, title-en: 16, author: 16, advisor: 16, date: 16}

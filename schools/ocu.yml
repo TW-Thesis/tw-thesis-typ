@@ -1,0 +1,10 @@
+# 僑光科技大學 Overseas Chinese University
+#
+# Source: docs/僑光科技大學-0000000-碩博士論文規範.pdf
+#   https://imtech.ocu.edu.tw/p/412-1056-5133.php?Lang=zh-tw
+#   https://imtech.ocu.edu.tw/var/file/56/1056/img/1204/378406868.doc
+# Only verified differences from schools/default.yml are set below.
+# Official Information Technology master's-program format. No campus-wide numerical format was found, so department-specific values are not applied globally; this is a name-only preset.
+
+university: "僑光科技大學"
+university-en: "Overseas Chinese University"

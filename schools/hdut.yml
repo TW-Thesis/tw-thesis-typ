@@ -1,0 +1,11 @@
+# 宏國德霖科技大學 Hungkuo Delin University of Technology
+#
+# Source: docs/宏國德霖科技大學-1101229-碩博士論文規範.pdf
+#   https://lib.hdut.edu.tw/var/file/28/1028/img/378/689970319.pdf
+#   https://lib.hdut.edu.tw/var/file/28/1028/img/378/689970319.pdf
+# Only verified differences from schools/default.yml are set below.
+# The university collection rules explicitly defer thesis format to each graduate institute. No campus-wide typography or margins are stated, so this is a name-only preset.
+
+university: "宏國德霖科技大學"
+university-en: "Hungkuo Delin University of Technology"
+

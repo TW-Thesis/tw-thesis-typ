@@ -1,0 +1,18 @@
+# 文藻外語大學 Wenzao Ursuline University of Languages
+#
+# Source: docs/文藻外語大學-1120401-碩博士論文規範.pdf
+#   https://c026.wzu.edu.tw/datas/upload/Pictures/255606-D4-15-2文藻外語大學研究生學位論文格式規範_C_11112.pdf
+# Only verified differences from schools/default.yml are set below.
+# pp. 1-2 prescribe 12pt body text, 1.5 spacing, heading sizes, margins, and centered bottom page numbers.
+
+university: "文藻外語大學"
+university-en: "Wenzao Ursuline University of Languages"
+
+layout:
+  font-cjk: ["TW-MOE-Std-Kai", "DFKai-SB"]
+  font-latin: ["Times New Roman", "Tinos"]
+  font-size: 12
+  line-height: 1.5
+  margin: {top: 2.5, bottom: 2.5, left: 3, right: 2.5}
+  heading:
+    size: [20, 18, 16, 14]

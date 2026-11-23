@@ -1,0 +1,19 @@
+# 健行科技大學 Chien Hsin University of Science and Technology
+#
+# Source: docs/健行科技大學-1150423-碩博士論文規範.pdf
+#   https://aa.uch.edu.tw/var/file/10/1010/img/44/410486396.pdf
+# Only verified differences from schools/default.yml are set.
+# Evidence: University thesis format revised1150423, PDF p.1 section2:12pt Kai/Times; margins2.5/2.5/3/2cm.
+#
+# Limitations: Watermark must begin at Chinese abstract (not cover/title/approval); template watermark currently starts at body. Signature form, exact footer distance, table-before-figure list, biography and spine need manual assembly.
+
+university: 健行科技大學
+university-en: Chien Hsin University of Science and Technology
+layout:
+  font-latin:
+  - Tinos
+  - Times New Roman
+  margin:
+    top: 2.5
+    bottom: 2.5
+    right: 2

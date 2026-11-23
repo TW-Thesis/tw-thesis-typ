@@ -1,0 +1,28 @@
+# 國立臺南大學 National University of Tainan
+#
+# Source: docs/國立臺南大學-1100811-碩博士論文規範.pdf
+#   https://academic.nutn.edu.tw/upload/cht/154/204_file_1.pdf
+# Only verified differences from schools/default.yml are set below.
+#
+# University-wide August 2021 guidelines. pp. 4-5: 2.5/2.5/3/2cm margins;
+# pp. 9-10: 20/18/16pt headings, 12pt body, English 1.5 or double spacing;
+# selects the permitted 1.5 option. p. 10: Chinese fixed line-grid requirement
+# (32+ lines, 32+ characters) is not replaced with an invented spacing value.
+# Not expressible yet: duplex mirrored margins, separate title page, cover and
+# first-body-page-only 6.5cm university watermark (global watermark is different),
+# exact cover sizes drawn as artwork, table-before-figure lists, signed approval,
+# authorisation and spine. Obtain the required watermark from the thesis portal.
+
+university: "國立臺南大學"
+university-en: "National University of Tainan"
+
+layout:
+  font-latin: ["Times New Roman", "Tinos"]
+  margin:
+    top: 2.5
+    bottom: 2.5
+    right: 2
+  caption-position:
+    table: "top"
+  heading:
+    size: [20, 18, 16, 12]

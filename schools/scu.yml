@@ -1,0 +1,11 @@
+# 東吳大學 Soochow University
+#
+# Source: docs/東吳大學-1150528-碩博士論文規範.pdf
+#   https://cloud.ncl.edu.tw/school_file_download.php?Pact=FileDownLoad&Pval=aWRjbWhvYmJkaGNoY2hhZWJnZmxriXl/dw==
+# Only verified differences from schools/default.yml are set below.
+#
+# University library 114 academic-year electronic submission guide, pp. 11-12: manuscript content follows each department. No university-wide body typography is prescribed here.
+# Not expressible yet: Department typography, watermark and cover format, signed approval, submission authorisation. This is a submission guide, not a full typesetting specification.
+
+university: "東吳大學"
+university-en: "Soochow University"

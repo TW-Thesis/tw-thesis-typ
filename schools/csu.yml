@@ -1,0 +1,16 @@
+# 正修科技大學 Cheng Shiu University
+#
+# Source: docs/正修科技大學-1150211-碩博士論文規範.pdf
+#   https://academic.csu.edu.tw/var/file/7/1007/img/290/608791679.pdf
+# Only verified differences from schools/default.yml are set.
+# Evidence: Central academic-affairs Manual for Graduate Theses, PDF pp.4/15: portrait body top2.3,bottom3.5,left3 including binding,right2.5cm.
+#
+# Limitations: Manual allows12-14pt text and requires double spacing; exact Word double spacing is not assumed equivalent to template line height. Font choice, authorization/signature pages, table-before-figure list, title page and spine require department review.
+
+university: 正修科技大學
+university-en: Cheng Shiu University
+layout:
+  margin:
+    top: 2.3
+    bottom: 3.5
+    right: 2.5

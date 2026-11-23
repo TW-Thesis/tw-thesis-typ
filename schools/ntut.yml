@@ -1,0 +1,35 @@
+# 國立臺北科技大學 National Taipei University of Technology
+#
+# Source: docs/國立臺北科技大學-1140201-碩博士論文規範.pdf
+#   https://oaa.ntut.edu.tw/var/file/8/1008/img/2966/J1.pdf
+# Only verified differences from schools/default.yml are set.
+# Evidence: PDF pp.7,9-11: body 12pt Kai/Times, headings 20/18/16/14pt, 1.5 lines, no paragraph spacing; margins 2.5/2.75/2.5/2.5cm.
+#
+# Limitations: Blank dedication/title pages, table-list before figure-list, exact front-matter heading spacing, spine and mirrored duplex margins must be assembled manually.
+
+university: 國立臺北科技大學
+university-en: National Taipei University of Technology
+layout:
+  font-latin:
+  - Tinos
+  - Times New Roman
+  par-spacing: 0
+  margin:
+    top: 2.5
+    bottom: 2.75
+    left: 2.5
+    right: 2.5
+  heading:
+    size:
+    - 20
+    - 18
+    - 16
+    - 14
+    weight: bold
+    align:
+    - center
+    - left
+    - left
+    - left
+outline:
+  title-size: 20

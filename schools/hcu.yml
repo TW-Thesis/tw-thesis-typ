@@ -1,0 +1,29 @@
+# 玄奘大學 Hsuan Chuang University
+#
+# Source: docs/玄奘大學-1121004-碩博士論文規範.pdf
+#   https://www.hcu.edu.tw/sec/Upload/att/2017-08/202402160952268290191446.pdf
+# Only verified differences from schools/default.yml are set.
+# Evidence: University thesis reference revised1121004, PDF pp.1-2:12or14pt Kai/Ming with Times; cover all margins3cm and20pt text.
+#
+# Limitations: Body margins are not fixed by the university reference; department rules prevail. Chinese abstract all margins2cm, acknowledgement-before-abstract order, distinct oral-defense form and spine are manual.
+
+university: 玄奘大學
+university-en: Hsuan Chuang University
+layout:
+  font-latin:
+  - Tinos
+  - Times New Roman
+cover:
+  margin:
+    top: 3
+    bottom: 3
+    left: 3
+    right: 3
+  size:
+    org: 20
+    org-en: 20
+    university-en: 20
+    title-en: 20
+    author: 20
+    advisor: 20
+    date: 20

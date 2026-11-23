@@ -1,0 +1,11 @@
+# 國立澎湖科技大學 National Penghu University of Science and Technology
+#
+# Source: docs/國立澎湖科技大學-0000000-碩博士論文規範.pdf
+#   https://www.npu.edu.tw/lib/content/index.aspx?Parser=1,41,379,341
+# Only verified differences from schools/default.yml are set.
+# Evidence: University library collection guidelines apply to all graduate theses; no campus-wide typography source was identified.
+#
+# Limitations: Name-only preset: no verified university-wide typography. Margins, fonts, headings, cover, page order and watermark must follow the relevant department. Source PDF is explicitly an HTML text snapshot.
+
+university: 國立澎湖科技大學
+university-en: National Penghu University of Science and Technology

@@ -1,0 +1,26 @@
+# 國立勤益科技大學 National Chin-Yi University of Technology
+#
+# Source: docs/國立勤益科技大學-1140716-碩博士論文規範.pdf
+#   https://oaa.ncut.edu.tw/var/file/9/1009/attach/67/pta_67803_1693115_33154.pdf
+# Only verified differences from schools/default.yml are set.
+# Evidence: 114-version file from registrar, PDF p.3 section2(8-10): margins4/3/3/3cm, Ming body and lowercase Roman front matter; p.4 hyphenated page-number example.
+#
+# Limitations: Official format is a reference; college/department rules prevail. Chinese single spacing, English1.5 spacing, line/character counts, title-page layout, recommendation/authorization, spine and table-before-figure list require manual handling. Install a Ming font; Noto Serif CJK TC is a fallback.
+
+university: 國立勤益科技大學
+university-en: National Chin-Yi University of Technology
+layout:
+  font-cjk:
+  - Noto Serif CJK TC
+  - PMingLiU
+  margin:
+    top: 4
+    bottom: 3
+  heading:
+    align:
+    - center
+    - left
+    - left
+    - left
+page-number:
+  format: -{page}-

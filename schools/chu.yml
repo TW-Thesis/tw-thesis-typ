@@ -1,0 +1,27 @@
+# 中華大學 Chung Hua University
+#
+# Source: docs/中華大學-1110914-碩博士論文規範.pdf
+#   https://aa.chu.edu.tw/var/file/49/1049/img/556/548129719.pdf
+# Only verified differences from schools/default.yml are set below.
+#
+# University BA2-2-007, pp. 2-3: Kai/Times New Roman 12pt/1.5 spacing, margins 2.5/2.75/3/2.5cm; chapter/section headings 20/18pt; title 22pt, author/advisor/date 20pt. Still operating for enrolled students despite stopped admissions.
+# Not expressible yet: Separate 28pt university/degree versus 20pt department cover lines, 10pt page numbers at 1.5cm, required body-only watermark, official signed recommendation/approval and spine.
+
+university: "中華大學"
+university-en: "Chung Hua University"
+
+layout:
+  font-latin: ["Times New Roman", "Tinos"]
+  margin:
+    top: 2.5
+    bottom: 2.75
+    right: 2.5
+  heading:
+    size: [20, 18, 14, 12]
+cover:
+  size:
+    title: 22
+    title-en: 22
+    author: 20
+    advisor: 20
+    date: 20

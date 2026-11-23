@@ -1,0 +1,18 @@
+# 南華大學 Nanhua university
+#
+# Source: docs/南華大學-1081215-碩博士論文規範.pdf
+#   https://nhuwebfile.nhu.edu.tw/UploadedFiles/2021/12/460d4252-456e-4ba5-b8ae-c4135970284d.pdf
+# Only verified differences from schools/default.yml are set below.
+#
+# University-wide published thesis guidelines, pp. 1-3: body and abstract details delegated to departments; Appendix 1 specifies Kai/Times New Roman cover with 18pt titles. This current published edition differs from older 14pt body rules circulating elsewhere.
+# Not expressible yet: Explicit English author/advisor lines, exact cover order/spacing, university ethics/approval forms and spine; department-specific body typography.
+
+university: "南華大學"
+university-en: "Nanhua university"
+
+layout:
+  font-latin: ["Times New Roman", "Tinos"]
+cover:
+  size:
+    title: 18
+    title-en: 18

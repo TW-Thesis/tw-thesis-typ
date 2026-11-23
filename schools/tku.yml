@@ -1,0 +1,11 @@
+# 淡江大學 Tamkang University
+#
+# Source: docs/淡江大學-1141209-碩博士論文規範.pdf
+#   https://oa.tku.edu.tw/Law.nsf/8a19663a9342a6a748256e6b00446781/69a4b93d313e70ef4825795000302545/$FILE/5-56%20淡江大學研究生碩博士論文撰寫格式要點.odt
+# Only verified differences from schools/default.yml are set below.
+#
+# University-wide formatting rules, pp. 1-4: A4 and cover/approval/abstract order; body font sizes, margins and line height are not specified. Defaults remain local choices, not university requirements.
+# Not expressible yet: Vertical-cover alternative, advisor-before-title order, university committee signature sheet, metadata-rich abstract forms and spine.
+
+university: "淡江大學"
+university-en: "Tamkang University"

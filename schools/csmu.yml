@@ -1,0 +1,11 @@
+# 中山醫學大學 Chung Shan Medical University
+#
+# Source: docs/中山醫學大學-1150513-碩博士論文規範.pdf
+#   https://ndltdcc.ncl.edu.tw/userfiles/CSMU0/files/提交及上傳1150513.pdf
+# Only verified differences from schools/default.yml are set.
+# Evidence: University library upload instructions, sourced from the current central library departure page, not the College of Oral Medicine format.
+#
+# Limitations: Name-only preset. Fonts, margins, cover and body formatting follow the department. Paper and electronic copies have different signed-page/authorization requirements.
+
+university: 中山醫學大學
+university-en: Chung Shan Medical University

@@ -1,0 +1,33 @@
+# 大仁科技大學 Tajen University
+#
+# Source: docs/大仁科技大學-0941019-碩博士論文規範.pdf
+#   https://a04.tajen.edu.tw/var/file/4/1004/img/291548692.pdf
+# Only verified differences from schools/default.yml are set.
+# Evidence: Central academic-affairs master thesis guidance, PDF p.2 section2.3:14pt Kai/Times,16pt chapter titles; top/bottom/right2.5cm,left3cm and uppercase Roman front matter.
+#
+# Limitations: Fixed22pt line height, minimum line/character counts, separate chapter-opening top3cm, abstract metadata, current approval/authorization forms and spine require manual handling. Departments may supplement the baseline.
+
+university: 大仁科技大學
+university-en: Tajen University
+layout:
+  font-latin:
+  - Tinos
+  - Times New Roman
+  font-size: 14
+  margin:
+    top: 2.5
+    bottom: 2.5
+    right: 2.5
+  heading:
+    size:
+    - 16
+    - 14
+    - 14
+    - 14
+    align:
+    - center
+    - left
+    - left
+    - left
+outline:
+  page-numbering: I

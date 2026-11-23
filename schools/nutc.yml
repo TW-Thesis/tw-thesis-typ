@@ -1,0 +1,25 @@
+# 國立臺中科技大學 National  Taichung University Of  Science And Technology
+#
+# Source: docs/國立臺中科技大學-1140519-碩博士論文規範.pdf
+#   https://csie.nutc.edu.tw/var/file/64/1064/img/3360/296419179.pdf
+# Only verified differences from schools/default.yml are set.
+# Evidence: 114 library format, PDF p.3: all margins3cm, Ming/Times text and lowercase Roman front matter. PDF p.5 cover shows22pt school/degree,24pt Chinese title,20pt English title.
+#
+# Limitations: All-page watermark, table-before-figure list, distinct inner title page, cover order and spine must be assembled manually. PDF p.4 explicitly excludes the oral-defense approval sheet from both printed and electronic thesis. Install a Ming font; Noto Serif CJK TC is a fallback.
+
+university: 國立臺中科技大學
+university-en: National  Taichung University Of  Science And Technology
+layout:
+  font-latin:
+  - Tinos
+  - Times New Roman
+  font-cjk:
+  - Noto Serif CJK TC
+  - PMingLiU
+  margin:
+    bottom: 3
+cover:
+  size:
+    org: 22
+    title: 24
+    title-en: 20

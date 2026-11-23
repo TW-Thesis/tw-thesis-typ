@@ -1,0 +1,29 @@
+# 國立屏東大學 National Pingtung University
+#
+# Source: docs/國立屏東大學-1120613-碩博士論文規範.pdf
+#   https://ndltdcc.ncl.edu.tw/userfiles/NPTU0/files/Cover%20Format%20A.pdf
+# Only verified differences from schools/default.yml are set below.
+#
+# University library A-style cover/spine guide, pp. 1-2. Official link:
+# https://cll.nptu.edu.tw/p/412-1129-15208.php?Lang=zh-tw
+# A style uses Kai/TNR, 20pt English title, 16pt author/advisor/date; cover top
+# and bottom about 3cm, English month and year have no comma. Body format is
+# department-specific; this cover-only guide does not establish body margins.
+# Not expressible yet: separate English author line, exact combined university/
+# college/department lines and line gaps, signed approval, spine.
+
+university: "國立屏東大學"
+university-en: "National Pingtung University"
+
+layout:
+  font-latin: ["Times New Roman", "Tinos"]
+cover:
+  margin:
+    top: 3
+    bottom: 3
+  size:
+    title-en: 20
+    author: 16
+    advisor: 16
+    date: 16
+  date-en: "{month-name} {year}"

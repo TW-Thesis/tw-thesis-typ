@@ -1,0 +1,24 @@
+# 國立屏東科技大學 National Pingtung University of Science and Technology
+#
+# Source: docs/國立屏東科技大學-1110412-碩博士論文規範.pdf
+#   https://aa.npust.edu.tw/doc/7/pdf/學位論文撰寫注意事項1091119.pdf
+# Only verified differences from schools/default.yml are set.
+# Evidence: PDF pp.1-2 section 2.3(6-9): body 14pt Kai/Times; margins top/bottom/right 2.5cm and left 3cm; uppercase Roman front matter, hyphenated body page numbers.
+#
+# Limitations: College-specific line spacing and duplex printing, chapter-opening top margin 3cm, page-number distance 1cm, spine, authorization and author biography require manual handling.
+
+university: 國立屏東科技大學
+university-en: National Pingtung University of Science and Technology
+layout:
+  font-latin:
+  - Tinos
+  - Times New Roman
+  font-size: 14
+  margin:
+    top: 2.5
+    bottom: 2.5
+    right: 2.5
+outline:
+  page-numbering: I
+page-number:
+  format: -{page}-

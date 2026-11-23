@@ -1,0 +1,17 @@
+# 開南大學 Kainan University
+#
+# Source: docs/開南大學-1090408-碩博士論文規範.pdf
+#   https://course.knu.edu.tw/var/file/45/1045/img/571/792142733.pdf
+# Only verified differences from schools/default.yml are set.
+# Evidence: Central academic-affairs thesis format, PDF pp.2-3: uppercase Roman front matter,1.5lines,Kai/Times; body margins match default but additional left binding allowance1cm.
+#
+# Limitations: Additional binding allowance1cm is not merged into the stated3cm margin because the preset has no independent binding key. Acknowledgement-before-abstract order, cover, approval and spine require manual assembly.
+
+university: 開南大學
+university-en: Kainan University
+layout:
+  font-latin:
+  - Tinos
+  - Times New Roman
+outline:
+  page-numbering: I

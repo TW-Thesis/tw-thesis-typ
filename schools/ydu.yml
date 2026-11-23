@@ -1,0 +1,18 @@
+# 育達科技大學 Yu Da University of Science and Technology
+#
+# Source: docs/育達科技大學-1141217-碩博士論文規範.pdf
+#   https://www.re.ydu.edu.tw/uploads/asset/data/694266145070400976aab988/114育達科技大學碩士論文撰寫一般準則-1141217.pdf
+# Only verified differences from schools/default.yml are set below.
+# pp. 3-4 prescribe body fonts, 12pt text, 1.5 spacing, heading sizes, margins, indentation, and centered bottom page numbers.
+
+university: "育達科技大學"
+university-en: "Yu Da University of Science and Technology"
+
+layout:
+  font-cjk: ["TW-MOE-Std-Kai", "DFKai-SB"]
+  font-latin: ["Times New Roman", "Tinos"]
+  font-size: 12
+  line-height: 1.5
+  margin: {top: 3, bottom: 3, left: 3, right: 2.5}
+  heading:
+    size: [18, 16, 14, 12]

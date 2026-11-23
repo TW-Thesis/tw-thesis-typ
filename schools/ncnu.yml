@@ -1,0 +1,37 @@
+# 國立暨南國際大學 National Chi Nan University
+#
+# Source: docs/國立暨南國際大學-1101101-碩博士論文規範.pdf
+#   https://drive.google.com/uc?export=download&id=1tp45Nv5KPnfqg-_P97dbuMfMrOf1J4vT
+# Only verified differences from schools/default.yml are set below.
+#
+# Official university-wide library template, linked by the Chinese department:
+# https://www.cll.ncnu.edu.tw/?page_id=662
+# 2021-11-01 revision, pp. 1-3: body 12pt/1.5 spacing, all margins 3cm;
+# cover uniformly 16 or 18pt, regular weight. Selects the permitted 18pt option.
+# Not expressible yet: advisor above student, exact cover order, DOI on cover
+# and approval, separate symbols/abbreviations/glossary lists, signed approval.
+
+university: "國立暨南國際大學"
+university-en: "National Chi Nan University"
+
+layout:
+  font-latin: ["Times New Roman", "Tinos"]
+  margin:
+    bottom: 3
+cover:
+  size:
+    org-en: 18
+    university-en: 18
+    title: 18
+    title-en: 18
+  weight:
+    org: "regular"
+    university-en: "regular"
+    title: "regular"
+    title-en: "regular"
+titles:
+  lof: "圖目次"
+  lot: "表目次"
+sections:
+  acknowledgement: "致謝辭"
+  denotation: "符號表"

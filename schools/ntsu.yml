@@ -1,0 +1,19 @@
+# 國立體育大學 National Taiwan Sport University
+#
+# Source: docs/國立體育大學-1130530-碩博士論文規範.pdf
+#   https://giss.ntsu.edu.tw/app/index.php?Action=downloadfile&file=eFUxcHhPRE4wT2NyQ2t1QS9EUktpZk5tZi9ZM084dzhSckZCYXVYQjlXKzBoNlhHVGpsN0lmWjJyY3FLNURFcDRUQnlBb3lCSEhmUk14aFJlcUgySHlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=YldheXRHTWNnaUIrWnVjNXlMYStRaXV6aERTWThRdERWeUlEZDJ6aW9PNFBkVDFsekFvQVZOaWVvdkJpcU9FU1IvREFNb1hGc2Q4Q0tDVTFBTzRHK3lsVUgrSVRZWEE2WlBKeEFISDFaQms9&cg=66
+# Only what differs from schools/default.yml.
+#
+# Scope: university library binding/submission rules, not department
+# body-format rules. The source allows departments/advisors to choose
+# cover fonts and sizes; body values remain template defaults.
+# Not expressible yet: reference cover element order and spine; exact
+# departmental requirements must be supplied by the author.
+
+university: "國立體育大學"
+university-en: "National Taiwan Sport University"
+
+cover:
+  margin:
+    top: 4
+    bottom: 3

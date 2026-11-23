@@ -1,0 +1,22 @@
+# 國立雲林科技大學 National Yunlin University of Science & Technology
+#
+# Source: docs/國立雲林科技大學-1140901-碩博士論文規範.pdf
+#   https://aax.yuntech.edu.tw/images/content/碩博士論文專區/學位論文格式Thesis Format Sample【114年9月更新】.7z
+# Only verified differences from schools/default.yml are set.
+# Evidence: Official 1140901 DOC, sections 5-6 (PDF p.1; English p.3): body 12pt, headings 14pt, all margins 3cm. Official archive includes thesis watermark.
+#
+# Limitations: Watermark is required on all pages except cover; template release watermark currently covers main matter only. Letter of recommendation, specific cover order, spine, and library agreement are manual. Departments may supplement this university baseline.
+
+university: 國立雲林科技大學
+university-en: National Yunlin University of Science & Technology
+layout:
+  margin:
+    bottom: 3
+  heading:
+    size:
+    - 14
+    - 14
+    - 14
+    - 12
+watermark:
+  image: /assets/watermarks/yuntech.gif

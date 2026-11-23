@@ -1,0 +1,10 @@
+# 臺北城市科技大學 Taipei City University of Science and Technology
+#
+# Source: docs/臺北城市科技大學-1101227-碩博士論文規範.pdf
+#   https://shl.tpcu.edu.tw/p/405-1037-54597,c3323.php?Lang=zh-tw
+#   https://shl.tpcu.edu.tw/app/index.php?Action=downloadfile&file=WVhSMFlXTm9Memd6TDNCMFlWODFOakUwTjE4Mk9URTNNRFUyWHpNeE1USTBMbkJrWmc9PQ==&fname=DGGGVWWX20XW11KKDGLKOKYWMK30WTRLFGB0MPWSQPJDLK40FCNKFDEGWSLKJGEGNO00EHZX2004ICXSFCNKTSMO34B0WSGCNPYTXWA034MKB001USSSYWFCTWLK00YXDGA0XWXTZSJGHCXSDGB0GGNKA151QP2134B4USB434GGYSUSMKXWHDYX4410VWYWQO14GDRLWSRO10HCZTRL04TS3430VTA4DG54DGWXWWQOPP1000ZSIGMOIGDGJDLO&cg=3323
+# Only verified differences from schools/default.yml are set below.
+# University master's degree examination regulations revised 2021-12-27. Thesis layout documents are department-specific, so no numerical overrides are applied; this is a name-only preset.
+
+university: "臺北城市科技大學"
+university-en: "Taipei City University of Science and Technology"

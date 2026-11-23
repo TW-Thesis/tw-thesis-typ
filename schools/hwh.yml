@@ -1,0 +1,10 @@
+# 華夏科技大學 Hwa Hsia University of Technology
+#
+# Source: docs/華夏科技大學-1120222-碩博士論文規範.pdf
+#   https://cloud.ncl.edu.tw/hwh/download.php
+#   https://cloud.ncl.edu.tw/school_file_download.php?Pact=FileDownLoad&Pval=ZWdqcGlvYmJkaGNoY2hhZWRjYmlriXl/dw==
+# Only verified differences from schools/default.yml are set below.
+# Official university thesis-system manual revised 2023-02-22. It specifies submission checks, not university-wide typography; this is a name-only preset.
+
+university: "華夏科技大學"
+university-en: "Hwa Hsia University of Technology"

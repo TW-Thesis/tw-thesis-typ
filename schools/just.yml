@@ -1,0 +1,9 @@
+# 景文科技大學 Jinwen University of Science and Technology
+#
+# Source: docs/景文科技大學-1100600-碩博士論文規範.pdf
+#   https://cloud.ncl.edu.tw/school_file_download.php?Pact=FileDownLoad&Pval=ZGdrbmVvYmJkaGNoY2hhZWJoY2lriXl/dw==
+# Only verified differences from schools/default.yml are set below.
+# This is the official thesis-submission system manual, not a university-wide writing specification; this is a name-only preset.
+
+university: "景文科技大學"
+university-en: "Jinwen University of Science and Technology"

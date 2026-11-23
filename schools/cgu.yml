@@ -1,0 +1,28 @@
+# 長庚大學 Chang Gung University
+#
+# Source: docs/長庚大學-1100716-碩博士論文規範.pdf
+#   https://www.cgu.edu.tw/Uploads/upload/606242b4-3220-40e7-bfb3-8117f584fd1c.docx
+# Only verified differences from schools/default.yml are set below.
+#
+# University-wide CGU format guidelines, p. 3: body 14pt Kai/Times New Roman, 1.5 spacing, margins top 3.2cm bottom 2.5cm left 3.8cm right 2.5cm. Appendix A (pp. 4-5): cover top 4cm bottom 3cm, title 18pt.
+# Not expressible yet: Distinct inside title page, recommendation form, university committee certification/authorisation, spine and binding.
+
+university: "長庚大學"
+university-en: "Chang Gung University"
+
+layout:
+  font-latin: ["Times New Roman", "Tinos"]
+  font-size: 14
+  margin:
+    top: 3.2
+    bottom: 2.5
+    left: 3.8
+    right: 2.5
+cover:
+  margin:
+    top: 4
+    bottom: 3
+  size:
+    title: 18
+    title-en: 18
+  date-en: "{month-name} {year}"

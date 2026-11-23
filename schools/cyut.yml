@@ -1,0 +1,21 @@
+# 朝陽科技大學 Chaoyang University of Technology
+#
+# Source: docs/朝陽科技大學-1151016-碩博士論文規範.pdf
+#   https://acad.cyut.edu.tw/var/file/2/1002/img/749/396099777.pdf
+# Only verified differences from schools/default.yml are set below.
+#
+# University-wide 115 academic-year guidelines, PDF p. 5: 14pt Kai/Times New Roman, margins top 3cm left/right/bottom 2.5cm, front matter uppercase Roman. Other writing/citation rules depend on colleges/departments.
+# Not expressible yet: Separate English title/inside cover, exact university signed approval/authorisation, program-specific binding colour, college-specific citation styles and spine.
+
+university: "朝陽科技大學"
+university-en: "Chaoyang University of Technology"
+
+layout:
+  font-latin: ["Times New Roman", "Tinos"]
+  font-size: 14
+  margin:
+    bottom: 2.5
+    left: 2.5
+    right: 2.5
+outline:
+  page-numbering: "I"

@@ -1,0 +1,11 @@
+# 國立臺北護理健康大學 National Taipei University of Nursing and Health Sciences
+#
+# Source: docs/國立臺北護理健康大學-0000000-碩博士論文規範.pdf
+#   https://library.ntunhs.edu.tw/p/16-1015-74865.php?Lang=zh-tw
+# Only verified differences from schools/default.yml are set.
+# Evidence: University library graduate departure/thesis submission guidelines; typography published by departments was not generalized to the university.
+#
+# Limitations: Name-only preset: no verified university-wide typography. Fonts, margins, spacing, cover and page order must be set according to the department. Source PDF is explicitly an HTML text snapshot.
+
+university: 國立臺北護理健康大學
+university-en: National Taipei University of Nursing and Health Sciences

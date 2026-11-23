@@ -1,0 +1,26 @@
+# 弘光科技大學 Hungkuang University
+#
+# Source: docs/弘光科技大學-1091200-碩博士論文規範.pdf
+#   https://reg.hk.edu.tw/wp-content/uploads/2024/05/博碩士學位論文格式規範公告.pdf
+# Only verified differences from schools/default.yml are set.
+# Evidence: Registrar graduate thesis format, PDF p.3 articles2/5: cover margins2.5/1.2/2.2/2.4cm; body2.5/2.5/2.6(inner)/2(outer)cm, Kai/Times.
+#
+# Limitations: Minimum25pt line height, 0.5pt character tracking, mirrored duplex inner/outer margins, cover emblem and exact cover arrangement are not expressible by the current preset. Other typography follows the department.
+
+university: 弘光科技大學
+university-en: Hungkuang University
+layout:
+  font-latin:
+  - Tinos
+  - Times New Roman
+  margin:
+    top: 2.5
+    bottom: 2.5
+    left: 2.6
+    right: 2
+cover:
+  margin:
+    top: 2.5
+    bottom: 1.2
+    left: 2.2
+    right: 2.4

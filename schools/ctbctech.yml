@@ -1,0 +1,26 @@
+# 中信科技大學 CTBC UNIVERSITY OF TECHNOLOGY
+#
+# Source: docs/中信科技大學-1140116-碩博士論文規範.pdf
+#   https://library.ctbctech.edu.tw/var/file/23/1023/img/913529135.pdf
+# Only verified differences from schools/default.yml are set.
+# Evidence: University library format1140116, PDF pp.2-3: body12pt Kai/Times,1.5lines,margins2.5/2.5/3/2cm; chapter16pt and section14pt bold.
+#
+# Limitations: College-specific numbering, acknowledgement-before-abstract order, watermark from acknowledgement onwards, chapter opening on odd pages, two title pages, approval form and spine require manual assembly.
+
+university: 中信科技大學
+university-en: CTBC UNIVERSITY OF TECHNOLOGY
+layout:
+  font-latin:
+  - Tinos
+  - Times New Roman
+  margin:
+    top: 2.5
+    bottom: 2.5
+    right: 2
+  heading:
+    size:
+    - 16
+    - 14
+    - 14
+    - 12
+    weight: bold

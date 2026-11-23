@@ -1,0 +1,12 @@
+# 亞洲大學 Asia University
+#
+# Source: docs/亞洲大學-1091118-碩博士論文規範.pdf
+#   https://ac.asia.edu.tw/var/file/13/1013/img/56/T7.doc
+#   https://ac.asia.edu.tw/var/file/13/1013/img/56/T8.doc
+# Only verified differences from schools/default.yml are set.
+# Evidence: Central academic-affairs cover and spine samples. University programme guidance confirms body typography is set by the advisor/department.
+#
+# Limitations: Name-only preset. Collected official files cover only cover/spine examples; no campus-wide font, margins, spacing or heading sizes are inferred. Reproduce the official cover and spine manually.
+
+university: 亞洲大學
+university-en: Asia University

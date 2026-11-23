@@ -1,0 +1,9 @@
+# 中華醫事科技大學 Chung Hwa University of Medical Technology
+#
+# Source: docs/中華醫事科技大學-1100126-碩博士論文規範.pdf
+#   https://lis.hwai.edu.tw/var/file/1/1001/img/429/710803974.pdf
+# Only verified differences from schools/default.yml are set below.
+# This official submission FAQ only suggests PDF-compatible fonts; it has no university-wide layout values, so this is a name-only preset.
+
+university: "中華醫事科技大學"
+university-en: "Chung Hwa University of Medical Technology"

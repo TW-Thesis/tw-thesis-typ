@@ -1,0 +1,11 @@
+# 銘傳大學 Ming Chuan University
+#
+# Source: docs/銘傳大學-0000000-碩博士論文規範.pdf
+#   https://library.mcu.edu.tw/mcu_thesis_notices
+# Only verified differences from schools/default.yml are set below.
+#
+# University library public submission guide: format must satisfy department rules; complete thesis includes acknowledgements, abstracts, contents and references. It does not prescribe university-wide body dimensions. The PDF is an explicitly labelled HTML snapshot.
+# Not expressible yet: Department-specific cover/body typography and signatures, watermark on every electronic PDF page; default renderer only applies body watermarks.
+
+university: "銘傳大學"
+university-en: "Ming Chuan University"

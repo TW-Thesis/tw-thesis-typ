@@ -1,0 +1,29 @@
+# 國立虎尾科技大學 National Formosa University
+#
+# Source: docs/國立虎尾科技大學-1110726-碩博士論文規範.pdf
+#   https://oaa.nfu.edu.tw/uploads/asset/data/695cb602085777d053ba7c01/%E5%9C%8B%E7%AB%8B%E8%99%8E%E5%B0%BE%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%B8%E5%AD%B8%E4%BD%8D%E8%AB%96%E6%96%87%E8%A6%8F%E7%AF%84%E4%B8%AD1110726%E4%BF%AE%E6%AD%A3.odt
+# Only verified differences from schools/default.yml are set.
+# Evidence: Official Chinese thesis format ODT (1110726 link revision), pages 3-6: margins top4,left3,right3,bottom3cm, Ming body, hyphenated centred pages; section headings left.
+#
+# Limitations: Chinese single spacing and English 1.5 spacing, 32 lines/characters minimum, exact chapter/section numbering, recommendation/authorization pages, spine and table-before-figure lists are manual. Install a Ming font; Noto Serif CJK TC is a fallback.
+
+university: 國立虎尾科技大學
+university-en: National Formosa University
+layout:
+  font-latin:
+  - Tinos
+  - Times New Roman
+  font-cjk:
+  - Noto Serif CJK TC
+  - PMingLiU
+  margin:
+    top: 4
+    bottom: 3
+  heading:
+    align:
+    - center
+    - left
+    - left
+    - left
+page-number:
+  format: -{page}-

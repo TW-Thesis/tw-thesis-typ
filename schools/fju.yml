@@ -1,0 +1,24 @@
+# 輔仁大學 Fu Jen Catholic University
+#
+# Source: docs/輔仁大學-0910502-碩博士論文規範.pdf
+#   https://docsacademic.fju.edu.tw/edulaw/學位論文印製格式統一規定.pdf
+# Only verified differences from schools/default.yml are set below.
+#
+# p. 1, sections 2 and 4: A4 cover/body, margins all 3cm; Chinese cover uniformly 20pt. Body typography and citations follow departments.
+# Not expressible yet: Spine, university signed approval, copyright forms and vertical Chinese-department option; the thesis portal adds its own watermark.
+
+university: "輔仁大學"
+university-en: "Fu Jen Catholic University"
+
+layout:
+  margin:
+    bottom: 3
+cover:
+  size:
+    org: 20
+    org-en: 20
+    university-en: 20
+    title-en: 20
+    author: 20
+    advisor: 20
+    date: 20

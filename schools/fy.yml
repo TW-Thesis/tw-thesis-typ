@@ -1,0 +1,20 @@
+# 輔英科技大學 Fooyin University
+#
+# Source: docs/輔英科技大學-1150304-碩博士論文規範.pdf
+#   https://eaa.fy.edu.tw/app/index.php?Action=downloadfile&file=WVhSMFlXTm9MelEwTDNCMFlWODJOelkzTUY4MU1qa3hPVGhmT1RBd01qVXVaRzlq&fname=WSGGTSB00010A1KK50LKRKHGSTTWWTB1YSUWGGYSQP05LK40USNKCDSW00OOB4SSWW00FHZXVS0435WWRKHCKO25SSROGCWS21XT04B5YSUSCDA4CCTSXXOKVW40CC1144LKJGWTFCSWLO20IGRO04YSHDNPB5A5LKUS30TWDGA4LKQKRKKKZXMPJC10NP14MK14ZTIGYSEGFHRL21MPLKA5POMKZWRKQODCPKFGKK04POPO
+# Only verified differences from schools/default.yml are set.
+# Evidence: Official new format effective March2026, PDF p.4 section2(6-8): body14pt,1.5lines,Kai/Times; margins2.5/2.5/3/2.5cm.
+#
+# Limitations: Title-page layout, signature/authorization pages, spine, table-before-figure list and page-number offset must be assembled manually; departments may specify additions.
+
+university: 輔英科技大學
+university-en: Fooyin University
+layout:
+  font-latin:
+  - Tinos
+  - Times New Roman
+  font-size: 14
+  margin:
+    top: 2.5
+    bottom: 2.5
+    right: 2.5

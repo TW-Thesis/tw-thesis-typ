@@ -1,9 +1,332 @@
 {
+  "aeust": {
+    "file": "亞東科技大學-1100728-碩博士論文規範.pdf",
+    "sha256": "335b42d2b8e9a579f770c5e6d5827ed0b7a0611a4d8ba5f432ea8518155f698a",
+    "urls": [
+      "https://ce.aeust.edu.tw/var/file/46/1046/img/994/686053123.doc"
+    ]
+  },
+  "asia": {
+    "file": "亞洲大學-1091118-碩博士論文規範.pdf",
+    "sha256": "0d359dd4682b09d8040bf4e28a5d83f40ad6ff3b77654e117b905c05a71f23cb",
+    "urls": [
+      "https://ac.asia.edu.tw/var/file/13/1013/img/56/T7.doc",
+      "https://ac.asia.edu.tw/var/file/13/1013/img/56/T8.doc"
+    ]
+  },
+  "au": {
+    "file": "真理大學-1130527-碩博士論文規範.pdf",
+    "sha256": "97c555d10d6994af275e67804d17e686df0f9cf40a7c6a4a80ebcd488d58a1e2",
+    "urls": [
+      "https://registration.au.edu.tw/app/index.php?Action=downloadfile&file=WVhSMFlXTm9MelF6TDNCMFlWODNNamsxT1Y4Mk1EazJOelE1WHpJME56Y3hMbkJrWmc9PQ==&fname=WSGGKLQKYW4441ZXEDLKWT24B030WTLOWSJCCCGCCCUXPO40ZW30EGLL00OOROROPOCCEHKKA404ROXTMKSWTSWW34B0NKGCLPYTXWA034MKB001USSSCDFCMK44MP15HCA0UWIGTWMO352550B0YWXS0035QPROXWECNKSW34OK45US4444ZXXXDGFGRKYWMKOKGDIGQOROTWNPGGFDPOFCNKB4ECFGQOPOVWWXYWCCOOZX04LKUS34RKMOFHYSYSFGNO24UT51UTVW34YWFDB4OOKKMKTSWW54HDHH00ZSPO24QOB4IC00B0B0MONKNPYTA4PK34TS01KLECSW24QKPKLKDH2504NONOLOTWTWSSICDGVWSWKKVXUXDDA0US30FGUWOOOK45QKICWWTX05EDB0PKYS"
+    ]
+  },
   "ccu": {
     "file": "國立中正大學-0900100-碩博士論文規範.pdf",
     "sha256": "1b6585685e3db0f98c18007e87d672b97591c3edb4e4443df58e423da56c28c8",
     "urls": [
       "https://colmgt.ccu.edu.tw/var/file/22/1022/img/1115/16.IMF-ThesisRegulation.pdf"
+    ]
+  },
+  "cgu": {
+    "file": "長庚大學-1100716-碩博士論文規範.pdf",
+    "sha256": "0e066e0dbcac0af3b116a6d4f8f505f31047529f1e6e773ada41b5ce70887903",
+    "urls": [
+      "https://www.cgu.edu.tw/Uploads/upload/606242b4-3220-40e7-bfb3-8117f584fd1c.docx"
+    ]
+  },
+  "cgust": {
+    "file": "長庚科技大學-1140609-碩博士論文規範.pdf",
+    "sha256": "fc839deb45640044a129f4cb8c5b2d519cf682f33584e3907e4cacb7e7228edb",
+    "urls": [
+      "https://health-industry.cgust.edu.tw/app/index.php?Action=downloadfile&file=RHZTcEhjZFR0S0RoZEFSSG8yMTd6aGJlelgrMUcwT2ZzQ0tpeFgyQzJOMWw3bENWZTcwN2NSQmk3M1pPR09CQkZRbzlQY2lLUDlQTElUcnNMN29GdnZPekc2K3FSOCtGUzBhUXowdUIvUVE9&fname=Zkt2YXJZWkZvL0JtampwOEZ5T2oxb3FNWlhQcGdPcytqdTFPb3J2WWNmMXI1b1JJai9qK3BJMzZlTEhJQkkrVVhCbWtEMzhBcTRuNWxlVzNaRVhZS1BFbGJyWG9Dc250T0ROQTlsaEl0ZDRPVnRNaHcxYzRQV3NnNkxEeENxc1ZVTW91ajhrR0NrVkk4ajJrMzVLY0J5bFVIK0lUWVhBNlpQSnhBSEgxWkJrPQ=="
+    ]
+  },
+  "chihlee": {
+    "file": "致理科技大學-1050125-碩博士論文規範.pdf",
+    "sha256": "f992226d069a7ccf3734ed5f7f7eb8ce374b92792e8ce7a1d9fd976715be0fad",
+    "urls": [
+      "https://cloud.ncl.edu.tw/school_file_download.php?Pact=FileDownLoad&Pval=Y2JmamdvYmJkaGNoY2hhZWJrZm1riXl/dw=="
+    ]
+  },
+  "chu": {
+    "file": "中華大學-1110914-碩博士論文規範.pdf",
+    "sha256": "eb8c7ef10023765b40ca87e61e07f7c45c7311c01917fd7f04506d996e55561e",
+    "urls": [
+      "https://aa.chu.edu.tw/var/file/49/1049/img/556/548129719.pdf"
+    ]
+  },
+  "cjcu": {
+    "file": "長榮大學-1070313-碩博士論文規範.pdf",
+    "sha256": "0034eb459b8d9aa8514716f4a0c019bdf9015d164d22a07eba2d740a8e7b93b0",
+    "urls": [
+      "https://dweb.cjcu.edu.tw/ShepherdFiles/C0180/File/20231205115437921.pdf"
+    ]
+  },
+  "cmu": {
+    "file": "中國醫藥大學-1110808-碩博士論文規範.pdf",
+    "sha256": "b1ca8ce3cc87d36f0526117e62e7bfc5415526388e6f0be2dda0c0b70c85d739",
+    "urls": [
+      "https://gsa.cmu.edu.tw/sites/default/files/學位論文電子上傳格式參考.odt"
+    ]
+  },
+  "cnu": {
+    "file": "嘉南藥理大學-1091013-碩博士論文規範.pdf",
+    "sha256": "38fecd68f5f63f3db977411af2b367f1ada75d38992891678b9339edc7e6a817",
+    "urls": [
+      "https://tourism.cnu.edu.tw/USER/Userfile/FILE/ff241203124944390168.pdf"
+    ]
+  },
+  "cpu": {
+    "file": "中央警察大學-1090428-碩博士論文規範.pdf",
+    "sha256": "c6db2b66d21fb0c11879a22def26ae4a02fed3ac1ee5f5d9903bac224544ea76",
+    "urls": [
+      "https://pa.cpu.edu.tw/var/file/14/1014/img/141/112284555.pdf"
+    ]
+  },
+  "csmu": {
+    "file": "中山醫學大學-1150513-碩博士論文規範.pdf",
+    "sha256": "7b68203343d6dab4fffe178707cd2d947a36bb820fac088070197f5a1930ecb8",
+    "urls": [
+      "https://ndltdcc.ncl.edu.tw/userfiles/CSMU0/files/提交及上傳1150513.pdf"
+    ]
+  },
+  "csu": {
+    "file": "正修科技大學-1150211-碩博士論文規範.pdf",
+    "sha256": "94623bf1c13a21cbcb081a83b4dc575c030755945da36e3ce7d361165f83b52b",
+    "urls": [
+      "https://academic.csu.edu.tw/var/file/7/1007/img/290/608791679.pdf"
+    ]
+  },
+  "ctbctech": {
+    "file": "中信科技大學-1140116-碩博士論文規範.pdf",
+    "sha256": "3d2c4e8e4210ca6f4ae5a7570001decb5dc20a1c1e87eff952d2f1c49dc82dca",
+    "urls": [
+      "https://library.ctbctech.edu.tw/var/file/23/1023/img/913529135.pdf"
+    ]
+  },
+  "ctu": {
+    "file": "建國科技大學-1110728-碩博士論文規範.pdf",
+    "sha256": "d52f75456ee88223bcfe0b54000d2067431d41bbeaa77455d0122573cd81c729",
+    "urls": [
+      "https://ecc.ctu.edu.tw/var/file/11/1011/img/1493/207000453.pdf"
+    ]
+  },
+  "ctust": {
+    "file": "中臺科技大學-1060718-碩博士論文規範.pdf",
+    "sha256": "967853b1c1e78da4f2ef41607b0cb371278fca85681d9c4543b5ff968a7cfeba",
+    "urls": [
+      "https://aca.ctust.edu.tw/var/file/21/1021/img/1820/422943135.odt"
+    ]
+  },
+  "cufa": {
+    "file": "崇右影藝科技大學-1040203-碩博士論文規範.pdf",
+    "sha256": "c4a2b99813156a0462a37496d57d254bd5e0d87230db5968f734f60fe0373f0a",
+    "urls": [
+      "https://ccd.cufa.edu.tw/var/file/6/1006/img/51/628107485.pdf"
+    ]
+  },
+  "cust": {
+    "file": "中華科技大學-1070510-碩博士論文規範.pdf",
+    "sha256": "c46a4f340a30b34cd625b3d98badea2a3d62dac37a5a46d0e64c391920dbf73a",
+    "urls": [
+      "https://dbt.cust.edu.tw/Data/107.05.10.pdf"
+    ]
+  },
+  "cute": {
+    "file": "中國科技大學-1050200-碩博士論文規範.pdf",
+    "sha256": "af2ed32f8ea70b51676067bb7a2fece5ada84f16de77f47bd4362c7914da097c",
+    "urls": [
+      "https://drive.google.com/uc?export=download&id=1vUhVSIVPwaVc4-xyLTkkLl8peyBKRX4K"
+    ]
+  },
+  "cycu": {
+    "file": "中原大學-1150121-碩博士論文規範.pdf",
+    "sha256": "2e0bda0421268249dcdcabcdeb9075a8a95a8257f59576a220655fd211f98330",
+    "urls": [
+      "https://el.cycu.edu.tw/wp-content/uploads/2026/11/3.115-1中原大學碩博士論文撰寫格式規範.pdf"
+    ]
+  },
+  "cyut": {
+    "file": "朝陽科技大學-1151016-碩博士論文規範.pdf",
+    "sha256": "94f59a7dacbdf8f349110706ef30930339cb72f72f5598a9b9b327b9c0a828bc",
+    "urls": [
+      "https://acad.cyut.edu.tw/var/file/2/1002/img/749/396099777.pdf"
+    ]
+  },
+  "dyu": {
+    "file": "大葉大學-1141215-碩博士論文規範.pdf",
+    "sha256": "4f94ab1ba079882eb0e2bd04e735d72825093373fcbaf76199f3b026feb44aa8",
+    "urls": [
+      "https://reg.dyu.edu.tw/open_file.php?filename=1273"
+    ]
+  },
+  "fcu": {
+    "file": "逢甲大學-1110318-碩博士論文規範.pdf",
+    "sha256": "a39195b588082ae33438b69c3ac3db45fae9f90d035981c6da5d4cec58252bc4",
+    "urls": [
+      "https://web.lib.fcu.edu.tw/library/sites/default/files/2023-06/fcuformat202203.docx"
+    ]
+  },
+  "fgu": {
+    "file": "佛光大學-1100106-碩博士論文規範.pdf",
+    "sha256": "9f8ea8e97cb5f34a1e5611b087903bf27adee81f6f52d779a452f4707b163257",
+    "urls": [
+      "https://academic.fgu.edu.tw/uploads/asset/data/6364c40c0e588f3069a3eb6b/1.論文格式說明.pdf"
+    ]
+  },
+  "fju": {
+    "file": "輔仁大學-0910502-碩博士論文規範.pdf",
+    "sha256": "5a1b5434a558764591f2f7d8be1bab1473ef405a4ccb1609230f350bbc0202c0",
+    "urls": [
+      "https://docsacademic.fju.edu.tw/edulaw/學位論文印製格式統一規定.pdf"
+    ]
+  },
+  "fy": {
+    "file": "輔英科技大學-1150304-碩博士論文規範.pdf",
+    "sha256": "3af1f0145617e3c9c4e85c5ebb442ed9a15123695c75f47480a5645d5a92cb6b",
+    "urls": [
+      "https://eaa.fy.edu.tw/app/index.php?Action=downloadfile&file=WVhSMFlXTm9MelEwTDNCMFlWODJOelkzTUY4MU1qa3hPVGhmT1RBd01qVXVaRzlq&fname=WSGGTSB00010A1KK50LKRKHGSTTWWTB1YSUWGGYSQP05LK40USNKCDSW00OOB4SSWW00FHZXVS0435WWRKHCKO25SSROGCWS21XT04B5YSUSCDA4CCTSXXOKVW40CC1144LKJGWTFCSWLO20IGRO04YSHDNPB5A5LKUS30TWDGA4LKQKRKKKZXMPJC10NP14MK14ZTIGYSEGFHRL21MPLKA5POMKZWRKQODCPKFGKK04POPO"
+    ]
+  },
+  "hcu": {
+    "file": "玄奘大學-1121004-碩博士論文規範.pdf",
+    "sha256": "674bf9e7ea5b8d94a7292b2dc9c07d723f895c1a95725b59933a5c5d917a9c43",
+    "urls": [
+      "https://www.hcu.edu.tw/sec/Upload/att/2017-08/202402160952268290191446.pdf"
+    ]
+  },
+  "hdut": {
+    "file": "宏國德霖科技大學-1101229-碩博士論文規範.pdf",
+    "sha256": "4972a4c968aa020684372c9051ec50673146163c919c6d3c10570914d7a9301c",
+    "urls": [
+      "https://lib.hdut.edu.tw/var/file/28/1028/img/378/689970319.pdf"
+    ]
+  },
+  "hfu": {
+    "file": "華梵大學-1090603-碩博士論文規範.pdf",
+    "sha256": "fde1243c3dd38f5468430bfe00d6eb13e7459a361da6c853d19611e29c1a3250",
+    "urls": [
+      "https://tsl.hfu.edu.tw/Download.aspx?dir=Archive&file=F3-41-26-56-F5-0F-90-F7-AD-E3-2D-06-19-0A-C9-FB.odt&filename=華梵大學博碩士學位論文格式說明&sn=11"
+    ]
+  },
+  "hk": {
+    "file": "弘光科技大學-1091200-碩博士論文規範.pdf",
+    "sha256": "3349070059c38f0b0c11645cd93a2a38f4b37ad90b1bc028ca6c21267000f84c",
+    "urls": [
+      "https://reg.hk.edu.tw/wp-content/uploads/2024/05/博碩士學位論文格式規範公告.pdf"
+    ]
+  },
+  "hust": {
+    "file": "修平科技大學-1001202-碩博士論文規範.pdf",
+    "sha256": "df7c1c578be2e3ea0f9fc28b755ed227d381876d61b9205b7a387f297deff67e",
+    "urls": [
+      "https://mem.hust.edu.tw/shareFile/file/11/59/5cyvt5i10.pdf"
+    ]
+  },
+  "hwai": {
+    "file": "中華醫事科技大學-1100126-碩博士論文規範.pdf",
+    "sha256": "a55e840bd49d38d62ad44f351fbc1bd73badf69cadb9fd0a22c3239c5d720389",
+    "urls": [
+      "https://lis.hwai.edu.tw/var/file/1/1001/img/429/710803974.pdf"
+    ]
+  },
+  "hwh": {
+    "file": "華夏科技大學-1120222-碩博士論文規範.pdf",
+    "sha256": "420cc77f6558a5fab1687cd8c60e513f2825d7e16e387bc3f2251345b9f337e4",
+    "urls": [
+      "https://cloud.ncl.edu.tw/school_file_download.php?Pact=FileDownLoad&Pval=ZWdqcGlvYmJkaGNoY2hhZWRjYmlriXl/dw=="
+    ]
+  },
+  "hwu": {
+    "file": "醒吾科技大學-1060906-碩博士論文規範.pdf",
+    "sha256": "bbff1443af2db3047e361f39bc9539b4b48f8d11fb40d97a6649cff0f25b48c0",
+    "urls": [
+      "https://b001.hwu.edu.tw/Upload/Sync/153440636.pdf"
+    ]
+  },
+  "isu": {
+    "file": "義守大學-1150430-碩博士論文規範.pdf",
+    "sha256": "57e33b7a7d062bb897d8e690168c918e816acdf8e1e0b4bdac6e9593a211604c",
+    "urls": [
+      "https://olis.isu.edu.tw/storage/files/fFjuJWt1Mb9vArk0TFoePPKvyinKgDQeOe0r1amw.pdf"
+    ]
+  },
+  "just": {
+    "file": "景文科技大學-1100600-碩博士論文規範.pdf",
+    "sha256": "90fcf7b3a2d01c1cc4fb564c7ec1d6ab2cb44933fa944408fa6836b8b4ed9026",
+    "urls": [
+      "https://cloud.ncl.edu.tw/school_file_download.php?Pact=FileDownLoad&Pval=ZGdrbmVvYmJkaGNoY2hhZWJoY2lriXl/dw=="
+    ]
+  },
+  "kmu": {
+    "file": "高雄醫學大學-1140618-碩博士論文規範.pdf",
+    "sha256": "79fa33332afb42bfacf2198cd7586331856fe9626582a9607c0775e28750308c",
+    "urls": [
+      "https://gim.kmu.edu.tw/attachments/article/31/10.%E7%95%A2%E6%A5%AD%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A0%851140618.pdf?download=1"
+    ]
+  },
+  "knu": {
+    "file": "開南大學-1090408-碩博士論文規範.pdf",
+    "sha256": "87c7bca917ea13a4747fe15a0a295f4f922db7b8f74e505452e9a65336589abf",
+    "urls": [
+      "https://course.knu.edu.tw/var/file/45/1045/img/571/792142733.pdf"
+    ]
+  },
+  "ksu": {
+    "file": "崑山科技大學-1071203-碩博士論文規範.pdf",
+    "sha256": "435ad77b2d766b6a09dbb9d1492315297b9040a13434d6be2e0d010eb86be897",
+    "urls": [
+      "https://my.ksu.edu.tw/file/web/CHS/DTCEMNR/85eef1d8-d5d5-4f82-9af6-120042e58b40.pdf"
+    ]
+  },
+  "lhu": {
+    "file": "龍華科技大學-1140605-碩博士論文規範.pdf",
+    "sha256": "876b59b74070c68e243e25011e80c8719b4c3fb28e215afcd10cab08397b1097",
+    "urls": [
+      "https://mg.lhu.edu.tw/var/file/3/1003/img/109/573733859.pdf"
+    ]
+  },
+  "ltu": {
+    "file": "嶺東科技大學-1140102-碩博士論文規範.pdf",
+    "sha256": "1621fe9e4494b10e6f67a66f8e5d32f6409a0a65cfd5bec0217fadbe7017e570",
+    "urls": [
+      "https://ltu1620.video.ltu.edu.tw/filedownload/565"
+    ]
+  },
+  "mcu": {
+    "file": "銘傳大學-0000000-碩博士論文規範.pdf",
+    "sha256": "da7e1d2f877b094f3b9e955325e8d6c2af08fd919c8320f3eca5a14f3728c408",
+    "urls": [
+      "https://library.mcu.edu.tw/mcu_thesis_notices"
+    ]
+  },
+  "mcut": {
+    "file": "明志科技大學-1141104-碩博士論文規範.pdf",
+    "sha256": "5c78ee5a2b4fdbbc2e2c1988c29b4dc12b68396a92c23d0e545a78c2c6902135",
+    "urls": [
+      "https://lis.mcut.edu.tw/var/file/13/1013/attach/55/pta_27014_6772713_72980.pdf"
+    ]
+  },
+  "meiho": {
+    "file": "美和科技大學-1140512-碩博士論文規範.pdf",
+    "sha256": "768b398cd1a7ce7ecf275ef692a5b2e08fcaa944f5672e5f4b15694150b6b25b",
+    "urls": [
+      "https://san.meiho.edu.tw/var/file/30/1030/img/1220/919985912.pdf"
+    ]
+  },
+  "mmu": {
+    "file": "馬偕醫學大學-1150522-碩博士論文規範.pdf",
+    "sha256": "2fac3f69beb7c3e7b91c3025d977039cad6cc0ddd7a3fb87ed80fda4de0c374d",
+    "urls": [
+      "https://cloud.ncl.edu.tw/school_file_download.php?Pact=FileDownLoad&Pval=aWNrcGlvYmJkaGNoY2hhZWJrZm1riXl/dw=="
+    ]
+  },
+  "must": {
+    "file": "明新科技大學-1120529-碩博士論文規範.pdf",
+    "sha256": "220df33896b5e8c241a7ab9c3db34f946c32ab2c6158526bf39616c75e0101fe",
+    "urls": [
+      "https://admin.must.edu.tw/files/1　碩博士論文格式1120529_20241225163355_20250418154835.pdf"
     ]
   },
   "nccu": {
@@ -27,6 +350,13 @@
       "https://www.cc.ncku.edu.tw/rule/files/20060000/Read博碩士學位論文格式規範1100206.pdf"
     ]
   },
+  "ncnu": {
+    "file": "國立暨南國際大學-1101101-碩博士論文規範.pdf",
+    "sha256": "0cdd0a6cb97d2bf8b6470a580cf99630f20054590ecea4c438ee52e2fc03612d",
+    "urls": [
+      "https://drive.google.com/uc?export=download&id=1tp45Nv5KPnfqg-_P97dbuMfMrOf1J4vT"
+    ]
+  },
   "ncu": {
     "file": "國立中央大學-1050127-碩博士論文規範.pdf",
     "sha256": "a992f8f05287a711c5a4cbac690553fd29c10e6fe6cdf7bcefb91eeaee19a308",
@@ -41,6 +371,62 @@
       "https://acadaff.ncue.edu.tw/var/file/2/1002/img/805/775413436.pdf"
     ]
   },
+  "ncut": {
+    "file": "國立勤益科技大學-1140716-碩博士論文規範.pdf",
+    "sha256": "d85f7536645206250077550d4e084b14255dba9db0f02d63f3f3d5d997cf2e74",
+    "urls": [
+      "https://oaa.ncut.edu.tw/var/file/9/1009/attach/67/pta_67803_1693115_33154.pdf"
+    ]
+  },
+  "ncyu": {
+    "file": "國立嘉義大學-1141125-碩博士論文規範.pdf",
+    "sha256": "85863b82edfc74730ec8ed8051233bdcf61a4fe6b901014aee50e6d414808e53",
+    "urls": [
+      "https://www.ncyu.edu.tw/chinese/ServerFile/Get/81a15ba4-5059-44f9-9f4b-3835ccd664c7?nodeId=9625&sId=232444"
+    ]
+  },
+  "ndhu": {
+    "file": "國立東華大學-1121208-碩博士論文規範.pdf",
+    "sha256": "efd4244f0bbd54c428943668986541987e68acb803dc0804bc664c52994c5379",
+    "urls": [
+      "https://lib.ndhu.edu.tw/var/file/175/1175/attach/39/pta_131269_4020793_10424.pdf"
+    ]
+  },
+  "ndmu": {
+    "file": "國防醫學大學-1141113-碩博士論文規範.pdf",
+    "sha256": "330ccf62ba8c1bc5dbe728572a573e3be60d006249c59f7e5841bbde9ef45501",
+    "urls": [
+      "https://wwwndmc.ndmutsgh.edu.tw/files/web/192/file_up/100002/9957/碩士班畢業論文撰寫要點及表單.doc"
+    ]
+  },
+  "ndu": {
+    "file": "國防大學-0000000-碩博士論文規範.pdf",
+    "sha256": "cdb0cf41e4712263cf7d48554ae8a26cc60f1c4e567737f47767ad5ba5d2713f",
+    "urls": [
+      "https://cloud.ncl.edu.tw/ndu/upload.php"
+    ]
+  },
+  "nfu": {
+    "file": "國立虎尾科技大學-1110726-碩博士論文規範.pdf",
+    "sha256": "ad67379e2d15d3dc2f1589e0c5158faf7cf2b2664a547a19192b3192836ff329",
+    "urls": [
+      "https://oaa.nfu.edu.tw/uploads/asset/data/695cb602085777d053ba7c01/%E5%9C%8B%E7%AB%8B%E8%99%8E%E5%B0%BE%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%B8%E5%AD%B8%E4%BD%8D%E8%AB%96%E6%96%87%E8%A6%8F%E7%AF%84%E4%B8%AD1110726%E4%BF%AE%E6%AD%A3.odt"
+    ]
+  },
+  "nhu": {
+    "file": "南華大學-1081215-碩博士論文規範.pdf",
+    "sha256": "662c71568216978a8c67b8a5eba3ad2ea75ff93d973f2ff6cc72670ff15b54ed",
+    "urls": [
+      "https://nhuwebfile.nhu.edu.tw/UploadedFiles/2021/12/460d4252-456e-4ba5-b8ae-c4135970284d.pdf"
+    ]
+  },
+  "niu": {
+    "file": "國立宜蘭大學-1111220-碩博士論文規範.pdf",
+    "sha256": "35b466dcf29229fcfd2419ef64f06d1839d728cd2cbb1957a145133dd9bd8e9c",
+    "urls": [
+      "https://academic.niu.edu.tw/var/file/3/1003/img/73/123599725.pdf"
+    ]
+  },
   "nknu": {
     "file": "國立高雄師範大學-1100824-碩博士論文規範.pdf",
     "sha256": "41ab6432e3422d005745467d3dd256258a72f166162b76053bb697f1df24801f",
@@ -48,11 +434,68 @@
       "https://c.nknu.edu.tw/aca/UploadFile/Files/file1_82415353.doc"
     ]
   },
+  "nkuht": {
+    "file": "國立高雄餐旅大學-1101029-碩博士論文規範.pdf",
+    "sha256": "da1c909986ad48a5862e71a7a36544810fa5fc708a917330ae2d593f4b075213",
+    "urls": [
+      "https://imth.nkuht.edu.tw/var/file/40/1040/img/925780098.pdf"
+    ]
+  },
+  "nkust": {
+    "file": "國立高雄科技大學-1110300-碩博士論文規範.pdf",
+    "sha256": "e8d409c6df399b06af06fa4fa039985e69d6437d7ddf7320e8b92e710a3288e8",
+    "urls": [
+      "https://tm.nkust.edu.tw/wp-content/uploads/2022/12/國立高雄科技大學-研究所學位論文撰寫體例參考.pdf"
+    ]
+  },
+  "nkut": {
+    "file": "南開科技大學-1011219-碩博士論文規範.pdf",
+    "sha256": "abfa36c12f8725beafd87616017f94d5d9d2078fc51e47858176c34e21bc300c",
+    "urls": [
+      "https://cloud.ncl.edu.tw/school_file_download.php?Pact=FileDownLoad&Pval=ZWtpbWtnYGRoY2NpZGZjZGNiZXGFfn13"
+    ]
+  },
+  "nptu": {
+    "file": "國立屏東大學-1120613-碩博士論文規範.pdf",
+    "sha256": "684fb19ed3c6919eb0ece73e6be0033f564eacdb05198f5f07d057fec16c305f",
+    "urls": [
+      "https://ndltdcc.ncl.edu.tw/userfiles/NPTU0/files/Cover%20Format%20A.pdf"
+    ]
+  },
+  "npu": {
+    "file": "國立澎湖科技大學-0000000-碩博士論文規範.pdf",
+    "sha256": "243c97a8557ad8c9a783427de08f0fbfd1c431266c3b446be9025ec207147fdd",
+    "urls": [
+      "https://www.npu.edu.tw/lib/content/index.aspx?Parser=1,41,379,341"
+    ],
+    "representation": "html-snapshot"
+  },
+  "npust": {
+    "file": "國立屏東科技大學-1110412-碩博士論文規範.pdf",
+    "sha256": "d313687ded223af7fbc209e039cb9221ce3944af0b15fd1d2bcc3b45b64f04ad",
+    "urls": [
+      "https://aa.npust.edu.tw/doc/7/pdf/學位論文撰寫注意事項1091119.pdf"
+    ]
+  },
+  "nqu": {
+    "file": "國立金門大學-1110629-碩博士論文規範.pdf",
+    "sha256": "d75eae345c87876b46776f6d9b07403ff5a89447c2123a88e18f92a6d690d3d8",
+    "urls": [
+      "https://library.nqu.edu.tw/app/index.php?Action=downloadfile&file=WVhSMFlXTm9MemN5TDNCMFlWOHhNakk0WHpVeU5qVTRNVFZmTlRFek5Ea3VjR1Jt&fname=LOGGROOKWWCGA1YXEDLKSW24143025RLYSB040XSTXJDOO40UWTSFD54WW54FGOKPOPOGG01A404ROJGKOSWTSLO34B0NOYSVXVXXWTS14ZWFG01SSSWB5PKLO40FDZXDGA0HGZWVWTWDCXS50B0ZWNKNPQLQPROSW30ZSKLIGSSCDUS4400HDXX44LKYSGDTWXSTSWWOPJCHGIC21XTPOTSNKB4TSFGQOGGFCSTSSDCXX54DGHGOKJGOOTWWTA1US34YS35LPJDA0QPKPNO1145&cg=647"
+    ]
+  },
   "nsysu": {
     "file": "國立中山大學-1110315-碩博士論文規範.pdf",
     "sha256": "4d82fa5af9fda9e25b6b4b7fd5ca05a0792a0ecee4a986135516f559f99b26ff",
     "urls": [
       "https://cse.nsysu.edu.tw/static/file/205/1205/img/3656/Thesisformat.pdf"
+    ]
+  },
+  "ntcu": {
+    "file": "國立臺中教育大學-1130115-碩博士論文規範.pdf",
+    "sha256": "10ee95a6476f486871d95f85adbcf81f375c265d6265751841e75a53bfc576bd",
+    "urls": [
+      "https://lib.ntcu.edu.tw/storage/media/yaMqpcQcYRoHWv3AbJFUe3eUo2yOEwxiY5NHc7Yj.pdf"
     ]
   },
   "nthu": {
@@ -84,11 +527,76 @@
       "https://cms-carrier.ntpu.edu.tw/uploads/Ch_En_Dissertaion_Abstract_and_Table_of_Contents_Format_Example_aa0cb53785.odt"
     ]
   },
+  "ntsu": {
+    "file": "國立體育大學-1130530-碩博士論文規範.pdf",
+    "sha256": "f697ab8599f523500ce16c9eff2d28f3789eaa06270d76300fc2a3944affa92f",
+    "urls": [
+      "https://giss.ntsu.edu.tw/app/index.php?Action=downloadfile&file=eFUxcHhPRE4wT2NyQ2t1QS9EUktpZk5tZi9ZM084dzhSckZCYXVYQjlXKzBoNlhHVGpsN0lmWjJyY3FLNURFcDRUQnlBb3lCSEhmUk14aFJlcUgySHlsVUgrSVRZWEE2WlBKeEFISDFaQms9&fname=YldheXRHTWNnaUIrWnVjNXlMYStRaXV6aERTWThRdERWeUlEZDJ6aW9PNFBkVDFsekFvQVZOaWVvdkJpcU9FU1IvREFNb1hGc2Q4Q0tDVTFBTzRHK3lsVUgrSVRZWEE2WlBKeEFISDFaQms9&cg=66"
+    ]
+  },
+  "nttu": {
+    "file": "國立臺東大學-1110602-碩博士論文規範.pdf",
+    "sha256": "3d9beea89190fefe94396b4e33e6b793c29ab999721565b6000c46eacd91f9a5",
+    "urls": [
+      "https://wedu.nttu.edu.tw/var/file/37/1037/img/1091/881230901.pdf"
+    ]
+  },
   "ntu": {
     "file": "國立臺灣大學-1121020-碩博士論文規範.pdf",
     "sha256": "15f6b92aaeb4926fe008f0db3989f7fbf94944b81e0b2e472b7faae855b9d86d",
     "urls": [
       "https://www.lib.ntu.edu.tw/doc/cl/THESISSAMPLE.doc"
+    ]
+  },
+  "ntua": {
+    "file": "國立臺灣藝術大學-1150601-碩博士論文規範.pdf",
+    "sha256": "48c0bc5b02b36629a4145f5c1aff84405f91ca426907bd19f610084b2b794599",
+    "urls": [
+      "https://cloud.ncl.edu.tw/school_file_download.php?Pact=FileDownLoad&Pval=aWRlaGRvYmJkaGNoY2hhZWJlZ3BriXl/dw=="
+    ]
+  },
+  "ntub": {
+    "file": "國立臺北商業大學-0000000-碩博士論文規範.pdf",
+    "sha256": "21038b1830ac3870eb8f664f60ba8619a48845ad57154050d3ef3a2d333708dd",
+    "urls": [
+      "https://thesis-lib.ntub.edu.tw/help/aboutedit/"
+    ],
+    "representation": "html-snapshot"
+  },
+  "ntue": {
+    "file": "國立臺北教育大學-1150422-碩博士論文規範.pdf",
+    "sha256": "6a9e611d5f9b2caa74a8d8349adcccca18ef32652c0b8dc8c803112d798bd67d",
+    "urls": [
+      "https://ndltdcc.ncl.edu.tw/userfiles/NTPTC/files/%E5%9C%8B%E7%AB%8B%E8%87%BA%E5%8C%97%E6%95%99%E8%82%B2%E5%A4%A7%E5%AD%B8%E5%AD%B8%E4%BD%8D%E8%AB%96%E6%96%87%E6%A0%BC%E5%BC%8F%E8%A6%8F%E7%AF%84_1150422%E6%95%99%E5%8B%99%E6%9C%83%E8%AD%B0_%E4%BF%AE%E6%AD%A3%E9%80%9A%E9%81%8E%5B%E5%85%AC%E5%91%8A%E7%89%88-%E7%B4%85%E5%AD%97%E6%A8%99%E7%A4%BA%5D(1).pdf"
+    ]
+  },
+  "ntunhs": {
+    "file": "國立臺北護理健康大學-0000000-碩博士論文規範.pdf",
+    "sha256": "5de176026c565b5f52fced179277ab5a4f258186500351e6657d3e2353d59f33",
+    "urls": [
+      "https://library.ntunhs.edu.tw/p/16-1015-74865.php?Lang=zh-tw"
+    ],
+    "representation": "html-snapshot"
+  },
+  "ntus": {
+    "file": "國立臺灣體育運動大學-1150121-碩博士論文規範.pdf",
+    "sha256": "154be2999ee7aab9455c9c0d96dc939aea5d297adc56fd5f157f17f1ef0e2cb2",
+    "urls": [
+      "https://ndltdcc.ncl.edu.tw/userfiles/NTCP0/files/博碩士論文建檔.pdf"
+    ]
+  },
+  "ntust": {
+    "file": "國立臺灣科技大學-1131224-碩博士論文規範.pdf",
+    "sha256": "31c65900b8fc77ff69954830098776fa52e82cc64523e2837378407725148d62",
+    "urls": [
+      "https://www.academic.ntust.edu.tw/var/file/48/1048/img/2554/604024536.pdf"
+    ]
+  },
+  "ntut": {
+    "file": "國立臺北科技大學-1140201-碩博士論文規範.pdf",
+    "sha256": "90a49bc67112c1dc582e42a3d93af31aaf552eac7c717f71db1e2c1160beae66",
+    "urls": [
+      "https://oaa.ntut.edu.tw/var/file/8/1008/img/2966/J1.pdf"
     ]
   },
   "nuk": {
@@ -102,11 +610,257 @@
       "https://daa.nuk.edu.tw/var/file/5/1005/img/170/234810252.doc"
     ]
   },
+  "nutc": {
+    "file": "國立臺中科技大學-1140519-碩博士論文規範.pdf",
+    "sha256": "cd6e30d2b952b3ac0f1836751bc7ca92e7ada00143bf0ea17068178bd25d8268",
+    "urls": [
+      "https://csie.nutc.edu.tw/var/file/64/1064/img/3360/296419179.pdf"
+    ]
+  },
+  "nutn": {
+    "file": "國立臺南大學-1100811-碩博士論文規範.pdf",
+    "sha256": "9a30fdb51effe2b6e85ab4bf16ae2bbcbd2709f0b0f82f789e4a3ec879c0fe95",
+    "urls": [
+      "https://academic.nutn.edu.tw/upload/cht/154/204_file_1.pdf"
+    ]
+  },
+  "nuu": {
+    "file": "國立聯合大學-1100702-碩博士論文規範.pdf",
+    "sha256": "da69d54a0829a7b7c10f6764c87b0f6a1d76770ce35b1ca9e22949e0cdcc8e07",
+    "urls": [
+      "https://mobilelibrary.nuu.edu.tw/var/file/8/1008/img/268702427.pdf"
+    ]
+  },
   "nycu": {
     "file": "國立陽明交通大學-1150917-碩博士論文規範.pdf",
     "sha256": "d3e95f31c9f4a252bf37b884ef5d0bea35ccb28a295ac4bb6647fde3f37bb03a",
     "urls": [
       "https://aa.nycu.edu.tw/userfiles/aach/files/20260917102312466.pdf"
+    ]
+  },
+  "ocu": {
+    "file": "僑光科技大學-0000000-碩博士論文規範.pdf",
+    "sha256": "511562260b5b847e2a965dedb0fb69854ac449300f44cfc418b414670783bf3b",
+    "urls": [
+      "https://imtech.ocu.edu.tw/var/file/56/1056/img/1204/378406868.doc"
+    ]
+  },
+  "pccu": {
+    "file": "中國文化大學-1150330-碩博士論文規範.pdf",
+    "sha256": "d37ccc10ac82c745f980b719197cb27bbf96523db8b9f8e42207fbb2adbbccab",
+    "urls": [
+      "https://lib.pccu.edu.tw/var/file/12/1012/img/535657805.pdf"
+    ]
+  },
+  "pu": {
+    "file": "靜宜大學-1090528-碩博士論文規範.pdf",
+    "sha256": "e50e62ce3bef477f2a010f0e37a4717b300885a7d5bbbc86f5891cc7e49a59c9",
+    "urls": [
+      "https://dorac.pu.edu.tw/var/file/59/1059/img/442/PU-101B0-W-A002-cover1.pdf"
+    ]
+  },
+  "scu": {
+    "file": "東吳大學-1150528-碩博士論文規範.pdf",
+    "sha256": "577e50056987de4de7d40fd95fec14fcf14bd5e76d50dde54ea4eacb4b1353bb",
+    "urls": [
+      "https://cloud.ncl.edu.tw/school_file_download.php?Pact=FileDownLoad&Pval=aWRjbWhvYmJkaGNoY2hhZWJnZmxriXl/dw=="
+    ]
+  },
+  "shu": {
+    "file": "世新大學-0000000-碩博士論文規範.pdf",
+    "sha256": "effd3573399156efc55ecd4eb09447a97f677a9fc321663747ac0ad260a79c6e",
+    "urls": [
+      "https://lib.shu.edu.tw/edt_submit2.html"
+    ]
+  },
+  "sju": {
+    "file": "聖約翰科技大學-1150922-碩博士論文規範.pdf",
+    "sha256": "d1c0e16c3a2b8f118b4a9ab4bf888065e3283e9d41a1aa9e9d43dc3bb8bf85fe",
+    "urls": [
+      "https://sjuadmin.sju.edu.tw/SjuUpload/news/202627287/243-f.PDF"
+    ]
+  },
+  "stu": {
+    "file": "樹德科技大學-0000000-碩博士論文規範.pdf",
+    "sha256": "8f3980dc7143923fe4fad4b8d65adb3b71b93edd6fbe1c613e2c4c5aa8f3bbea",
+    "urls": [
+      "https://cloud.ncl.edu.tw/stu/upload.php"
+    ],
+    "representation": "html-snapshot"
+  },
+  "stust": {
+    "file": "南臺科技大學-1070529-碩博士論文規範.pdf",
+    "sha256": "9793e9d3034b5947416904c6d6e8302ba922d136c0a5fb3c93e8e8e4561c8526",
+    "urls": [
+      "https://academic.stust.edu.tw/Sysid/academic/files/DegreeExamination/THESIS_format.doc"
+    ]
+  },
+  "tajen": {
+    "file": "大仁科技大學-0941019-碩博士論文規範.pdf",
+    "sha256": "a0098342182dd2accdd746e285ef64c2d64aa8ead4be2d745749ac9bb81c68ac",
+    "urls": [
+      "https://a04.tajen.edu.tw/var/file/4/1004/img/291548692.pdf"
+    ]
+  },
+  "takming": {
+    "file": "德明財經科技大學-1120508-碩博士論文規範.pdf",
+    "sha256": "d71ec3396cb9b92c8b0b0b34a9a552b39b1f27b13a19edea3bb618e4f3351784",
+    "urls": [
+      "https://tipfile.takming.edu.tw/RuleFolder/F04211205085417.pdf"
+    ]
+  },
+  "tcu": {
+    "file": "慈濟大學-1100315-碩博士論文規範.pdf",
+    "sha256": "2adc5e747520e6507623ac0b13a23c562f94fee944056a279f9d7ed14fe4cedd",
+    "urls": [
+      "https://mi.tcu.edu.tw/wp-content/uploads/2024/02/%E7%95%A2%E6%A5%AD%E8%AB%96%E6%96%87%E6%9A%A8%E6%91%98%E8%A6%81%E6%A0%BC%E5%BC%8F.pdf"
+    ]
+  },
+  "thu": {
+    "file": "東海大學-1121108-碩博士論文規範.pdf",
+    "sha256": "1822a0ac39a7cb8ea4863211a6cdf1b9b16aba93f0cf86a8575f037558819e02",
+    "urls": [
+      "https://lis.thu.edu.tw/upload/files/論文上傳送審注意事項(中文版)2023.pdf"
+    ]
+  },
+  "tku": {
+    "file": "淡江大學-1141209-碩博士論文規範.pdf",
+    "sha256": "563003c206050628f5fb9b1d5dc388e9491401dbd2c007a74c53282fdfb286d7",
+    "urls": [
+      "https://oa.tku.edu.tw/Law.nsf/8a19663a9342a6a748256e6b00446781/69a4b93d313e70ef4825795000302545/$FILE/5-56%20淡江大學研究生碩博士論文撰寫格式要點.odt"
+    ]
+  },
+  "tmu": {
+    "file": "臺北醫學大學-1151118-碩博士論文規範.pdf",
+    "sha256": "e12a093ff059610ef0ac91b7a46e77c049e8785d5a8802c56a58c7462856bfba",
+    "urls": [
+      "https://library.tmu.edu.tw/libfiles/training/thesis_cht.pdf"
+    ]
+  },
+  "tnnua": {
+    "file": "國立臺南藝術大學-1150528-碩博士論文規範.pdf",
+    "sha256": "efab9d9129b6c0f5b60068d441045a4c07c467bec34ca105789b8efdc2d368e5",
+    "urls": [
+      "https://acad.tnnua.edu.tw/app/index.php?Action=downloadfile&file=VWdtTWl1bUNldU9VNXZwVkkrZmxGT1pFekY3QVlzZThoMjNlVWp2TXlmd2lPT2o3eFVTd3hnMkEzclk4Qy9VNVQrTFJKVTZqZU1LZWREd0JqQ0thR0RMcHdWVnQxbTNyamZBbkNUZHhsMVk9&fname=T1hkdkQ2T2dZaXJ3b3gwZW1PMGhMdUY1RXNPQUEzSWpNSVNSd3BuWDZPa0I1TFlkVHlVK1dFay9ORDV1RGJCUy95R1FvMGEzZnF6eDEvY0VWNUZjZVBFbGJyWG9Dc250T0ROQTlsaEl0ZDViQlhWa2dHRmlpOTFXOTQrYmVpcW9CcTd1SUExTXZLeUIwMjlLZnY5TGsrVG1UdVlSZ1oxMkErWWZNT29GMG04cFZCL2lFMkZ3T21UeWNRQng5V1Fa"
+    ]
+  },
+  "tnu": {
+    "file": "東南科技大學-1071227-碩博士論文規範.pdf",
+    "sha256": "a843a0cc195a673db883314ca17b051d4f3f6db9c1e43d637c616cdcc8529b08",
+    "urls": [
+      "https://ie.tnu.edu.tw/uploads/archive_file_multiple/file/64d0b3011ccec25a00000826/碩士班論文格式規範更新版.pdf"
+    ]
+  },
+  "tnua": {
+    "file": "國立臺北藝術大學-1000518-碩博士論文規範.pdf",
+    "sha256": "49665b98523050c0239caa011ff3362a99b2c9b348a3d947e6733f6f8730ddaa",
+    "urls": [
+      "https://design.tnua.edu.tw/storage/media/表單下載/畢業相關流程/1432093561.pdf"
+    ]
+  },
+  "tpcu": {
+    "file": "臺北城市科技大學-1101227-碩博士論文規範.pdf",
+    "sha256": "393a994831a6de7c102a048cf0bd07128ad54ef3f5bfeafe30793ad2f9dd3393",
+    "urls": [
+      "https://shl.tpcu.edu.tw/app/index.php?Action=downloadfile&file=WVhSMFlXTm9Memd6TDNCMFlWODFOakUwTjE4Mk9URTNNRFUyWHpNeE1USTBMbkJrWmc9PQ==&fname=DGGGVWWX20XW11KKDGLKOKYWMK30WTRLFGB0MPWSQPJDLK40FCNKFDEGWSLKJGEGNO00EHZX2004ICXSFCNKTSMO34B0WSGCNPYTXWA034MKB001USSSYWFCTWLK00YXDGA0XWXTZSJGHCXSDGB0GGNKA151QP2134B4USB434GGYSUSMKXWHDYX4410VWYWQO14GDRLWSRO10HCZTRL04TS3430VTA4DG54DGWXWWQOPP1000ZSIGMOIGDGJDLO&cg=3323"
+    ]
+  },
+  "tsust": {
+    "file": "台鋼科技大學-0000000-碩博士論文規範.pdf",
+    "sha256": "b2e13792bc94c0c911048aa3ced1531a5b338113aee7ce96f8f149761a9ff412",
+    "urls": [
+      "https://library.tsust.edu.tw/var/file/23/1023/img/30/867649540.docx"
+    ]
+  },
+  "ttu": {
+    "file": "大同大學-1150812-碩博士論文規範.pdf",
+    "sha256": "da6e5c28908180ad81f6eda36f9a3c3e46b0f20e3241d69f0e88748e72376388",
+    "urls": [
+      "https://library.ttu.edu.tw/var/file/15/1015/img/211/699075311.pdf"
+    ]
+  },
+  "tumt": {
+    "file": "台北海洋科技大學-1110330-碩博士論文規範.pdf",
+    "sha256": "1449fc63f6b9fffc3cf41058984b53ea6a51b59ed581bb792b18ea62a6a06171",
+    "urls": [
+      "https://dnlm.tumt.edu.tw/var/file/39/1039/img/726253837.pdf"
+    ]
+  },
+  "tut": {
+    "file": "台南應用科技大學-1140221-碩博士論文規範.pdf",
+    "sha256": "2cdeb54e45384e07ad0c62708be8d04dbca8006313d7929298df51b114df93af",
+    "urls": [
+      "https://tutforms.tut.edu.tw/Uploads/20250221172113-研究生畢業離校繳交論文全文電子檔案說明(校母法圖館).pdf"
+    ]
+  },
+  "uch": {
+    "file": "健行科技大學-1150423-碩博士論文規範.pdf",
+    "sha256": "a7487ae4c5c882f1f1b09550159c76afe7f98e092f8a1f3ae36fafbeb9f3196f",
+    "urls": [
+      "https://aa.uch.edu.tw/var/file/10/1010/img/44/410486396.pdf"
+    ]
+  },
+  "ukn": {
+    "file": "康寧大學-1030505-碩博士論文規範.pdf",
+    "sha256": "7cbf6ff3a11270c0153f42f21828835816bd67702146a8f666b59c441b1cecde",
+    "urls": [
+      "https://cloud.ncl.edu.tw/school_file_download.php?Pact=FileDownLoad&Pval=aGZrbGtnYGRoY2NpZGZjYmhjaXGFfn13"
+    ]
+  },
+  "usc": {
+    "file": "實踐大學-1150525-碩博士論文規範.pdf",
+    "sha256": "f94ecc31bff0b496bb44afd3c055b535e65588d65d5fabfa7327a4c5c47d7904",
+    "urls": [
+      "https://lib.usc.edu.tw/var/file/75/1075/img/525/744822416.pdf"
+    ]
+  },
+  "vnu": {
+    "file": "萬能科技大學-1060216-碩博士論文規範.pdf",
+    "sha256": "0535b6ee243a318f450c7f5b1c41fbad74245ae4460ae1813dbeee419c3b76b4",
+    "urls": [
+      "https://www.mie.vnu.edu.tw/DOC/mie/989/44a37230-8492-4cfb-9e0f-de8336b19f62.pdf"
+    ]
+  },
+  "wfu": {
+    "file": "吳鳳科技大學-0000000-碩博士論文規範.pdf",
+    "sha256": "0d18edc452bf1c9fb14f30a0e4e399b88c9d1c291f970ba3ab0613092cafe15f",
+    "urls": [
+      "https://fs.wfu.edu.tw/wp-content/uploads/%E6%92%B0%E5%AF%AB%E8%AB%96%E6%96%87%E6%A0%BC%E5%BC%8F.pdf"
+    ]
+  },
+  "wzu": {
+    "file": "文藻外語大學-1120401-碩博士論文規範.pdf",
+    "sha256": "a5883d4a7a4e4a4210253f535996baa98118045b971043d7173c5ee5717274b8",
+    "urls": [
+      "https://c026.wzu.edu.tw/datas/upload/Pictures/255606-D4-15-2文藻外語大學研究生學位論文格式規範_C_11112.pdf"
+    ]
+  },
+  "ydu": {
+    "file": "育達科技大學-1141217-碩博士論文規範.pdf",
+    "sha256": "87fb09992e85d1e263592a36808017a39cf464dd5e6029aafa9c6d0c607fc49d",
+    "urls": [
+      "https://www.re.ydu.edu.tw/uploads/asset/data/694266145070400976aab988/114育達科技大學碩士論文撰寫一般準則-1141217.pdf"
+    ]
+  },
+  "ypu": {
+    "file": "元培醫事科技大學-1150402-碩博士論文規範.pdf",
+    "sha256": "d959274b84205232b4ad8ee807355e9ef6a22477cd83fe9084bd71e8b20c3c19",
+    "urls": [
+      "https://cloud.ncl.edu.tw/school_file_download.php?Pact=FileDownLoad&Pval=aGhpaWVvYmJkaGNoY2hhZWJrZm1riXl/dw=="
+    ]
+  },
+  "yuntech": {
+    "file": "國立雲林科技大學-1140901-碩博士論文規範.pdf",
+    "sha256": "d36e31cd56996608fc52c6b31ef29f1753eb3f59b8cd17127633944af04c3654",
+    "urls": [
+      "https://aax.yuntech.edu.tw/images/content/碩博士論文專區/學位論文格式Thesis Format Sample【114年9月更新】.7z"
+    ]
+  },
+  "yzu": {
+    "file": "元智大學-1121123-碩博士論文規範.pdf",
+    "sha256": "a27df46ba6dab725ef80d8608de641b7285da22dbd9fdc503029f545bebca9aa",
+    "urls": [
+      "https://www.yzu.edu.tw/admin/aa/files/Registration/Graduation/R-G-A00-new.doc"
     ]
   }
 }

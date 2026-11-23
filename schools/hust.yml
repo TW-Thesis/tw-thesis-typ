@@ -1,0 +1,11 @@
+# 修平科技大學 Hsiuping University of Science and Technology
+#
+# Source: docs/修平科技大學-1001202-碩博士論文規範.pdf
+#   https://mem.hust.edu.tw/?custom=763&isEn=0&item=29&type=detail
+#   https://mem.hust.edu.tw/shareFile/file/11/59/5cyvt5i10.pdf
+# Only verified differences from schools/default.yml are set below.
+# This official format belongs to the Precision Machinery and Manufacturing Technology master's program. It is retained as evidence, but this is a name-only preset because campus-wide values were not found.
+
+university: "修平科技大學"
+university-en: "Hsiuping University of Science and Technology"
+

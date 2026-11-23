@@ -1,0 +1,9 @@
+# 康寧大學 University of Kang Ning
+#
+# Source: docs/康寧大學-1030505-碩博士論文規範.pdf
+#   https://cloud.ncl.edu.tw/school_file_download.php?Pact=FileDownLoad&Pval=aGZrbGtnYGRoY2NpZGZjYmhjaXGFfn13
+# Only verified differences from schools/default.yml are set below.
+# This official thesis-submission system manual has no university-wide body layout specification; this is a name-only preset.
+
+university: "康寧大學"
+university-en: "University of Kang Ning"

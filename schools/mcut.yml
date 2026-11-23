@@ -1,0 +1,21 @@
+# 明志科技大學 Ming Chi University of Technology
+#
+# Source: docs/明志科技大學-1141104-碩博士論文規範.pdf
+#   https://lis.mcut.edu.tw/var/file/13/1013/attach/55/pta_27014_6772713_72980.pdf
+# Only verified differences from schools/default.yml are set.
+# Evidence: University formatA271040007 revised1141104, PDF pp.7-8 articles4-6: margins2.5/2.75/3.5/2.5cm,Kai/Times,13or14pt text,1.5lines.14pt is selected from permitted sizes.
+#
+# Limitations: Page numbering starts at recommendation/approval pages; title pages, recommendation, professional-report approval form, acknowledgement order, cover and spine require manual assembly. Departments may supplement the baseline.
+
+university: 明志科技大學
+university-en: Ming Chi University of Technology
+layout:
+  font-latin:
+  - Tinos
+  - Times New Roman
+  font-size: 14
+  margin:
+    top: 2.5
+    bottom: 2.75
+    left: 3.5
+    right: 2.5

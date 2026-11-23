@@ -1,0 +1,17 @@
+# 國立臺灣科技大學 National Taiwan University of Science and Technology
+#
+# Source: docs/國立臺灣科技大學-1131224-碩博士論文規範.pdf
+#   https://www.academic.ntust.edu.tw/var/file/48/1048/img/2554/604024536.pdf
+# Only verified differences from schools/default.yml are set.
+# Evidence: PDF p.2, section 2: body margins match defaults; front matter uses uppercase Roman numerals; English font Times New Roman.
+#
+# Limitations: Cover design is set by departments; inner title 24pt and abstract titles 20pt cannot be selected separately; advisor recommendation letter, spine and 5-7 keywords require manual assembly.
+
+university: 國立臺灣科技大學
+university-en: National Taiwan University of Science and Technology
+layout:
+  font-latin:
+  - Tinos
+  - Times New Roman
+outline:
+  page-numbering: I

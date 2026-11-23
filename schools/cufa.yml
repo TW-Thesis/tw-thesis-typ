@@ -1,0 +1,11 @@
+# 崇右影藝科技大學 Chungyu University of Film and Arts
+#
+# Source: docs/崇右影藝科技大學-1040203-碩博士論文規範.pdf
+#   https://ccd.cufa.edu.tw/var/file/6/1006/img/51/628107485.pdf
+#   https://ccd.cufa.edu.tw/var/file/6/1006/img/51/628107485.pdf
+# Only verified differences from schools/default.yml are set below.
+# The university degree-examination rules require each graduate institute to set its own detailed format. No campus-wide typography or margins are stated, so this is a name-only preset.
+
+university: "崇右影藝科技大學"
+university-en: "Chungyu University of Film and Arts"
+

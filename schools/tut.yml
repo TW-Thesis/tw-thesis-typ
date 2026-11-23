@@ -1,0 +1,11 @@
+# 台南應用科技大學 Tainan University of Technology
+#
+# Source: docs/台南應用科技大學-1140221-碩博士論文規範.pdf
+#   https://tutforms.tut.edu.tw/Uploads/20250221172113-研究生畢業離校繳交論文全文電子檔案說明(校母法圖館).pdf
+# Only verified differences from schools/default.yml are set.
+# Evidence: University library graduate thesis PDF submission instructions; department-specific art/design thesis formats were not generalized.
+#
+# Limitations: Name-only preset. This source sets submission, PDF and watermark procedures, not uniform typography. Body/cover formatting must follow the department.
+
+university: 台南應用科技大學
+university-en: Tainan University of Technology

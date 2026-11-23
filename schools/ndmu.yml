@@ -1,0 +1,36 @@
+# 國防醫學大學 National Defense Medical University
+#
+# Source: docs/國防醫學大學-1141113-碩博士論文規範.pdf
+#   https://wwwndmc.ndmutsgh.edu.tw/files/web/192/file_up/100002/9957/碩士班畢業論文撰寫要點及表單.doc
+# Only what differs from schools/default.yml.
+#
+# Scope: university Academic Affairs master's-thesis writing rules, with
+# the university name updated after the 2025 rename. Doctoral institutes
+# publish separate writing requirements and are not covered by this preset.
+# Not expressible yet: unnumbered appendices, front-matter order, independent
+# title/approval pages; qualitative 隔行 spacing is not converted to a
+# numeric line-height requirement. Cover uses Kai independently of body.
+
+university: "國防醫學大學"
+university-en: "National Defense Medical University"
+
+layout:
+  font-size: 14
+  margin:
+    bottom: 2.5
+    left: 2.5
+    right: 2.5
+  caption-position:
+    table: "top"
+
+outline:
+  page-numbering: "I"
+
+cover:
+  margin:
+    top: 3
+    bottom: 3
+  size:
+    university-en: 14
+    title: 18
+    title-en: 18

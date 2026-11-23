@@ -1,0 +1,9 @@
+# 德明財經科技大學 Takming University of Science and Technology
+#
+# Source: docs/德明財經科技大學-1120508-碩博士論文規範.pdf
+#   https://tipfile.takming.edu.tw/RuleFolder/F04211205085417.pdf
+# Only verified differences from schools/default.yml are set below.
+# The regulation standardizes sections and cover examples but delegates writing style to APA or each master's program; this is a name-only preset.
+
+university: "德明財經科技大學"
+university-en: "Takming University of Science and Technology"

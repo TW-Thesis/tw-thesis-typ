@@ -1,0 +1,14 @@
+# 台鋼科技大學 Taiwan Steel University of Science and Technology
+#
+# Source: docs/台鋼科技大學-0000000-碩博士論文規範.pdf
+#   https://library.tsust.edu.tw/p/426-1023-8.php?Lang=zh-tw
+#   https://library.tsust.edu.tw/var/file/23/1023/img/30/867649540.docx
+# Only verified differences from schools/default.yml are set below.
+# The official cover template prescribes 2.54cm minimum cover margins, 24pt title, and 20pt author, advisor and date. Body layout remains department-defined.
+
+university: "台鋼科技大學"
+university-en: "Taiwan Steel University of Science and Technology"
+
+cover:
+  margin: {top: 2.54, bottom: 2.54, left: 2.54, right: 2.54}
+  size: {title: 24, author: 20, advisor: 20, date: 20}

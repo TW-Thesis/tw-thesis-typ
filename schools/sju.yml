@@ -1,0 +1,11 @@
+# 聖約翰科技大學 St. John’s University
+#
+# Source: docs/聖約翰科技大學-1150922-碩博士論文規範.pdf
+#   https://sjuadmin.sju.edu.tw/SjuUpload/news/202627287/243-f.PDF
+# Only verified differences from schools/default.yml are set.
+# Evidence: Central academic-affairs115-1 graduate departure instructions explicitly refer to the university thesis writing/format regulations.
+#
+# Limitations: Name-only preset. The downloaded document governs departure and submission, not typography. Obtain the programme current thesis-format requirements before final submission; no body/cover values are inferred.
+
+university: 聖約翰科技大學
+university-en: St. John’s University

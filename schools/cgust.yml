@@ -1,0 +1,17 @@
+# 長庚科技大學 Chang Gung University of Science and Technology
+#
+# Source: docs/長庚科技大學-1140609-碩博士論文規範.pdf
+#   https://health-industry.cgust.edu.tw/p/404-1041-75010.php
+#   https://health-industry.cgust.edu.tw/app/index.php?Action=downloadfile&file=RHZTcEhjZFR0S0RoZEFSSG8yMTd6aGJlelgrMUcwT2ZzQ0tpeFgyQzJOMWw3bENWZTcwN2NSQmk3M1pPR09CQkZRbzlQY2lLUDlQTElUcnNMN29GdnZPekc2K3FSOCtGUzBhUXowdUIvUVE9&fname=Zkt2YXJZWkZvL0JtampwOEZ5T2oxb3FNWlhQcGdPcytqdTFPb3J2WWNmMXI1b1JJai9qK3BJMzZlTEhJQkkrVVhCbWtEMzhBcTRuNWxlVzNaRVhZS1BFbGJyWG9Dc250T0ROQTlsaEl0ZDRPVnRNaHcxYzRQV3NnNkxEeENxc1ZVTW91ajhrR0NrVkk4ajJrMzVLY0J5bFVIK0lUWVhBNlpQSnhBSEgxWkJrPQ==
+# Only verified differences from schools/default.yml are set below.
+# The official thesis guideline prescribes 14pt Kai/Times text, 1.5 spacing, margins, and centered bottom pagination; programs may add discipline-specific rules.
+
+university: "長庚科技大學"
+university-en: "Chang Gung University of Science and Technology"
+
+layout:
+  font-cjk: ["TW-MOE-Std-Kai", "DFKai-SB"]
+  font-latin: ["Times New Roman", "Tinos"]
+  font-size: 14
+  line-height: 1.5
+  margin: {top: 3.2, bottom: 2.5, left: 3.8, right: 2.5}

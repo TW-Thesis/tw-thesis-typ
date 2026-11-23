@@ -1,0 +1,14 @@
+# 世新大學 Shih Hsin University
+#
+# Source: docs/世新大學-0000000-碩博士論文規範.pdf
+#   https://lib.shu.edu.tw/edt_submit2.html
+# Only verified differences from schools/default.yml are set below.
+#
+# University library HTML writing suggestions: Kai/Ming Chinese and approved Latin fonts are recommended for correct PDF conversion; no mandatory body margins/font sizes. The PDF is explicitly labelled as an HTML snapshot.
+# Not expressible yet: Department-specific cover/body typography, institutional approval/authorisation and spine; archive is writing advice, not a full typesetting regulation.
+
+university: "世新大學"
+university-en: "Shih Hsin University"
+
+layout:
+  font-latin: ["Times New Roman", "Tinos"]

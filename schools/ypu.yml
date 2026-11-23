@@ -1,0 +1,13 @@
+# 元培醫事科技大學 Yuanpei University of Medical Technology
+#
+# Source: docs/元培醫事科技大學-1150402-碩博士論文規範.pdf
+#   https://cloud.ncl.edu.tw/school_file_download.php?Pact=FileDownLoad&Pval=aGhpaWVvYmJkaGNoY2hhZWJrZm1riXl/dw==
+# Only verified differences from schools/default.yml are set below.
+# pp. 1-2 prescribe 14pt body text, margins, and centered page numbers; heading sizes remain student-selected.
+
+university: "元培醫事科技大學"
+university-en: "Yuanpei University of Medical Technology"
+
+layout:
+  font-size: 14
+  margin: {top: 2.5, bottom: 2.5, left: 3, right: 2}

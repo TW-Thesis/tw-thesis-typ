@@ -1,0 +1,11 @@
+# 東海大學 Tunghai University
+#
+# Source: docs/東海大學-1121108-碩博士論文規範.pdf
+#   https://lis.thu.edu.tw/upload/files/論文上傳送審注意事項(中文版)2023.pdf
+# Only verified differences from schools/default.yml are set below.
+#
+# University library upload guide, p. 3 (raster PDF, visually inspected): format and layout follow each department. Requires watermark and complete electronic chapters. No university-wide body margins/font sizes are specified.
+# Not expressible yet: Department typography, official watermark placement, complete signed approval and authorisation; library submission guide is not a full typesetting specification.
+
+university: "東海大學"
+university-en: "Tunghai University"

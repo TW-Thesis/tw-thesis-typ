@@ -1,0 +1,33 @@
+# 國立臺東大學 National Taitung University
+#
+# Source: docs/國立臺東大學-1110602-碩博士論文規範.pdf
+#   https://wedu.nttu.edu.tw/var/file/37/1037/img/1091/881230901.pdf
+# Only verified differences from schools/default.yml are set below.
+#
+# University-wide 2022-06-02 revision, official education-department mirror.
+# pp. 2-5: 3cm body margins, headings 16/14/12/12pt, table captions above,
+# footnotes restart at each chapter; cover organisation 22pt, title 24pt,
+# advisor/author/date 20pt. CJK body font is chosen by the department.
+# Not expressible yet: blank dedication/title pages, mixed per-language line
+# grids (32 Chinese lines / 28 English lines), custom heading numbering and
+# indents, Chinese-number cover date, signed approval/authorisation, spine.
+
+university: "國立臺東大學"
+university-en: "National Taitung University"
+
+layout:
+  font-latin: ["Times New Roman", "Tinos"]
+  margin:
+    bottom: 3
+  footnote-per-chapter: true
+  caption-position:
+    table: "top"
+  heading:
+    size: [16, 14, 12, 12]
+cover:
+  size:
+    org: 22
+    title: 24
+    author: 20
+    advisor: 20
+    date: 20

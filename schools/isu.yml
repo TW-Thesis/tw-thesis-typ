@@ -1,0 +1,11 @@
+# 義守大學 I-Shou University
+#
+# Source: docs/義守大學-1150430-碩博士論文規範.pdf
+#   https://olis.isu.edu.tw/storage/files/fFjuJWt1Mb9vArk0TFoePPKvyinKgDQeOe0r1amw.pdf
+# Only verified differences from schools/default.yml are set below.
+#
+# University library submission notice dated 2026-04-30, pp. 1-2: hardbound paper copy has a plain dark-black cover and no thesis watermark; signed abstract and paper authorisation required. Does not prescribe body typography.
+# Not expressible yet: University/department cover and body formats, electronic watermark placement and signed forms. This is a submission notice, not a full typesetting specification.
+
+university: "義守大學"
+university-en: "I-Shou University"

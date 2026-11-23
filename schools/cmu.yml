@@ -1,0 +1,13 @@
+# 中國醫藥大學 China Medical University
+#
+# Source: docs/中國醫藥大學-1110808-碩博士論文規範.pdf
+#   https://gsa.cmu.edu.tw/sites/default/files/學位論文電子上傳格式參考.odt
+# Only verified differences from schools/default.yml are set.
+# Evidence: Official graduate-affairs electronic-thesis ODT template, pp.4-10: uppercase Roman front matter; Arabic body numbering.
+#
+# Limitations: Only page-number style is sourced. Body typography is not specified in this official assembly sample. Ethics declaration, acknowledgement-before-abstract order, combined figure/table list and title-page layout must be assembled manually.
+
+university: 中國醫藥大學
+university-en: China Medical University
+outline:
+  page-numbering: I

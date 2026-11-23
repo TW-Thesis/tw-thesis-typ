@@ -1,0 +1,17 @@
+# 國立聯合大學 National United University
+#
+# Source: docs/國立聯合大學-1100702-碩博士論文規範.pdf
+#   https://mobilelibrary.nuu.edu.tw/var/file/8/1008/img/268702427.pdf
+# Only verified differences from schools/default.yml are set below.
+#
+# p. 1: university-wide rules set A4, cover information/order, Arabic ROC
+# year/month, approval, acknowledgements and abstracts; they do not set body
+# margins, font size, line height or cover font sizes. Those remain defaults.
+# Not expressible yet: dedication blank/title pages, acknowledgements before
+# abstracts, exact cover text layout, university signed approval, spine/binding.
+
+university: "國立聯合大學"
+university-en: "National United University"
+
+sections:
+  acknowledgement: "誌謝辭"
