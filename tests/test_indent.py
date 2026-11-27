@@ -1,4 +1,4 @@
-"""Paragraphs after figures and code should retain the thesis indent."""
+"""Paragraphs after headings, figures and code should retain the thesis indent."""
 
 from pathlib import Path
 import re
@@ -37,10 +37,10 @@ AFTERRAWCODE text.
 
 
 class IndentTest(unittest.TestCase):
-    def test_block_following_paragraphs_indent_but_heading_following_does_not(self):
+    def positions(self, override=""):
         with tempfile.TemporaryDirectory(prefix="indent-", dir=ROOT) as tmp:
             directory = Path(tmp)
-            (directory / "config.yml").write_text(BASE_CONFIG, encoding="utf-8")
+            (directory / "config.yml").write_text(BASE_CONFIG + override, encoding="utf-8")
             (directory / "main.typ").write_text(
                 '#import "/lib/mod.typ": load, thesis\n'
                 '#import "/helper/code.typ": code-style\n'
@@ -58,13 +58,25 @@ class IndentTest(unittest.TestCase):
             xml = subprocess.check_output(
                 ["pdftohtml", "-xml", "-stdout", str(pdf)], stderr=subprocess.DEVNULL
             ).decode("utf-8")
-            positions = {
+            return {
                 word: int(left)
                 for left, word in re.findall(r'<text[^>]*left="(\d+)"[^>]*>([A-Z]+)', xml)
             }
-            self.assertLess(positions["FIRSTAFTERHEADING"], positions["SECONDPARAGRAPH"])
-            for word in ("AFTERFIGURE", "AFTERTABLE", "AFTERCODEFIGURE", "AFTERRAWCODE"):
-                self.assertEqual(positions[word], positions["SECONDPARAGRAPH"], word)
+
+    def test_every_paragraph_indents_by_default(self):
+        positions = self.positions()
+        for word in ("FIRSTAFTERHEADING", "AFTERFIGURE", "AFTERTABLE", "AFTERCODEFIGURE", "AFTERRAWCODE"):
+            self.assertEqual(positions[word], positions["SECONDPARAGRAPH"], word)
+
+    def test_heading_following_paragraph_is_flush_when_indent_all_is_off(self):
+        positions = self.positions("layout:\n  first-line-indent-all: false\n")
+        self.assertLess(positions["FIRSTAFTERHEADING"], positions["SECONDPARAGRAPH"])
+        for word in ("AFTERFIGURE", "AFTERTABLE", "AFTERCODEFIGURE", "AFTERRAWCODE"):
+            self.assertEqual(positions[word], positions["SECONDPARAGRAPH"], word)
+
+    def test_zero_indent_indents_nothing(self):
+        positions = self.positions("layout:\n  first-line-indent: 0\n")
+        self.assertEqual(positions["FIRSTAFTERHEADING"], positions["SECONDPARAGRAPH"])
 
 
 if __name__ == "__main__":

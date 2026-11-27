@@ -15,8 +15,8 @@
     bottom-edge: l.line-box.bottom,
   )
 
-  // `all: true` also indents the paragraph right after a heading; without it
-  // typst skips that one, which is the usual convention
+  // `all: true` also indents the paragraph right after a heading, as Taiwan
+  // theses do; without it typst skips that one
   let indent = if l.first-line-indent-all {
     (amount: l.first-line-indent, all: true)
   } else {
