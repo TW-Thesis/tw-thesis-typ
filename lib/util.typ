@@ -38,7 +38,7 @@
 // the `numbering:` value for `math.equation`, built from `layout.equation-numbering`
 // and `layout.equation-per-chapter`. Flat mode is a plain pattern like "(1)";
 // chapter-scoped mode returns a function combining the chapter number with a
-// counter that gets reset every level-1 heading (see `template.typ`).
+// counter that gets reset every level-1 heading (see `headings.typ`).
 #let eq-numbering(l) = if l.equation-per-chapter {
   n => context numbering("(1." + l.equation-numbering + ")", counter(heading).get().first(), n)
 } else {
